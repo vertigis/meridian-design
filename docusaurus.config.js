@@ -2,7 +2,7 @@ module.exports = {
     title: "Meridian Design System",
     tagline: "Navigating to Consistency",
     url: "https://meridian.vertigis.com",
-    baseUrl: "/",
+    baseUrl: "/meridian-design/",
     favicon: "img/favicon.ico",
     organizationName: "geocortex",
     projectName: "meridian-design",
