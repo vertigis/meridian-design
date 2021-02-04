@@ -3,6 +3,7 @@ module.exports = {
     tagline: "Navigating to Consistency",
     url: "https://meridian.vertigis.com",
     baseUrl: "/meridian-design/",
+    noIndex: true,
     favicon: "img/favicon.ico",
     organizationName: "geocortex",
     projectName: "meridian-design",
