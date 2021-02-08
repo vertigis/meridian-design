@@ -84,15 +84,19 @@ The visual language of our icons should be consistent, creating a harmonious app
 
 ## Lists
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam nec commodo elit. Curabitur dui nulla, vulputate id rutrum sed, maximus consequat eros. Nullam pharetra urna quis sapien tincidunt, et iaculis mauris ornare. Vestibulum convallis et felis at lobortis. Nulla bibendum vel quam quis accumsan.
+Lists come into use in many aspects of our products: Feature Details, Search Results, Building information, and many more. No matter what needs to be displayed, if it falls into a list like quality, then a list should be used. Examples of different utilizations of the list element are below.
 
 ### Simple List
 
 ![list](/img/list/simple.png "Simple List")
 
+The most straight forward of implementations. This simple list view can include text, or text and icons. Examples of this menu's use include: Action Menus.
+
 ### Selected Item
 
 ![list](/img/list/selected-item.png "Selected Item List")
+
+The selected item's highlight will consist of the primary theme colour, as well as a gradient grey.
 
 ### Nested List
 
@@ -114,19 +118,19 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam nec commodo eli
 
 ## States
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam nec commodo elit. Curabitur dui nulla, vulputate id rutrum sed, maximus consequat eros. Nullam pharetra urna quis sapien tincidunt, et iaculis mauris ornare. Vestibulum convallis et felis at lobortis. Nulla bibendum vel quam quis accumsan.
+A few guidelines should be followed to ensure that the list element looks uniform, and fit within the application properly.
 
 ### Hover
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam nec commodo elit. Curabitur dui nulla, vulputate id rutrum sed, maximus consequat eros. Nullam pharetra urna quis sapien tincidunt, et iaculis mauris ornare. Vestibulum convallis et felis at lobortis. Nulla bibendum vel quam quis accumsan.
+When a hover state is evoked, it cannot rely on simply a colour change. There must be a stage change that shows there is a differentiation to pull them into WCAG compliance. There is typically a background colour shift, as well as a side border colour added. Hover states will always include a styling change, and the background colour will get a gradient.
 
 ### Focus
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam nec commodo elit. Curabitur dui nulla, vulputate id rutrum sed, maximus consequat eros. Nullam pharetra urna quis sapien tincidunt, et iaculis mauris ornare. Vestibulum convallis et felis at lobortis. Nulla bibendum vel quam quis accumsan.
+Focus indicators are a good best practice as an easy way to identify against the rest of the present design elements. Focus states must be distinct from the hover state to make them distinct when using a keyboard for navigation. Focus states have a triple border design, so that regardless of the background they are implemented on, they will always be visible and easy to identify.
 
 ### Selected/Active
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam nec commodo elit. Curabitur dui nulla, vulputate id rutrum sed, maximus consequat eros. Nullam pharetra urna quis sapien tincidunt, et iaculis mauris ornare. Vestibulum convallis et felis at lobortis. Nulla bibendum vel quam quis accumsan.
+Selected and Active states for list elements should showcase similar behaviour to the hover state. They must show that they are currently active, and visually distinct from the rest of the list elements.
 
 ---
 
