@@ -137,9 +137,13 @@ Lists come into use in many aspects of our products: Feature Details, Search Res
 
 The most straight forward of implementations. This simple list view can include text, or text and icons. Examples of this menu's use include: Action Menus.
 
+### Selected Item
+
 ### Menu List
 
-![list](/img/list/menu.png "Menu List")
+The selected item's highlight will consist of the primary theme colour, as well as a gradient grey.
+
+### Nested List
 
 ![menus](/img/menus/menu.gif "Menu - Title Only")
 
@@ -175,7 +179,7 @@ Focus indicators provide an easy way to identify currently active elements, agai
 
 ![list](/img/list/list-active.png "Active Item State")
 
-Selected and Active states for list elements should showcase similar behaviour to the hover state. They must show that they are currently active, and visually distinct from the rest of the list elements.
+Selected and Active states for list elements should showcase similar behavior to the hover state. They must show that they are currently active, and visually distinct from the rest of the list elements.
 
 ---
 
