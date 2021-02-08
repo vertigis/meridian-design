@@ -12,7 +12,7 @@ module.exports = {
             disableSwitch: true,
         },
         navbar: {
-            title: "Meridian Design System by VertiGIS",
+            title: "Meridian Design System by VertiGIS - BETA",
             logo: {
                 alt: "VertiGIS",
                 src: "img/vertigis-icon.svg",
