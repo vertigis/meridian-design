@@ -15,7 +15,7 @@ module.exports = {
             title: "Meridian Design System by VertiGIS",
             logo: {
                 alt: "VertiGIS",
-                src: "img/vertigis-icon.svg",
+                src: "img/vertigis-icon-beta.svg",
             },
         },
         footer: {
