@@ -98,10 +98,6 @@ The most straight forward of implementations. This simple list view can include 
 
 The selected item's highlight will consist of the primary theme colour, as well as a gradient grey.
 
-### Nested List
-
-![list](/img/list/nested.png "Nested List")
-
 ### Menu List
 
 ![list](/img/list/menu.png "Menu List")
@@ -109,7 +105,7 @@ The selected item's highlight will consist of the primary theme colour, as well 
 ### List Controls
 
 ![list](/img/list/list-controls.png "List Controls")
-![list](/img/list/list-controls-checkbox.png "List Controls (checkbox)")
+
 ![list](/img/list/list-controls-toggle.png "List Controls (toggle)")
 
 ### Pinned Subheader List
