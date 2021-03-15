@@ -92,12 +92,6 @@ Lists come into use in many aspects of our products: Feature Details, Search Res
 
 The most straight forward of implementations. This simple list view can include text, or text and icons. Examples of this menu's use include: Action Menus.
 
-### Selected Item
-
-![list](/img/list/selected-item.png "Selected Item List")
-
-The selected item's highlight will consist of the primary theme colour, as well as a gradient grey.
-
 ### Menu List
 
 ![list](/img/list/menu.png "Menu List")
@@ -118,13 +112,19 @@ A few guidelines should be followed to ensure that the list element looks unifor
 
 ### Hover
 
+![list](/img/list/selected-item.png "Selected Item List")
+
 When a hover state is evoked, it cannot rely on simply a colour change. There must be a stage change that shows there is a differentiation to pull them into WCAG compliance. There is typically a background colour shift, as well as a side border colour added. Hover states will always include a styling change, and the background colour will get a gradient.
 
 ### Focus
 
+![list](/img/list/list-focused.png "Selected Item List")
+
 Focus indicators are a good best practice as an easy way to identify against the rest of the present design elements. Focus states must be distinct from the hover state to make them distinct when using a keyboard for navigation. Focus states have a triple border design, so that regardless of the background they are implemented on, they will always be visible and easy to identify.
 
 ### Selected/Active
+
+![list](/img/list/list-active.png "Selected Item List")
 
 Selected and Active states for list elements should showcase similar behaviour to the hover state. They must show that they are currently active, and visually distinct from the rest of the list elements.
 
