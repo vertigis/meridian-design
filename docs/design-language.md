@@ -100,8 +100,6 @@ The most straight forward of implementations. This simple list view can include 
 
 ![list](/img/list/list-controls.png "List Controls")
 
-![list](/img/list/list-controls-toggle.png "List Controls (toggle)")
-
 ### Pinned Subheader List
 
 ## ![list](/img/list/pinned-subheader.png "Pinned Subheader List")
@@ -114,13 +112,13 @@ A few guidelines should be followed to ensure that the list element looks unifor
 
 ![list](/img/list/selected-item.png "Hover Item State")
 
-When a hover state is evoked, it cannot rely on simply a colour change. There must be a stage change that shows there is a differentiation to pull them into WCAG compliance. There is typically a background colour shift, as well as a side border colour added. Hover states will always include a styling change, and the background colour will get a gradient.
+When a hover state is triggered, it cannot just rely on a colour change. There also must be a state change that shows the differentiation. For example, in our programs, there is a background colour change, as well as the addition of a side border colour. Hover states will must always include a styling change, and the background colour will get a gradient.
 
 ### Focus
 
 ![list](/img/list/list-focused.png "Focused Item State")
 
-Focus indicators are a good best practice as an easy way to identify against the rest of the present design elements. Focus states must be distinct from the hover state to make them distinct when using a keyboard for navigation. Focus states have a triple border design, so that regardless of the background they are implemented on, they will always be visible and easy to identify.
+Focus indicators provide an easy way to identify currently active elements, against the rest of the design elements. Focus states must be unique from the hover state to make them distinct when using a keyboard for navigation. Focus states have a triple border design, so that regardless of the background they are implemented on, they will always be visible and easy to identify.
 
 ### Selected/Active
 
