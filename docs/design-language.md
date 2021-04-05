@@ -94,7 +94,9 @@ The most straight forward of implementations. This simple list view can include 
 
 ### Menu List
 
-![list](/img/list/menu.png "Menu List")
+Menus are used to group additional commands for components in a compact manner. Menu items have three visual levels of intricacy. A single line of text, an icon and text, or an icon with text and description to indicate what function will be triggered when the item is clicked. The hover state for menu items is built in an identical fashion to those used in list items (See above). A colored bar is added to the left side, and the background receives a gray gradient to white.
+
+![list](/img/list/menu.png "Menu List") ![menus](/img/menus/menu.gif "Toggle Buttons")
 
 ### List Controls
 
@@ -149,14 +151,6 @@ Selected and Active states for list elements should showcase a similar behavior 
 ### Tab Adornments
 
 ![tabs](/img/tabs/adornments.png "Adornments Tabs")
-
----
-
-## Menus
-
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam nec commodo elit. Curabitur dui nulla, vulputate id rutrum sed, maximus consequat eros. Nullam pharetra urna quis sapien tincidunt, et iaculis mauris ornare. Vestibulum convallis et felis at lobortis. Nulla bibendum vel quam quis accumsan.
-
-![menus](/img/menus/menu.gif "Toggle Buttons")
 
 ---
 
