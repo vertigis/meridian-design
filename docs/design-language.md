@@ -88,9 +88,9 @@ Lists come into use in many aspects of our products: Feature Details, Search Res
 
 ### Simple List
 
-![list](/img/list/simple.png "Simple List")
-
 The most straight forward of implementations. This simple list view can include text, or text and icons. Examples of this menu's use include: Action Menus.
+
+![list](/img/list/simple.png "Simple List")
 
 ### Menu List
 
@@ -110,21 +110,21 @@ A few guidelines should be followed to ensure that the list element looks unifor
 
 ### Hover
 
-![list](/img/list/selected-item.png "Hover Item State")
+A hover state cannot rely on a color change as the only indication that it is being hovered due to users that may be colorblind or have other visual impairments. In our applications we will typically add a border along with a color change to be WCAG compliant. Hover states always include a styling change, and the background color will get a gradient.
 
-When a hover state is triggered, it cannot just rely on a color change. There also must be a state change that shows the differentiation. For example, in our programs, there is a background color change, as well as the addition of a side border color. Hover states always include a styling change, and the background color will get a gradient.
+![list](/img/list/selected-item.png "Hover Item State")
 
 ### Focus
 
-![list](/img/list/list-focused.png "Focused Item State")
-
 Focus indicators provide an easy way to identify currently active elements against the rest of the design. Focus states must be unique from the hover state to make them distinct when using a keyboard for navigation. Focus states have the triple border design, so that regardless of the background they are implemented on, they will always be visible and easy to identify.
+
+![list](/img/list/list-focused.png "Focused Item State")
 
 ### Selected/Active
 
-![list](/img/list/list-active.png "Active Item State")
-
 Selected and Active states for list elements should showcase a similar behavior to the hover state. They must show that they are currently active, and visually distinct from the rest of the list elements.
+
+![list](/img/list/list-active.png "Active Item State")
 
 ---
 
