@@ -112,7 +112,7 @@ A few guidelines should be followed to ensure that the list element looks unifor
 
 ![list](/img/list/selected-item.png "Hover Item State")
 
-When a hover state is triggered, it cannot just rely on a colour change. There also must be a state change that shows the differentiation. For example, in our programs, there is a background colour change, as well as the addition of a side border colour. Hover states always include a styling change, and the background colour will get a gradient.
+When a hover state is triggered, it cannot just rely on a color change. There also must be a state change that shows the differentiation. For example, in our programs, there is a background color change, as well as the addition of a side border color. Hover states always include a styling change, and the background color will get a gradient.
 
 ### Focus
 
@@ -124,7 +124,7 @@ Focus indicators provide an easy way to identify currently active elements again
 
 ![list](/img/list/list-active.png "Active Item State")
 
-Selected and Active states for list elements should showcase a similar behaviour to the hover state. They must show that they are currently active, and visually distinct from the rest of the list elements.
+Selected and Active states for list elements should showcase a similar behavior to the hover state. They must show that they are currently active, and visually distinct from the rest of the list elements.
 
 ---
 
