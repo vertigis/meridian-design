@@ -94,7 +94,7 @@ The most straight forward of implementations. This simple list view can include 
 
 ### Menu List
 
-Menus are used to group additional commands for components in a compact manner. Menu items have three visual levels of intricacy. A single line of text, an icon and text, or an icon with text and description to indicate what function will be triggered when the item is clicked. The hover state for menu items is built in an identical fashion to those used in list items (See above). A colored bar is added to the left side, and the background receives a gray gradient to white.
+Menus are used to group additional commands for components in a compact manner. Menu items have three visual levels of intricacy. A single line of text, an icon and text, or an icon with text and description to indicate what function will be triggered when the item is clicked. A colored bar is added to the left side, and the background receives a gray gradient to white.
 
 ![list](/img/list/menu.png "Menu List") ![menus](/img/menus/menu.gif "Toggle Buttons")
 
