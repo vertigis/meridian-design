@@ -110,7 +110,7 @@ A few guidelines should be followed to ensure that the list element looks unifor
 
 ### Hover
 
-A hover state cannot rely on a color change as the only indication that it is being hovered due to users that may be colorblind or have other visual impairments. In our applications we will typically add a border along with a color change to be WCAG compliant. Hover states always include a styling change, and the background color will get a gradient.
+A hover state cannot rely on a color change as the only indication that it is being hovered due to users that may be colorblind or have other visual impairments. In our applications we will typically add a border along one side with a background gradient color change to be WCAG compliant.
 
 ![list](/img/list/selected-item.png "Hover Item State")
 
