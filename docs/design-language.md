@@ -112,19 +112,19 @@ A few guidelines should be followed to ensure that the list element looks unifor
 
 ![list](/img/list/selected-item.png "Hover Item State")
 
-When a hover state is triggered, it cannot just rely on a colour change. There also must be a state change that shows the differentiation. For example, in our programs, there is a background colour change, as well as the addition of a side border colour. Hover states will must always include a styling change, and the background colour will get a gradient.
+When a hover state is triggered, it cannot just rely on a colour change. There also must be a state change that shows the differentiation. For example, in our programs, there is a background colour change, as well as the addition of a side border colour. Hover states always include a styling change, and the background colour will get a gradient.
 
 ### Focus
 
 ![list](/img/list/list-focused.png "Focused Item State")
 
-Focus indicators provide an easy way to identify currently active elements, against the rest of the design elements. Focus states must be unique from the hover state to make them distinct when using a keyboard for navigation. Focus states have a triple border design, so that regardless of the background they are implemented on, they will always be visible and easy to identify.
+Focus indicators provide an easy way to identify currently active elements against the rest of the design. Focus states must be unique from the hover state to make them distinct when using a keyboard for navigation. Focus states have the triple border design, so that regardless of the background they are implemented on, they will always be visible and easy to identify.
 
 ### Selected/Active
 
 ![list](/img/list/list-active.png "Active Item State")
 
-Selected and Active states for list elements should showcase similar behaviour to the hover state. They must show that they are currently active, and visually distinct from the rest of the list elements.
+Selected and Active states for list elements should showcase a similar behaviour to the hover state. They must show that they are currently active, and visually distinct from the rest of the list elements.
 
 ---
 
