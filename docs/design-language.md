@@ -139,7 +139,7 @@ The most straight forward of implementations. This simple list view can include 
 
 ### Menu List
 
-Menus are used to group additional commands for components in a compact manner. A menu item can consist of: A Title (required), a description (optional) and an icon (Optional).
+Menus are used to group additional commands for components in a compact manner. A menu item can consist of: A title (required), a description (optional) and an icon (Optional).
 
 ![list](/img/list/menu.png "Menu List") ![menus](/img/menus/menu.gif "Toggle Buttons")
 
