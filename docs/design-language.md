@@ -127,7 +127,7 @@ The visual language of our icons should be consistent, creating a harmonious app
 
 ---
 
-## Lists
+## Lists and Menus
 
 Lists come into use in many aspects of our products: Feature Details, Search Results, Building information, and many more. No matter what needs to be displayed, if it falls into a list like quality, then a list should be used. Examples of different utilizations of the list element are below.
 
@@ -140,6 +140,12 @@ The most straight forward of implementations. This simple list view can include 
 ### Menu List
 
 ![list](/img/list/menu.png "Menu List")
+
+![menus](/img/menus/menu.gif "Menu - Title Only")
+
+![menus](/img/menus/menu-full.png "Menu - Title - Icon - Description")
+
+Menus are used to group additional commands for components that are not worth displaying in a more prominent visual manner, or that simply don’t belong anywhere else in the interface. Menu items consist of a single line of text to indicate what function will be triggered when the item is clicked. The hover state for menu items is built in an identical fashion to those used in list items (See above). A colored bar is added to the left side, and the background receives a gray gradient to white.
 
 ### List Controls
 
@@ -194,16 +200,6 @@ Selected and Active states for list elements should showcase similar behaviour t
 ### Tab Adornments
 
 ![tabs](/img/tabs/adornments.png "Adornments Tabs")
-
----
-
-## Menus
-
-Menus are used to group additional commands for components that are not worth displaying in a more prominent visual manner, or that simply don’t belong anywhere else in the interface. Menu items consist of a single line of text to indicate what function will be triggered when the item is clicked. The hover state for menu items is built in an identical fashion to those used in list items (See above). A colored bar is added to the left side, and the background receives a gray gradient to white.
-
-![menus](/img/menus/menu.gif "Menu - Title Only")
-
-![menus](/img/menus/menu-full.png "Menu - Title - Icon - Description")
 
 ---
 
