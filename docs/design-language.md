@@ -127,21 +127,25 @@ The visual language of our icons should be consistent, creating a harmonious app
 
 ---
 
-## Lists
+## Lists and Menus
 
 Lists come into use in many aspects of our products: Feature Details, Search Results, Building information, and many more. No matter what needs to be displayed, if it falls into a list like quality, then a list should be used. Examples of different utilizations of the list element are below.
 
 ### Simple List
 
-The most straight forward of implementations. This simple list view can include text, or text and icons. Examples of this menu's use include: Action Menus.
-
 ![list](/img/list/simple.png "Simple List")
+
+The most straight forward of implementations. This simple list view can include text, or text and icons. Examples of this menu's use include: Action Menus.
 
 ### Menu List
 
-Menus are used to group additional commands for components in a compact manner. A menu item consists of a title, an optional description and an optional icon.
+![list](/img/list/menu.png "Menu List")
 
-![list](/img/list/menu.png "Menu List") ![menus](/img/menus/menu.gif "Toggle Buttons")
+![menus](/img/list/menu.gif "Menu - Title Only")
+
+![menus](/img/list/menu-full.png "Menu - Title - Icon - Description")
+
+Menus are used to group additional commands for components that are not worth displaying in a more prominent visual manner, or that simply don’t belong anywhere else in the interface. Menu items consist of a single line of text to indicate what function will be triggered when the item is clicked. The hover state for menu items is built in an identical fashion to those used in list items (See above). A colored bar is added to the left side, and the background receives a gray gradient to white.
 
 ### List Controls
 
@@ -150,6 +154,22 @@ Menus are used to group additional commands for components in a compact manner. 
 ### Pinned Subheader List
 
 ## ![list](/img/list/pinned-subheader.png "Pinned Subheader List")
+
+## States
+
+A few guidelines should be followed to ensure that the list element looks uniform, and fit within the application properly.
+
+### Hover
+
+![list](/img/list/selected-item.png "Hover Item State")
+
+When a hover state is triggered, it cannot just rely on a colour change. There also must be a state change that shows the differentiation. For example, in our programs, there is a background colour change, as well as the addition of a side border colour. Hover states will must always include a styling change, and the background colour will get a gradient.
+
+### Focus
+
+![list](/img/list/list-focused.png "Focused Item State")
+
+Focus indicators provide an easy way to identify currently active elements, against the rest of the design elements. Focus states must be unique from the hover state to make them distinct when using a keyboard for navigation. Focus states have a triple border design, so that regardless of the background they are implemented on, they will always be visible and easy to identify.
 
 ## States
 
