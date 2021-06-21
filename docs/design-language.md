@@ -227,7 +227,7 @@ Selected and Active states for list elements should showcase a similar behavior 
 
 ### Panels
 
-Using Panels in our application affords the user a good deal of information all contained in an easy to view place. Any information can be placed within a panel, so the possibilities for use are limitless. Panels by default are designed to be a minimum width of 365px. This allows them to function properly when viewed on smaller displays, such as tablets or smart phones. If desired, the user can increase the width of the panels with simple grab controls.
+Using Panels in our application affords the user a good deal of information all contained in an easy to view place. Any information can be placed within a panel, so the possibilities for use are limitless. Panels by default are designed to be a minimum width of 365px. This allows them to function properly when viewed on smaller displays, such as tablets or smart phones. If desired, the user can increase the width of the panels with simple grab controls. For full information regarding panels, refer to our **<a href="https://developers.geocortex.com/docs/web/configuration-layout-getting-started/#panels" target="_blank">Developer Center information</a>**.
 
 ### Panel Navigation
 
@@ -237,12 +237,11 @@ Panels come with an assortment of build in navigation controls:
 
 ![panels](/img/panels/panel-minimize.jpg "Minimize Button") Minimize: The minimize button will collapse the panel down fully. It is expandable again by click the ‘Restore to Original Size’ button that replaces minimize.
 
-![panels](/img/panels/panel-back.jpg "Back Button") Back Button: Functions as close.
+![panels](/img/panels/panel-back.jpg "Back Button") Back Button: Closes the current panel content and returns you to the previous content.
 
 ### Examples
 
 ![panels](/img/panels/panel-welcome.jpg "Welcome Dialog Panel") ![panels](/img/panels/panel-feature.jpg "Features Panel")
-
 Examples of Panels include: Welcome text, Information about the application, Identify Information about features.
 
 ---
