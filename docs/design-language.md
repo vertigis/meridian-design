@@ -237,11 +237,12 @@ Panels come with an assortment of build in navigation controls:
 
 ![panels](/img/panels/panel-minimize.jpg "Minimize Button") Minimize: The minimize button will collapse the panel down fully. It is expandable again by click the ‘Restore to Original Size’ button that replaces minimize.
 
-![panels](/img/panels/panel-back.jpg "Back Button") Back Button: Closes the current panel content and returns you to the previous content.
+![panels](/img/panels/panel-back.jpg "Back Button") Back Button: Navigates you to the previous panels content.
 
 ### Examples
 
 ![panels](/img/panels/panel-welcome.jpg "Welcome Dialog Panel") ![panels](/img/panels/panel-feature.jpg "Features Panel")
+
 Examples of Panels include: Welcome text, Information about the application, Identify Information about features.
 
 ---
