@@ -13,20 +13,18 @@ const features = [
         imageUrl: "/img/inclusive.png",
         description: (
             <>
-                Build products that enable anyone to be successful using them,
-                no matter what language they speak, device they use, or
-                disabilities they may have.<br></br>
-                <div>
-                    <Link to="/docs/design-principles">
-                        <Button
-                            type="button"
-                            buttonStyle="btn--primary--solid"
-                            buttonSize="btn--medium"
-                        >
-                            Discover
-                        </Button>
-                    </Link>
-                </div>
+                <p className="feature__text">
+                    Build products that enable anyone to be successful using them, no matter what language they speak, device they use, or disabilities they may have.
+                </p>
+                <Link to="/docs/design-principles">
+                    <Button
+                        type="button"
+                        buttonStyle="btn--primary--solid"
+                        buttonSize="btn--medium"
+                    >
+                        Discover
+                    </Button>
+                </Link>
             </>
         ),
     },
@@ -35,20 +33,18 @@ const features = [
         imageUrl: "/img/polish.png",
         description: (
             <>
-                Provide products that are professional, aesthetically pleasing,
-                and as intuitive as possible.
-                <br></br>
-                <div>
-                    <Link to="/docs/design-philosophy">
-                        <Button
-                            type="button"
-                            buttonStyle="btn--primary--solid"
-                            buttonSize="btn--medium"
-                        >
-                            Learn
-                        </Button>
-                    </Link>
-                </div>
+                <p className="feature__text">
+                    Empathize with people to understand their motivations and goals. Use that knowledge to design solutions that enable them to accomplish their tasks.
+                </p>
+                <Link to="/docs/design-philosophy">
+                    <Button
+                        type="button"
+                        buttonStyle="btn--primary--solid"
+                        buttonSize="btn--medium"
+                    >
+                        Learn
+                    </Button>
+                </Link>
             </>
         ),
     },
@@ -57,20 +53,18 @@ const features = [
         imageUrl: "/img/app-icons.png",
         description: (
             <>
-                Ensure every product we produce is recognizable to customers as
-                being a VertiGIS product.
-                <br></br>
-                <div>
-                    <Link to="/docs/design-language">
-                        <Button
-                            type="button"
-                            buttonStyle="btn--primary--solid"
-                            buttonSize="btn--medium"
-                        >
-                            Explore
-                        </Button>
-                    </Link>
-                </div>
+                <p className="feature__text">
+                    Ensure every product we produce is recognizable to customers as being a VertiGIS product by using familiar patterns, interactions and iconography across products.
+                </p>
+                <Link to="/docs/design-language">
+                    <Button
+                        type="button"
+                        buttonStyle="btn--primary--solid"
+                        buttonSize="btn--medium"
+                    >
+                        Explore
+                    </Button>
+                </Link>
             </>
         ),
     },
@@ -90,7 +84,7 @@ function Feature({ imageUrl, title, description, button }) {
                 </div>
             )}
             <h3>{title}</h3>
-            <div>{description}</div>
+            <div className="feature__description">{description}</div>
             <div className={styles.buttons}>{button}</div>
         </div>
     );
