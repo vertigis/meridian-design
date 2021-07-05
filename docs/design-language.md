@@ -167,22 +167,6 @@ When a hover state is triggered, it cannot just rely on a colour change. There a
 
 ### Focus
 
-![list](/img/list/list-focused.png "Focused Item State")
-
-Focus indicators provide an easy way to identify currently active elements, against the rest of the design elements. Focus states must be unique from the hover state to make them distinct when using a keyboard for navigation. Focus states have a triple border design, so that regardless of the background they are implemented on, they will always be visible and easy to identify.
-
-## States
-
-A few guidelines should be followed to ensure that the list element looks uniform, and fit within the application properly.
-
-### Hover
-
-In our applications we will typically add a border along one side with a background gradient color change to be WCAG compliant. A hover state cannot rely on a color change as the only indication that it is being hovered due to users that may be colorblind or have other visual impairments.
-
-![list](/img/list/selected-item.png "Hover Item State")
-
-### Focus
-
 Focus indicators provide an easy way to identify currently active elements against the rest of the design. Focus states must be unique from the hover state to make them distinct when using a keyboard for navigation. Focus states have the triple border design, so that regardless of the background they are implemented on, they will always be visible and easy to identify.
 
 ![list](/img/list/list-focused.png "Focused Item State")
