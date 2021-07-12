@@ -6,7 +6,7 @@ import Icons from "../src/components/icons";
 
 ## Whitespace/Padding
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam nec commodo elit. Curabitur dui nulla, vulputate id rutrum sed, maximus consequat eros. Nullam pharetra urna quis sapien tincidunt, et iaculis mauris ornare. Vestibulum convallis et felis at lobortis. Nulla bibendum vel quam quis accumsan.
+There should be consistent padding of 10 pixels between elements. Examples of this include the space between an icon and title, controls and their titles, controls and other controls.
 
 ---
 
