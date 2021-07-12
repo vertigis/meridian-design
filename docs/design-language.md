@@ -207,7 +207,7 @@ Selected and Active states for list elements should showcase a similar behavior 
 
 ### Panels
 
-Using Panels in our application affords the user a good deal of information all contained in an easy to view place. Most information can be placed within a panel. Panels by default are designed to be a minimum width of 365px. This allows them to function properly when viewed on smaller displays, such as tablets or smart phones. If desired, the user can resize the panels with simple grab controls. For full information regarding panels, refer to our **<a href="https://developers.geocortex.com/docs/web/configuration-layout-getting-started/#panels" target="_blank">Developer Center information</a>**.
+Using Panels in our application affords the user a good deal of information all contained in an easy to view place. Most information can be placed within a panel. Panels are designed with a minimum width of 365px so that they work on smart phone screens as well as larger tablet and desktop displays. The user can resize the panels with the provided drag handles. For full information regarding panels, refer to our **<a href="https://developers.geocortex.com/docs/web/configuration-layout-getting-started/#panels" target="_blank">Developer Center information</a>**.
 
 ### Panel Navigation
 
@@ -224,7 +224,5 @@ Panels come with an assortment of configurable navigation controls:
 ### Examples
 
 ![panels](/img/panels/panel-welcome.jpg "Welcome Dialog Panel") ![panels](/img/panels/panel-feature.jpg "Features Panel")
-
-Some examples of panels include: Welcome text, Information about the application, feature information, and workflow forms.
 
 ---
