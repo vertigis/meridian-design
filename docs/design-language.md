@@ -151,10 +151,6 @@ Menus are used to group additional commands for components that are not worth di
 
 ![list](/img/list/list-controls.png "List Controls")
 
-### Pinned Subheader List
-
-## ![list](/img/list/pinned-subheader.png "Pinned Subheader List")
-
 ## States
 
 A few guidelines should be followed to ensure that the list element looks uniform, and fit within the application properly.
