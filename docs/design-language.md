@@ -41,40 +41,49 @@ Outlined buttons with the last three being deactivated.
 ![buttons](/img/buttons/grouped-default.png "Grouped Buttons") ![buttons](/img/buttons/grouped-outlined.png "Outlined Grouped Buttons")
 
 ---
+
 ## Form Design
+
 A properly designed form allows people to quickly enter values in a logical order and in a manner that makes sense to them. This requires fields to be flexible when interpreting the user's input.
+
 ### Labels
-* Are easily interpreted
-* Located on top of or to the left of most fields
-  * Labels on the top is better for internationalization and long strings
-* Usually appear to the right of check boxes and radio buttons
-* Ensure there is not too much space between the label and it's associated field so that it is clear which field goes with the label
+
+-   Are easily interpreted
+-   Located on top of or to the left of most fields
+    -   Labels on the top is better for internationalization and long strings
+-   Usually appear to the right of check boxes and radio buttons
+-   Ensure there is not too much space between the label and it's associated field so that it is clear which field goes with the label
 
 ### Fields
-* The length of text fields should suggest the amount of data that should be entered
-* Ensure that there is not too much space between fields so that nothing gets accidentally overlooked.
+
+-   The length of text fields should suggest the amount of data that should be entered
+-   Ensure that there is not too much space between fields so that nothing gets accidentally overlooked.
 
 ### Links/Buttons
-* Primary actions should be clear and obvious
-* Secondary actions are for more discrete actions
-* Multi-step and complex forms should have all other navigation removed
-  * Back links should be included for easy corrections in multi-step forms
-* Include a *Cancel* link to provide a safety net for users to escape the form
+
+-   Primary actions should be clear and obvious
+-   Secondary actions are for more discrete actions
+-   Multi-step and complex forms should have all other navigation removed
+    -   Back links should be included for easy corrections in multi-step forms
+-   Include a _Cancel_ link to provide a safety net for users to escape the form
 
 ### Keyboard Use
-* Do not force users to frequently switch between the keyboard and mouse
-* Correct tab order is set up
-* If possible, avoid drop-down lists where typing is quicker
-  * Auto-complete or auto-suggest is very beneficial
+
+-   Do not force users to frequently switch between the keyboard and mouse
+-   Correct tab order is set up
+-   If possible, avoid drop-down lists where typing is quicker
+    -   Auto-complete or auto-suggest is very beneficial
+
 ### Be Helpful
-* Be flexible when interpreting the values that users enter
-  * Eg: when entering a phone number, accept both no-spaces and dashes
-* Help users check the information they've entered before submitting
-  * [WCAG 3.3.4](https://www.w3.org/TR/WCAG21/#error-prevention-legal-financial-data) requires error prevention for legal and financial data so that it is reversible, checked for errors, and confirmed.
-* If possible, provide confirmation or error information where the user's attention is currently via immediate inline feedback
-* If possible, try to avoid multiple columns for form layouts. This increases the likelihood that something in the right column will be missed.
-  * Usability testing <sup>[\[1\]](https://baymard.com/blog/avoid-multi-column-forms) [\[2\]](https://cxl.com/research-study/form-field-usability/)</sup> has shown that multi-column forms do not perform as well as single column layouts.
-* Remove any unnecessary distractions and links that competes with and takes the users attention away from the form they are filling out.
+
+-   Be flexible when interpreting the values that users enter
+    -   Eg: when entering a phone number, accept both no-spaces and dashes
+-   Help users check the information they've entered before submitting
+    -   [WCAG 3.3.4](https://www.w3.org/TR/WCAG21/#error-prevention-legal-financial-data) requires error prevention for legal and financial data so that it is reversible, checked for errors, and confirmed.
+-   If possible, provide confirmation or error information where the user's attention is currently via immediate inline feedback
+-   If possible, try to avoid multiple columns for form layouts. This increases the likelihood that something in the right column will be missed.
+    -   Usability testing <sup>[\[1\]](https://baymard.com/blog/avoid-multi-column-forms) [\[2\]](https://cxl.com/research-study/form-field-usability/)</sup> has shown that multi-column forms do not perform as well as single column layouts.
+-   Remove any unnecessary distractions and links that competes with and takes the users attention away from the form they are filling out.
 
 ---
 
@@ -118,51 +127,51 @@ The visual language of our icons should be consistent, creating a harmonious app
 
 ---
 
-## Lists
+## Lists and Menus
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam nec commodo elit. Curabitur dui nulla, vulputate id rutrum sed, maximus consequat eros. Nullam pharetra urna quis sapien tincidunt, et iaculis mauris ornare. Vestibulum convallis et felis at lobortis. Nulla bibendum vel quam quis accumsan.
+Lists come into use in many aspects of our products: Feature Details, Search Results, Building information, and many more. No matter what needs to be displayed, if it falls into a list like quality, then a list should be used. Examples of different utilizations of the list element are below.
 
 ### Simple List
 
 ![list](/img/list/simple.png "Simple List")
 
-### Selected Item
-
-![list](/img/list/selected-item.png "Selected Item List")
-
-### Nested List
-
-![list](/img/list/nested.png "Nested List")
+The most straight forward of implementations. This simple list view can include text, or text and icons. Examples of this menu's use include: Action Menus.
 
 ### Menu List
 
 ![list](/img/list/menu.png "Menu List")
 
+![menus](/img/list/menu.gif "Menu - Title Only")
+
+![menus](/img/list/menu-full.png "Menu - Title - Icon - Description")
+
+Menus are used to group additional commands for components that are not worth displaying in a more prominent visual manner, or that simply don’t belong anywhere else in the interface. Menu items consist of a single line of text to indicate what function will be triggered when the item is clicked. The hover state for menu items is built in an identical fashion to those used in list items (See above). A colored bar is added to the left side, and the background receives a gray gradient to white.
+
 ### List Controls
 
 ![list](/img/list/list-controls.png "List Controls")
-![list](/img/list/list-controls-checkbox.png "List Controls (checkbox)")
-![list](/img/list/list-controls-toggle.png "List Controls (toggle)")
-
-### Pinned Subheader List
-
-## ![list](/img/list/pinned-subheader.png "Pinned Subheader List")
 
 ## States
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam nec commodo elit. Curabitur dui nulla, vulputate id rutrum sed, maximus consequat eros. Nullam pharetra urna quis sapien tincidunt, et iaculis mauris ornare. Vestibulum convallis et felis at lobortis. Nulla bibendum vel quam quis accumsan.
+A few guidelines should be followed to ensure that the list element looks uniform, and fit within the application properly.
 
 ### Hover
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam nec commodo elit. Curabitur dui nulla, vulputate id rutrum sed, maximus consequat eros. Nullam pharetra urna quis sapien tincidunt, et iaculis mauris ornare. Vestibulum convallis et felis at lobortis. Nulla bibendum vel quam quis accumsan.
+![list](/img/list/selected-item.png "Hover Item State")
+
+When a hover state is triggered, it cannot just rely on a colour change. There also must be a state change that shows the differentiation. For example, in our programs, there is a background colour change, as well as the addition of a side border colour. Hover states will must always include a styling change, and the background colour will get a gradient.
 
 ### Focus
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam nec commodo elit. Curabitur dui nulla, vulputate id rutrum sed, maximus consequat eros. Nullam pharetra urna quis sapien tincidunt, et iaculis mauris ornare. Vestibulum convallis et felis at lobortis. Nulla bibendum vel quam quis accumsan.
+Focus indicators provide an easy way to identify currently active elements against the rest of the design. Focus states must be unique from the hover state to make them distinct when using a keyboard for navigation. Focus states have the triple border design, so that regardless of the background they are implemented on, they will always be visible and easy to identify.
+
+![list](/img/list/list-focused.png "Focused Item State")
 
 ### Selected/Active
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam nec commodo elit. Curabitur dui nulla, vulputate id rutrum sed, maximus consequat eros. Nullam pharetra urna quis sapien tincidunt, et iaculis mauris ornare. Vestibulum convallis et felis at lobortis. Nulla bibendum vel quam quis accumsan.
+Selected and Active states for list elements should showcase a similar behavior to the hover state. They must show that they are currently active, and visually distinct from the rest of the list elements.
+
+![list](/img/list/list-active.png "Active Item State")
 
 ---
 
@@ -190,18 +199,30 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam nec commodo eli
 
 ---
 
-## Menus
-
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam nec commodo elit. Curabitur dui nulla, vulputate id rutrum sed, maximus consequat eros. Nullam pharetra urna quis sapien tincidunt, et iaculis mauris ornare. Vestibulum convallis et felis at lobortis. Nulla bibendum vel quam quis accumsan.
-
-![menus](/img/menus/menu.gif "Toggle Buttons")
-
----
-
 ## Dialogs
 
 ![dialog](/img/dialogs/dialog.png "Dialog")
 
 ## Panels & Panel Navigation
+
+### Panels
+
+Using Panels in our application affords the user a good deal of information all contained in an easy to view place. Most information can be placed within a panel. Panels are designed with a minimum width of 365px so that they work on smart phone screens as well as larger tablet and desktop displays. The user can resize the panels with the provided drag handles. For full information regarding panels, refer to our **<a href="https://developers.geocortex.com/docs/web/configuration-layout-getting-started/#panels" target="_blank">Developer Center information</a>**.
+
+### Panel Navigation
+
+Panels come with an assortment of configurable navigation controls:
+
+![panels](/img/panels/panel-maximize.jpg "Maximize Button") Maximize: This button will extend the content of the panel to fill the entire view width.
+
+![panels](/img/panels/panel-minimize.jpg "Minimize Button") Minimize: The minimize button will collapse the panel down fully. It is expandable again by click the ‘Restore to Original Size’ button that replaces minimize.
+
+![panels](/img/panels/panel-back.jpg "Back Button") Back Button: Navigates you to the previous panels content.
+
+![panels](/img/panels/panel-close.jpg "Close Button") Close Button: Closes the panel entirely.
+
+### Examples
+
+![panels](/img/panels/panel-welcome.jpg "Welcome Dialog Panel") ![panels](/img/panels/panel-feature.jpg "Features Panel")
 
 ---
