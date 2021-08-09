@@ -155,24 +155,23 @@ Menus are used to group additional commands for components that are not worth di
 
 ![list](/img/list/pinned-subheader.png "Pinned Subheader List")
 
-
-## States
+### States
 
 A few guidelines should be followed to ensure that the list element looks uniform, and fit within the application properly.
 
-### Hover
+#### Hover
 
 ![list](/img/list/selected-item.png "Hover Item State")
 
 When a hover state is triggered, it cannot just rely on a colour change. There also must be a state change that shows the differentiation. For example, in our programs, there is a background colour change, as well as the addition of a side border colour. Hover states will must always include a styling change, and the background colour will get a gradient.
 
-### Focus
+#### Focus
 
 ![list](/img/list/list-focused.png "Focused Item State")
 
 Focus indicators provide an easy way to identify currently active elements, against the rest of the design elements. Focus states must be unique from the hover state to make them distinct when using a keyboard for navigation. Focus states have a triple border design, so that regardless of the background they are implemented on, they will always be visible and easy to identify.
 
-### Selected/Active
+#### Selected/Active
 
 ![list](/img/list/list-active.png "Active Item State")
 
