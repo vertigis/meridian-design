@@ -6,7 +6,7 @@ import Icons from "../src/components/icons";
 
 ## Whitespace/Padding
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam nec commodo elit. Curabitur dui nulla, vulputate id rutrum sed, maximus consequat eros. Nullam pharetra urna quis sapien tincidunt, et iaculis mauris ornare. Vestibulum convallis et felis at lobortis. Nulla bibendum vel quam quis accumsan.
+There should be consistent padding of 10 pixels between elements. Examples of this include the space between an icon and title, controls and their titles, controls and other controls.
 
 ---
 
@@ -141,9 +141,9 @@ The most straight forward of implementations. This simple list view can include 
 
 ![list](/img/list/menu.png "Menu List")
 
-![menus](/img/list/menu.gif "Menu - Title Only")
+![menus](/img/menus/menu.gif "Menu - Title Only")
 
-![menus](/img/list/menu-full.png "Menu - Title - Icon - Description")
+![menus](/img/menus/menu-full.png "Menu - Title - Icon - Description")
 
 Menus are used to group additional commands for components that are not worth displaying in a more prominent visual manner, or that simply don’t belong anywhere else in the interface. Menu items consist of a single line of text to indicate what function will be triggered when the item is clicked. The hover state for menu items is built in an identical fashion to those used in list items (See above). A colored bar is added to the left side, and the background receives a gray gradient to white.
 
@@ -171,27 +171,11 @@ When a hover state is triggered, it cannot just rely on a colour change. There a
 
 Focus indicators provide an easy way to identify currently active elements, against the rest of the design elements. Focus states must be unique from the hover state to make them distinct when using a keyboard for navigation. Focus states have a triple border design, so that regardless of the background they are implemented on, they will always be visible and easy to identify.
 
-## States
-
-A few guidelines should be followed to ensure that the list element looks uniform, and fit within the application properly.
-
-### Hover
-
-In our applications we will typically add a border along one side with a background gradient color change to be WCAG compliant. A hover state cannot rely on a color change as the only indication that it is being hovered due to users that may be colorblind or have other visual impairments.
-
-![list](/img/list/selected-item.png "Hover Item State")
-
-### Focus
-
-Focus indicators provide an easy way to identify currently active elements against the rest of the design. Focus states must be unique from the hover state to make them distinct when using a keyboard for navigation. Focus states have the triple border design, so that regardless of the background they are implemented on, they will always be visible and easy to identify.
-
-![list](/img/list/list-focused.png "Focused Item State")
-
 ### Selected/Active
 
-Selected and Active states for list elements should showcase a similar behavior to the hover state. They must show that they are currently active, and visually distinct from the rest of the list elements.
-
 ![list](/img/list/list-active.png "Active Item State")
+
+Selected and Active states for list elements should showcase similar behaviour to the hover state. They must show that they are currently active, and visually distinct from the rest of the list elements.
 
 ---
 
