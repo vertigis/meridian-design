@@ -153,7 +153,7 @@ Menus are used to group additional commands for components that are not worth di
 
 ### Pinned Subheader List
 
-## ![list](/img/list/pinned-subheader.png "Pinned Subheader List")
+![list](/img/list/pinned-subheader.png "Pinned Subheader List")
 
 ## States
 
