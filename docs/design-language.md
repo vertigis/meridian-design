@@ -155,6 +155,7 @@ Menus are used to group additional commands for components that are not worth di
 
 ![list](/img/list/pinned-subheader.png "Pinned Subheader List")
 
+
 ## States
 
 A few guidelines should be followed to ensure that the list element looks uniform, and fit within the application properly.
@@ -208,5 +209,25 @@ Selected and Active states for list elements should showcase similar behaviour t
 ![dialog](/img/dialogs/dialog.png "Dialog")
 
 ## Panels & Panel Navigation
+
+### Panels
+
+Using Panels in our application affords the user a good deal of information all contained in an easy to view place. Most information can be placed within a panel. Panels are designed with a minimum width of 365px so that they work on smart phone screens as well as larger tablet and desktop displays. The user can resize the panels with the provided drag handles. For full information regarding panels, refer to our **<a href="https://developers.geocortex.com/docs/web/configuration-layout-getting-started/#panels" target="_blank">Developer Center information</a>**.
+
+### Panel Navigation
+
+Panels come with an assortment of configurable navigation controls:
+
+![panels](/img/panels/panel-maximize.jpg "Maximize Button") Maximize: This button will extend the content of the panel to fill the entire view width.
+
+![panels](/img/panels/panel-minimize.jpg "Minimize Button") Minimize: The minimize button will collapse the panel down fully. It is expandable again by click the ‘Restore to Original Size’ button that replaces minimize.
+
+![panels](/img/panels/panel-back.jpg "Back Button") Back Button: Navigates you to the previous panels content.
+
+![panels](/img/panels/panel-close.jpg "Close Button") Close Button: Closes the panel entirely.
+
+### Examples
+
+![panels](/img/panels/panel-welcome.jpg "Welcome Dialog Panel") ![panels](/img/panels/panel-feature.jpg "Features Panel")
 
 ---
