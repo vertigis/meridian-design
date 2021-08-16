@@ -4,12 +4,6 @@ title: Design Language
 
 import Icons from "../src/components/icons";
 
-## Whitespace/Padding
-
-There should be consistent padding of 10 pixels between elements. Examples of this include the space between an icon and title, controls and their titles, controls and other controls.
-
----
-
 ## Buttons
 
 We have various buttons options of differing importance and loudness.
@@ -178,34 +172,6 @@ Focus indicators provide an easy way to identify currently active elements, agai
 Selected and Active states for list elements should showcase similar behaviour to the hover state. They must show that they are currently active, and visually distinct from the rest of the list elements.
 
 ---
-
-## Tabs
-
-### Normal Tabs
-
-![tabs](/img/tabs/normal.png "Normal Tabs")
-
-### Scrollable Tabs
-
-![tabs](/img/tabs/scrollable.png "Scrollable Tabs")
-
-### Icon Tabs
-
-![tabs](/img/tabs/icon.png "Icon Tabs")
-
-### Indicator Color Tabs
-
-![tabs](/img/tabs/indicator.png "Indicator Tabs")
-
-### Tab Adornments
-
-![tabs](/img/tabs/adornments.png "Adornments Tabs")
-
----
-
-## Dialogs
-
-![dialog](/img/dialogs/dialog.png "Dialog")
 
 ## Panels & Panel Navigation
 
