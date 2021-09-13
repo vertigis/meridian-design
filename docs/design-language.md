@@ -24,7 +24,7 @@ Outlined buttons with the last three being deactivated.
 
 ### Icon Button
 
-![buttons](/img/buttons/icon.png "Icon Button") ![buttons](/img/buttons/icon-hover.png "Icon Button Hover State")
+![buttons](/img/buttons/icon.png "Icon Buttons") ![buttons](/img/buttons/icon-hover.png "Icon Button Hover State")
 
 ### Toggle Buttons
 
