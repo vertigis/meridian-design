@@ -4,12 +4,6 @@ title: Design Language
 
 import Icons from "../src/components/icons";
 
-## Whitespace/Padding
-
-There should be consistent padding of 10 pixels between elements. Examples of this include the space between an icon and title, controls and their titles, controls and other controls.
-
----
-
 ## Buttons
 
 We have various buttons options of differing importance and loudness.
@@ -30,7 +24,7 @@ Outlined buttons with the last three being deactivated.
 
 ### Icon Button
 
-![buttons](/img/buttons/icon.png "Icon Button") ![buttons](/img/buttons/icon-hover.png "Icon Button Hover State")
+![buttons](/img/buttons/icon.png "Icon Buttons") ![buttons](/img/buttons/icon-hover.png "Icon Button Hover State")
 
 ### Toggle Buttons
 
@@ -137,9 +131,13 @@ Lists come into use in many aspects of our products: Feature Details, Search Res
 
 The most straight forward of implementations. This simple list view can include text, or text and icons. Examples of this menu's use include: Action Menus.
 
+### Selected Item
+
 ### Menu List
 
-![list](/img/list/menu.png "Menu List")
+The selected item's highlight will consist of the primary theme colour, as well as a gradient grey.
+
+### Nested List
 
 ![menus](/img/menus/menu.gif "Menu - Title Only")
 
@@ -163,7 +161,7 @@ A few guidelines should be followed to ensure that the list element looks unifor
 
 ![list](/img/list/selected-item.png "Hover Item State")
 
-When a hover state is triggered, it cannot just rely on a colour change. There also must be a state change that shows the differentiation. For example, in our programs, there is a background colour change, as well as the addition of a side border colour. Hover states will must always include a styling change, and the background colour will get a gradient.
+When a hover state is triggered, it cannot just rely on a colour change. There also must be a state change that shows the differentiation. For example, in our programs, there is a background colour change, as well as the addition of a side border colour. Hover states always include a styling change, and the background colour will get a gradient.
 
 #### Focus
 
@@ -175,7 +173,7 @@ Focus indicators provide an easy way to identify currently active elements, agai
 
 ![list](/img/list/list-active.png "Active Item State")
 
-Selected and Active states for list elements should showcase similar behaviour to the hover state. They must show that they are currently active, and visually distinct from the rest of the list elements.
+Selected and Active states for list elements should showcase similar behavior to the hover state. They must show that they are currently active, and visually distinct from the rest of the list elements.
 
 ---
 
@@ -202,10 +200,6 @@ Selected and Active states for list elements should showcase similar behaviour t
 ![tabs](/img/tabs/adornments.png "Adornments Tabs")
 
 ---
-
-## Dialogs
-
-![dialog](/img/dialogs/dialog.png "Dialog")
 
 ## Panels & Panel Navigation
 
