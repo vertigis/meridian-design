@@ -229,6 +229,8 @@ Panels come with an assortment of configurable navigation controls:
 
 Occasionally, there will be a need to display information, warn the user, or present controls in a manner that needs to utilize a more focused interface to the user.
 
+![tabs](/img/dialogs/dialog.png "Dialog")
+
 Examples of this include:
 
 -   Units under the measurement toolbar
