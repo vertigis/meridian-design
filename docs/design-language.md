@@ -223,4 +223,31 @@ Panels come with an assortment of configurable navigation controls:
 
 ![panels](/img/panels/panel-welcome.jpg "Welcome Dialog Panel") ![panels](/img/panels/panel-feature.jpg "Features Panel")
 
+## Dialogs
+
+### Modal Dialogs
+
+Occasionally, there will be a need to display information, warn the user, or present controls in a manner that needs to utilize a more focused interface to the user.
+
+Examples of this include:
+
+-   Units under the measurement toolbar
+-   Polygon Style under the draw toolbar
+-   Share my Map
+-   Save and Load Project
+
+In all of the above examples, the information and controls is rendered above the rest of the app interface, drawing the users focus to the new information, as well as not altering the state of the app behind.
+
+Additional Information regarding modal alerts can be found in the **<a href="https://developers.geocortex.com/docs/web/tutorial-import-map-model/#create-a-custom-component-with-a-model" target="_blank">Developer Center Information</a>**.
+
+### Alerts
+
+Dialogs are the preferred method of presenting alerts to the user, since they allow information that is relevant to a state change, or problem, without navigating away, or impacting the information within the app. This can include, but are not limited to:
+
+-   Destructive actions that would otherwise destroy information that has been altered.
+-   Problems that might have arisen with some actions, including saving, adding information or connection issues.
+
+Alerts must always preface the problem, and offer the user the ability to dismiss, edit, or disregard the problem in question.
+Additional Information for alerts can be found in the **<a href="https://developers.geocortex.com/docs/web/tutorial-run-workflow-app-config/#prerequisites" target="_blank">Developers Center Information.</a>**
+
 ---
