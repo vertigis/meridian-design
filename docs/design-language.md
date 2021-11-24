@@ -227,18 +227,18 @@ Panels come with an assortment of configurable navigation controls:
 
 ### Modal Dialogs
 
-Occasionally, there will be a need to display information, warn the user, or present controls in a manner that needs to utilize a more focused interface to the user.
+Occasionally, there will be a need to display information, warn the user, or present controls in a manner that needs to utilize a more focused interface to the user. Modal dialogs provide a flexible layout strategy to allow the user to put content they want before the user and draws their focus to it, setting the rest of the app into a non-interactive state until it is dismissed. This allows important information to be displayed, and preserves the rest of the app.
 
-![tabs](/img/dialogs/dialog.png "Dialog")
+### Examples
 
-Examples of this include:
+![modals](/img/modals/measurement-units.jpg "Units under the measurement toolbar")<br/> _Units under the measurement toolbar_
 
--   Units under the measurement toolbar
--   Polygon Style under the draw toolbar
--   Share my Map
--   Save and Load Project
+![modals](/img/modals/polygon-styles.jpg "Polygon Styles under the draw menu")<br/>_Polygon Styles under the draw toolbar_
 
-In all of the above examples, the information and controls is rendered above the rest of the app interface, drawing the users focus to the new information, as well as not altering the state of the app behind.
+![modals](/img/modals/share-my-map.jpg "Share my Map")<br/>_Share my Map_
+
+![modals](/img/modals/save-project.jpg "Save Project")
+![modals](/img/modals/load-project.jpg "Load Project")<br/>_Save & Load Project_
 
 Additional Information regarding modal alerts can be found in the **<a href="https://developers.geocortex.com/docs/web/tutorial-import-map-model/#create-a-custom-component-with-a-model" target="_blank">Developer Center Information</a>**.
 
@@ -248,6 +248,8 @@ Dialogs are the preferred method of presenting alerts to the user, since they al
 
 -   Destructive actions that would otherwise destroy information that has been altered.
 -   Problems that might have arisen with some actions, including saving, adding information or connection issues.
+
+![tabs](/img/dialogs/dialog.png "Dialog")
 
 Alerts must always preface the problem, and offer the user the ability to dismiss, edit, or disregard the problem in question.
 Additional Information for alerts can be found in the **<a href="https://developers.geocortex.com/docs/web/tutorial-run-workflow-app-config/#prerequisites" target="_blank">Developers Center Information.</a>**
