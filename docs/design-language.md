@@ -252,6 +252,5 @@ Dialogs are the preferred method of presenting alerts to the user, since they al
 ![tabs](/img/dialogs/dialog.png "Dialog")
 
 Alerts must always preface the problem, and offer the user the ability to dismiss, edit, or disregard the problem in question.
-Additional Information for alerts can be found in the **<a href="https://developers.geocortex.com/docs/web/tutorial-run-workflow-app-config/#prerequisites" target="_blank">Developers Center Information.</a>**
 
 ---
