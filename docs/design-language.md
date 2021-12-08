@@ -254,3 +254,31 @@ Dialogs are the preferred method of presenting alerts to the user, since they al
 Alerts must always preface the problem, and offer the user the ability to dismiss, edit, or disregard the problem in question.
 
 ---
+
+## Data Dictionary
+
+### Branding Elements
+
+#### Interface
+
+#### Text
+
+#### Icons
+
+#### Buttons
+
+#### Map Widgets
+
+#### Toggle Switches
+
+### Branding Colours
+
+#### General Branding Colours
+
+#### Highlight Colours
+
+#### Focus Colours
+
+#### Temporary Colours
+
+#### Out of Visible Scope Colours
