@@ -3,6 +3,9 @@ title: Design Language
 ---
 
 import Icons from "../src/components/icons";
+import {ListControls} from "../src/components/menus";
+import {IconTabs, IndicatorColorTabs, NormalTabs, ScrollableTabs, VerticalTabs} from "../src/components/tabs";
+import {DefaultButtons, GroupedButtons, IconButtons, OutlinedButtons, TextVariantButtons, ToggleButtons} from "../src/components/buttons";
 
 ## Buttons
 
@@ -10,29 +13,23 @@ We have various buttons options of differing importance and loudness.
 
 ### Default
 
-Standard buttons with the last three being deactivated.
-![buttons](/img/buttons/default.png "Default Buttons")
+<DefaultButtons />
 
 ### Outlined Variant
 
-Outlined buttons with the last three being deactivated.
-![buttons](/img/buttons/outlined.png "Outlined Buttons")
+<OutlinedButtons />
 
 ### Text Variant
 
-![buttons](/img/buttons/text.png "Text Buttons")
+<TextVariantButtons />
 
 ### Icon Button
 
-![buttons](/img/buttons/icon.png "Icon Buttons") ![buttons](/img/buttons/icon-hover.png "Icon Button Hover State")
-
-### Toggle Buttons
-
-![buttons](/img/buttons/toggle.png "Toggle Buttons")
+<IconButtons />
 
 ### Grouped Buttons
 
-![buttons](/img/buttons/grouped-default.png "Grouped Buttons") ![buttons](/img/buttons/grouped-outlined.png "Outlined Grouped Buttons")
+<GroupedButtons />
 
 ---
 
@@ -112,7 +109,7 @@ The visual language of our icons should be consistent, creating a harmonious app
 
 <script>
   import icons from "../src/components/icons" import ReactDOM from "react-dom"
-  ReactDom.render (icons, document.getElementById("IconsAttachPoint"));
+  ReactDom.render(icons, document.getElementById("IconsAttachPoint"));
 </script>
 
 <!--END_DOCUSAURUS_CODE_TABS-->
@@ -127,15 +124,9 @@ Lists come into use in many aspects of our products: Feature Details, Search Res
 
 ### Simple List
 
-![list](/img/list/simple.png "Simple List")
+<ListControls/>
 
-The most straight forward of implementations. This simple list view can include text, or text and icons. Examples of this menu's use include: Action Menus.
-
-### Selected Item
-
-### Menu List
-
-The selected item's highlight will consist of the primary theme colour, as well as a gradient grey.
+The most straight forward of implementations. This simple list view can include text, or text and icons. The selected item's highlight will consist of the primary theme colour, as well as a gradient grey. If tabbed to, you can use your up + down arrow keys to navigate the list.
 
 ### Nested List
 
@@ -144,10 +135,6 @@ The selected item's highlight will consist of the primary theme colour, as well 
 ![menus](/img/menus/menu-full.png "Menu - Title - Icon - Description")
 
 Menus are used to group additional commands for components that are not worth displaying in a more prominent visual manner, or that simply don’t belong anywhere else in the interface. Menu items consist of a single line of text to indicate what function will be triggered when the item is clicked. The hover state for menu items is built in an identical fashion to those used in list items (See above). A colored bar is added to the left side, and the background receives a gray gradient to white.
-
-### List Controls
-
-![list](/img/list/list-controls.png "List Controls")
 
 ### Pinned Subheader List
 
@@ -181,23 +168,23 @@ Selected and Active states for list elements should showcase similar behavior to
 
 ### Normal Tabs
 
-![tabs](/img/tabs/normal.png "Normal Tabs")
+<NormalTabs/>
 
 ### Scrollable Tabs
 
-![tabs](/img/tabs/scrollable.png "Scrollable Tabs")
+<ScrollableTabs/>
 
 ### Icon Tabs
 
-![tabs](/img/tabs/icon.png "Icon Tabs")
+<IconTabs/>
 
 ### Indicator Color Tabs
 
-![tabs](/img/tabs/indicator.png "Indicator Tabs")
+<IndicatorColorTabs/>
 
-### Tab Adornments
+### Vertical Tab
 
-![tabs](/img/tabs/adornments.png "Adornments Tabs")
+<VerticalTabs/>
 
 ---
 
