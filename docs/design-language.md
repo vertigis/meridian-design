@@ -224,3 +224,64 @@ Panels come with an assortment of configurable navigation controls:
 ![panels](/img/panels/panel-welcome.jpg "Welcome Dialog Panel") ![panels](/img/panels/panel-feature.jpg "Features Panel")
 
 ---
+
+## Data Dictionary
+
+### Branding Elements
+
+#### Interface
+
+#### Text
+
+#### Icons
+
+<div class="dsicon-container">
+<div class="dsicon">
+    <div class="xs"></div>
+    <div>Extra Small</div>
+    </div>
+<div class="dsicon sm"></div>
+<div class="dsicon med"></div>
+<div class="dsicon lg"></div>
+<div class="dsicon xlg"></div>
+</div>
+
+#### Buttons
+
+#### Map Widgets
+
+#### Toggle Switches
+
+### Branding Colours
+
+<h4>Base Colours</h4>
+<div class="swatch-container">
+<div class="swatch base-50"><div class="step">50</div></div><div class="swatch base-100"><div class="step">100</div></div><div class="swatch base-200"><div class="step">200</div></div><div class="swatch base-300"><div class="step">300</div></div><div class="swatch base-400"><div class="step">400</div></div><div class="swatch base-500"><div class="step step-dark">500</div></div><div class="swatch base-600"><div class="step step-dark">600</div></div><div class="swatch base-700"><div class="step step-dark">700</div></div><div class="swatch base-800"><div class="step step-dark">800</div></div><div class="swatch base-900"><div class="step step-dark">900</div></div>
+</div>
+
+<h4>Accent Colours</h4>
+<div class="swatch-container">
+<div class="swatch accent-50"><div class="step">50</div></div><div class="swatch accent-100"><div class="step">100</div></div><div class="swatch accent-200"><div class="step">200</div></div><div class="swatch accent-300"><div class="step">300</div></div><div class="swatch accent-400"><div class="step">400</div></div><div class="swatch accent-500"><div class="step step-dark">500</div></div><div class="swatch accent-600"><div class="step step-dark">600</div></div><div class="swatch accent-700"><div class="step step-dark">700</div></div><div class="swatch accent-800"><div class="step step-dark">800</div></div><div class="swatch accent-900"><div class="step step-dark">900</div></div>
+</div>
+
+<h4>Alert Colours</h4>
+<div class="swatch-container">
+<div class="swatch alertRed"><div class="step step-dark">Error</div></div><div class="swatch alertAmber"><div class="step step-dark">Alert</div></div><div class="swatch alertGreen"><div class="step step-dark">Success</div></div><div class="swatch alertStandard"><div class="step step-dark">Standard</div></div>
+</div>
+
+#### Highlight Colours
+
+<div class="swatch-container">
+<div class="swatch highlight-point"></div><div class="swatch highlight-polygon"></div><div class="swatch highlight-line"></div>
+</div>
+
+#### Focus Colours
+
+<div class="swatch-container">
+<div class="swatch focus-point"></div><div class="swatch focus-polygon"></div><div class="swatch focus-line"></div>
+</div>
+
+#### Out of Visible Scope Colours
+
+<div class="swatch-container">
+<div class="swatch oovs-highlight-point"></div><div class="swatch oovs-highlight-polygon"></div><div class="swatch oovs-highlight-line"></div><div class="swatch oovs-focus-point"></div><div class="swatch oovs-focus-polygon"></div><div class="swatch oovs-focus-line"></div></div>

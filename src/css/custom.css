@@ -28,3 +28,192 @@
     background-image: url("/img/banner.jpg");
     background-size: cover;
 }
+
+.dsicon {
+    display: flex;
+    flex-direction: row;
+    vertical-align: middle;
+}
+
+.xs,
+.sm,
+.med,
+.lg,
+.xlg {
+    border: 1px dashed #000000;
+    margin: 10px;
+}
+
+.xs {
+    width: 16px;
+    height: 16px;
+}
+
+.sm {
+    width: 20px;
+    height: 20px;
+}
+
+.med {
+    width: 24px;
+    height: 24px;
+}
+
+.lg {
+    width: 28px;
+    height: 28px;
+}
+
+.xlg {
+    width: 32px;
+    height: 32px;
+}
+
+.swatch-container,
+.dsicon-container {
+    display: flex;
+    flex-wrap: wrap;
+    height: 30px;
+}
+
+.swatch {
+    display: flex;
+    flex-direction: column;
+    width: 50px;
+    height: 25px;
+    min-height: 25px;
+    max-height: 25px;
+    margin: 5px 1px;
+    align-items: center;
+    transition: transform 0.2s; /* Animation */
+}
+
+.step {
+    height: 15px;
+    font-size: 10px;
+}
+
+.step-dark {
+    color: #fff;
+}
+
+.step-light {
+    color: #000000;
+}
+
+.base-50 {
+    background: #ebebeb;
+}
+
+.base-100 {
+    background: #c6c6c6;
+}
+
+.base-200 {
+    background: #a1a1a1;
+}
+
+.base-300 {
+    background: #7c7c7c;
+}
+
+.base-400 {
+    background: #575757;
+}
+
+.base-500 {
+    background: #323232;
+}
+
+.base-600,
+.alertStandard {
+    background: #2c2c2c;
+}
+
+.base-700 {
+    background: #252525;
+}
+
+.base-800 {
+    background: #1f1f1f;
+}
+
+.base-900 {
+    background: #191919;
+}
+
+.accent-50 {
+    background: #e3eff9;
+}
+
+.accent-100 {
+    background: #b5d3ee;
+}
+
+.accent-200 {
+    background: #89b8e4;
+}
+
+.accent-300 {
+    background: #619fd9;
+}
+
+.accent-400 {
+    background: #3c88cf;
+}
+
+.accent-500 {
+    background: #1a72c4;
+}
+
+.accent-600 {
+    background: #1764ab;
+}
+
+.accent-700 {
+    background: #135593;
+}
+
+.accent-800 {
+    background: #10477a;
+}
+
+.accent-900 {
+    background: #0d3961;
+}
+
+.alertRed {
+    background: #b22222;
+}
+
+.alertAmber {
+    background: #bf5300;
+}
+
+.alertGreen {
+    background: #008040;
+}
+
+.highlight-point,
+.highlight-polygon,
+.highlight-line {
+    background: #ff89f5;
+}
+
+.focus-point,
+.focus-polygon,
+.focus-line {
+    background: #00ffff;
+}
+
+.oovs-highlight-point,
+.oovs-highlight-polygon,
+.oovs-highlight-line {
+    background: #800080;
+}
+
+.oovs-focus-point,
+.oovs-focus-polygon,
+.oovs-focus-line {
+    background: #3455db;
+}
