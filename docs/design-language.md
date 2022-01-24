@@ -61,6 +61,17 @@ A properly designed form allows people to quickly enter values in a logical orde
     -   Back links should be included for easy corrections in multi-step forms.
 -   Include a _Cancel_ link to provide a safety net for users to escape the form.
 
+### Error Messages
+
+-   Provide clear and constructive error messages
+    -   Eg: "Please enter a valid email address" instead of "Field Required"
+
+### Do's and Don'ts
+
+-   Don't require unnecessary input
+-   Allow people to undo actions where appropriate
+-   Require confirmation for (important) irreversible actions
+
 ### Keyboard Use
 
 -   Do not force users to frequently switch between the keyboard and mouse.
