@@ -227,7 +227,7 @@ Panels come with an assortment of configurable navigation controls:
 
 ### Modal Dialogs
 
-Occasionally, there will be a need to display information, warn the user, or present controls in a manner that needs to utilize a more focused interface to the user. Modal dialogs provide a flexible layout strategy to allow the user to put content they want before the user and draws their focus to it, setting the rest of the app into a non-interactive state until it is dismissed. This allows important information to be displayed, and preserves the rest of the app.
+Occasionally, there will be a need to display information, warn the user, or present controls in a manner that needs to utilize a more focused interface. Modal dialogs provide a flexible layout strategy to allow the user to put any content they want before the user and draws their focus to it, setting the rest of the app into a non-interactive state until it is dismissed. This allows important information to be displayed, and preserves the background information.
 
 ### Examples
 
@@ -244,7 +244,7 @@ Additional Information regarding modal alerts can be found in the **<a href="htt
 
 ### Alerts
 
-Dialogs are the preferred method of presenting alerts to the user, since they allow information that is relevant to a state change, or problem, without navigating away, or impacting the information within the app. This can include, but are not limited to:
+Dialogs are a good method of presenting alerts to the user, since they allow information that is relevant to a state change, or problem, without navigating away, or impacting the information within the app. This can include, but are not limited to:
 
 -   Destructive actions that would otherwise destroy information that has been altered.
 -   Problems that might have arisen with some actions, including saving, adding information or connection issues.
