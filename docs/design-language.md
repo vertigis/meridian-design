@@ -42,17 +42,21 @@ A properly designed form allows people to quickly enter values in a logical orde
 -   Are easily interpreted.
 -   Located on top of or to the left of most fields.
     -   Labels on the top is better for internationalization and long strings.
+        ![list](/img/forms/forms-labels.png "Labels on top of the input")
 -   Usually appear to the right of check boxes and radio buttons.
+    ![list](/img/forms/forms-labels-radio.png "Radio button labels to the right of the radio button")
 -   Ensure there is not too much space between the label and it's associated field so that it is clear which field goes with the label.
 
 ### Fields
 
 -   The length of text fields should suggest the amount of data that should be entered.
 -   Ensure that there is not too much space between fields so that nothing gets accidentally overlooked.
+    ![list](/img/forms/forms-spacing.png "Keep the proximity of label close to their fields")
 
 ### Links/Buttons
 
 -   Primary actions should be clear and obvious.
+    ![list](/img/forms/forms-primary-actions.png "Primary actions are clear")
 -   Secondary actions are for more discrete actions.
 -   Multi-step and complex forms should have all other navigation removed.
     -   Back links should be included for easy corrections in multi-step forms.
@@ -60,14 +64,14 @@ A properly designed form allows people to quickly enter values in a logical orde
 
 ### Error Messages
 
--   Provide clear and constructive error messages
-    -   Eg: "Please enter a valid email address" instead of "Field Required"
+-   Provide clear and constructive error messages.
+    ![list](/img/forms/forms-error-message.png "Eg: 'Please enter a street address' vs 'Required'")
 
 ### Do's and Don'ts
 
--   Don't require unnecessary input
--   Allow people to undo actions where appropriate
--   Require confirmation for (important) irreversible actions
+-   Don't require unnecessary input.
+-   Allow people to undo actions where appropriate.
+-   Require confirmation for (important) irreversible actions.
 
 ### Keyboard Use
 
