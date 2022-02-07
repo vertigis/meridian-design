@@ -247,10 +247,21 @@ Additional Information regarding modal alerts can be found in the **<a href="htt
 Dialogs are a good method of presenting alerts to the user, since they allow information that is relevant to a state change, or problem, without navigating away, or impacting the information within the app. This can include, but are not limited to:
 
 -   Destructive actions that would otherwise destroy information that has been altered.
--   Problems that might have arisen with some actions, including saving, adding information or connection issues.
 
-![tabs](/img/dialogs/dialog.png "Dialog")
+![dialogs](/img/dialogs/dialog.png "Dialog")
 
 Alerts must always preface the problem, and offer the user the ability to dismiss, edit, or disregard the problem in question.
 
 ---
+
+### Notifications
+
+Problems that might appear with some actions, including saving, adding information or connection issues, need to display information to the user. These are typically not critical issues, and simply need to appear for the knowledge of the user. Notifications will often appear in a non-invasive manner, dismissing either automatically after a certain time period, or by the user.
+
+Notifications can either be presented with inline tips, or by using the toast notification system.
+
+![notifications](/img/dialogs/notification-toast.jpg "Toast Notification")
+
+![notifications](/img/dialogs/notifications-inline.jpg "inline Notification")
+
+![notifications](/img/dialogs/notification-warning.jpg "Alert Notification")
