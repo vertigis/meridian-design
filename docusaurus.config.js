@@ -32,6 +32,10 @@ module.exports = {
                     editUrl:
                         "https://github.com/geocortex/meridian-design/edit/main/",
                 },
+                googleAnalytics: {
+                    trackingID: "UA-103604191-11",
+                    anonymizeIP: true,
+                },
                 theme: {
                     customCss: require.resolve("./src/css/custom.css"),
                 },
