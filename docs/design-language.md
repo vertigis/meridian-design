@@ -41,22 +41,25 @@ A properly designed form allows people to quickly enter values in a logical orde
 
 -   Are easily interpreted.
 -   Located on top of or to the left of most fields.
+
     -   Labels on the top is better for internationalization and long strings.
-        ![list](/img/forms/forms-labels.png "Labels on top of the input")
+        <img src="/img/forms/forms-labels.png" alt="Example of form label on top of the input" title="Labels on top of the input" width="355" height="80" class="img-example" />
+
 -   Usually appear to the right of check boxes and radio buttons.
-    ![list](/img/forms/forms-labels-radio.png "Radio button labels to the right of the radio button")
+    <img src="/img/forms/forms-labels-radio.png" alt="Example of radio button labels to the right of the radio button" title="Radio button labels to the right of the radio button" width="200" height="130" class="img-example" />
+
 -   Ensure there is not too much space between the label and it's associated field so that it is clear which field goes with the label.
 
 ### Fields
 
 -   The length of text fields should suggest the amount of data that should be entered.
 -   Ensure that there is not too much space between fields so that nothing gets accidentally overlooked.
-    ![list](/img/forms/forms-spacing.png "Keep the proximity of label close to their fields")
+    <img src="/img/forms/forms-spacing.png" alt="Example of correct and incorrect label and field spacing" title="Keep the proximity of label close to their fields" width="355" height="322" class="img-example" />
 
 ### Links/Buttons
 
 -   Primary actions should be clear and obvious.
-    ![list](/img/forms/forms-primary-actions.png "Primary actions are clear")
+    <img src="/img/forms/forms-primary-actions.png" alt="Example of primary action button next to a standard button" title="Primary actions are clear" width="235" height="70" class="img-example" />
 -   Secondary actions are for more discrete actions.
 -   Multi-step and complex forms should have all other navigation removed.
     -   Back links should be included for easy corrections in multi-step forms.
@@ -65,7 +68,7 @@ A properly designed form allows people to quickly enter values in a logical orde
 ### Error Messages
 
 -   Provide clear and constructive error messages.
-    ![list](/img/forms/forms-error-message.png "Eg: 'Please enter a street address' vs 'Required'")
+    <img src="/img/forms/forms-error-message.png" alt="Examples of correct and incorrect error messages" title="Eg: 'Please enter a street address' vs 'Required'" width="355" height="242" class="img-example" />
 
 ### Do's and Don'ts
 
@@ -145,15 +148,14 @@ The most straight forward of implementations. This simple list view can include 
 
 ### Nested List
 
-![menus](/img/menus/menu.gif "Menu - Title Only")
-
-![menus](/img/menus/menu-full.png "Menu - Title - Icon - Description")
+<img src="/img/menus/menu.gif" alt="Animation to show a nested list" title="Menu - Title Only" width="139" height="181" class="img-example" />
+<img src="/img/menus/menu-full.png" alt="Example of a nested menu" title="Menu - Title - Icon - Description" width="500" height="198" class="img-example" />
 
 Menus are used to group additional commands for components that are not worth displaying in a more prominent visual manner, or that simply don’t belong anywhere else in the interface. Menu items consist of a single line of text to indicate what function will be triggered when the item is clicked. The hover state for menu items is built in an identical fashion to those used in list items (See above). A colored bar is added to the left side, and the background receives a gray gradient to white.
 
 ### Pinned Subheader List
 
-![list](/img/list/pinned-subheader.png "Pinned Subheader List")
+<img src="/img/list/pinned-subheader.png" alt="Pinned Subheader List" title="Pinned Subheader List" width="384" height="269" class="img-example" />
 
 ### States
 
@@ -161,19 +163,19 @@ A few guidelines should be followed to ensure that the list element looks unifor
 
 #### Hover
 
-![list](/img/list/selected-item.png "Hover Item State")
+<img src="/img/list/selected-item.png" alt="Menu hover state" title="Menu hover state" width="384" height="269" class="img-example" />
 
 When a hover state is triggered, it cannot just rely on a colour change. There also must be a state change that shows the differentiation. For example, in our programs, there is a background colour change, as well as the addition of a side border colour. Hover states always include a styling change, and the background colour will get a gradient.
 
 #### Focus
 
-![list](/img/list/list-focused.png "Focused Item State")
+<img src="/img/list/list-focused.png" alt="Keyboard focused state" title="Keyboard focused state" width="384" height="262" class="img-example" />
 
 Focus indicators provide an easy way to identify currently active elements, against the rest of the design elements. Focus states must be unique from the hover state to make them distinct when using a keyboard for navigation. Focus states have a triple border design, so that regardless of the background they are implemented on, they will always be visible and easy to identify.
 
 #### Selected/Active
 
-![list](/img/list/list-active.png "Active Item State")
+<img src="/img/list/list-active.png" alt="Example of the selected/active state" title="Selected/active state" width="384" height="262" class="img-example" />
 
 Selected and Active states for list elements should showcase similar behavior to the hover state. They must show that they are currently active, and visually distinct from the rest of the list elements.
 
@@ -213,16 +215,16 @@ Using Panels in our application affords the user a good deal of information all 
 
 Panels come with an assortment of configurable navigation controls:
 
-![panels](/img/panels/panel-maximize.jpg "Maximize Button") Maximize: This button will extend the content of the panel to fill the entire view width.
+![Panel maximize icon](/img/panels/panel-maximize.jpg "Maximize Button") Maximize: This button will extend the content of the panel to fill the entire view width.
 
-![panels](/img/panels/panel-minimize.jpg "Minimize Button") Minimize: The minimize button will collapse the panel down fully. It is expandable again by click the ‘Restore to Original Size’ button that replaces minimize.
+![Panel minimize icon](/img/panels/panel-minimize.jpg "Minimize Button") Minimize: The minimize button will collapse the panel down fully. It is expandable again by click the ‘Restore to Original Size’ button that replaces minimize.
 
-![panels](/img/panels/panel-back.jpg "Back Button") Back Button: Navigates you to the previous panels content.
+![Panel back icon](/img/panels/panel-back.jpg "Back Button") Back Button: Navigates you to the previous panels content.
 
-![panels](/img/panels/panel-close.jpg "Close Button") Close Button: Closes the panel entirely.
+![Panel close icon](/img/panels/panel-close.jpg "Close Button") Close Button: Closes the panel entirely.
 
 ### Examples
 
-![panels](/img/panels/panel-welcome.jpg "Welcome Dialog Panel") ![panels](/img/panels/panel-feature.jpg "Features Panel")
-
+<img src="/img/panels/panel-welcome.jpg" alt="Example of an app 'Welcome Panel'" title="App 'Welcome Panel'" width="435" height="513" class="img-example" />
+<img src="/img/panels/panel-feature.jpg" alt="Example of the 'Result/Feature Details' panel" title="'Result/Feature Details' panel" width="435" height="513" class="img-example" />
 ---
