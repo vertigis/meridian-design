@@ -28,3 +28,9 @@
     background-image: url("/img/banner.jpg");
     background-size: cover;
 }
+
+.img-example {
+    display: block;
+    border: 0.5rem solid #eeeeee;
+    margin: 1rem 0;
+}
