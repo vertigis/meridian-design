@@ -225,7 +225,6 @@ Panels come with an assortment of configurable navigation controls:
 
 ### Examples
 
-
 ![panels](/img/panels/panel-welcome.jpg "Welcome Dialog Panel") ![panels](/img/panels/panel-feature.jpg "Features Panel")
 
 ## Dialogs
@@ -252,8 +251,6 @@ Additional Information regarding modal alerts can be found in the **<a href="htt
 Dialogs are a good method of presenting alerts to the user, since they allow information that is relevant to a state change, or problem, without navigating away, or impacting the information within the app. This can include, but are not limited to:
 
 -   Destructive actions that would otherwise destroy information that has been altered.
-
-![dialogs](/img/dialogs/dialog.png "Dialog")
 
 Alerts must always preface the problem, and offer the user the ability to dismiss, edit, or disregard the problem in question.
 
