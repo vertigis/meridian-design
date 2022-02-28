@@ -29,6 +29,7 @@
     background-size: cover;
 }
 
+
 /* for image caption */
 img + br + em {
     font-style: normal;
@@ -39,4 +40,9 @@ img + br + em {
 }
 img + br + em::before {
     content: "- ";
+=======
+.img-example {
+    display: block;
+    border: 0.5rem solid #eeeeee;
+    margin: 1rem 0;
 }
