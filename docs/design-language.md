@@ -256,12 +256,12 @@ Alerts must always preface the problem, and offer the user the ability to dismis
 
 ### Notifications
 
-Problems that might appear with some actions, including saving, adding information or connection issues, need to display information to the user. These are typically not critical issues, and simply need to appear for the knowledge of the user. Notifications will often appear in a non-invasive manner, dismissing either automatically after a certain time period, or by the user.
+Problems that might appear with some actions, including saving, adding information or connection issues, need to display information to the user. These are typically not critical issues, and simply need to appear for the knowledge of the user. Notifications will often appear in a non-invasive manner using toast messages, and fall into one of four categories: "Success, Info, Error, Warning" Each category comes with it's own iconography, and colour scheme. They will dismiss automatically after a certain time period (Success or Information), or by the a user interaction (Warning or Error).
 
-Notifications can either be presented with inline tips, or by using the toast notification system.
+<img src="/img/notifications/notification-success.jpg" alt="Toast Notification for Success" title="Toast Notification for Success" class="img-example" width="350px" height="110px"/>
 
-![notifications](/img/dialogs/notification-toast.jpg "Toast Notification")
+<img src="/img/notifications/notification-info.jpg" alt="Toast Notification for Information" title="Toast Notification for Information" class="img-example" width="350px" height="110px"/>
 
-![notifications](/img/dialogs/notifications-inline.jpg "inline Notification")
+<img src="/img/notifications/notification-warning.jpg" alt="Toast Notification for Warning" title="Toast Notification for Warning" class="img-example" width="350px" height="110px"/>
 
-![notifications](/img/dialogs/notification-warning.jpg "Alert Notification")
+<img src="/img/notifications/notification-error.jpg" alt="Toast Notification for Error" title="Toast Notification for Error" class="img-example" width="350px" height="110px" />
