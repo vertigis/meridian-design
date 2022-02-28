@@ -9,8 +9,8 @@
         "prettier": "prettier --write \"**/*.{css,js,jsx,ts,tsx,md,mdx,json}\""
     },
     "dependencies": {
-        "@docusaurus/core": "^2.0.0-beta.0",
-        "@docusaurus/preset-classic": "^2.0.0-beta.0",
+        "@docusaurus/core": "2.0.0-beta.15",
+        "@docusaurus/preset-classic": "2.0.0-beta.15",
         "@vertigis/react-ui": "^8.15.1",
         "classnames": "^2.3.1",
         "react": "^17.0.2",
