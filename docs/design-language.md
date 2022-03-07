@@ -225,7 +225,7 @@ Panels come with an assortment of configurable navigation controls:
 
 ### Examples
 
-![panels](/img/panels/panel-welcome.jpg "Welcome Dialog Panel") ![panels](/img/panels/panel-feature.jpg "Features Panel")
+<img src="/img/panels/panel-welcome.jpg" alt="Welcome Dialog Panel" title="Welcome Dialog Panel" class="img-example" /> <img src="/img/panels/panel-feature.jpg" alt="Features Panel" title="Features Panel" class="img-example" />
 
 ## Dialogs
 
@@ -235,14 +235,13 @@ Occasionally, there will be a need to display information, warn the user, or pre
 
 ### Examples
 
-![modals](/img/modals/measurement-units.jpg "Units under the measurement toolbar")<br/> _Units under the measurement toolbar_
+<img src="/img/modals/measurement-units.jpg" alt="Units under the measurement toolbar" title="Units under the measure toolbar" class="img-example"/>
 
-![modals](/img/modals/polygon-styles.jpg "Polygon Styles under the draw menu")<br/>_Polygon Styles under the draw toolbar_
+<img src="/img/modals/polygon-styles.jpg" alt="Polygon Styles under the draw menu" title="Polygon Styles under the draw menu" class="img-example" />
 
-![modals](/img/modals/share-my-map.jpg "Share my Map")<br/>_Share my Map_
-
-![modals](/img/modals/save-project.jpg "Save Project")
-![modals](/img/modals/load-project.jpg "Load Project")<br/>_Save & Load Project_
+<img src="/img/modals/share-my-map.jpg" alt="Share my Map" title="Share my Map" class="img-example"/>
+<img src="/img/modals/save-project.jpg" alt="Save Project" title="Save Project" class="img-example" />
+<img src="/img/modals/load-project.jpg" alt="Load Project" title="Load Project" class="img-example"/>
 
 Additional Information regarding modal alerts can be found in the **<a href="https://developers.geocortex.com/docs/web/tutorial-import-map-model/#create-a-custom-component-with-a-model" target="_blank">Developer Center Information</a>**.
 
@@ -254,7 +253,6 @@ Dialogs are a good method of presenting alerts to the user, since they allow inf
 
 Alerts must always preface the problem, and offer the user the ability to dismiss, edit, or disregard the problem in question.
 
-=======
 <img src="/img/panels/panel-welcome.jpg" alt="Example of an app 'Welcome Panel'" title="App 'Welcome Panel'" width="435" height="513" class="img-example" />
 <img src="/img/panels/panel-feature.jpg" alt="Example of the 'Result/Feature Details' panel" title="'Result/Feature Details' panel" width="435" height="513" class="img-example" />
 
@@ -262,12 +260,16 @@ Alerts must always preface the problem, and offer the user the ability to dismis
 
 ### Notifications
 
-Problems that might appear with some actions, including saving, adding information or connection issues, need to display information to the user. These are typically not critical issues, and simply need to appear for the knowledge of the user. Notifications will often appear in a non-invasive manner using toast messages, and fall into one of four categories: "Success, Info, Error, Warning" Each category comes with it's own iconography, and colour scheme. They will dismiss automatically after a certain time period (Success or Information), or by the a user interaction (Warning or Error).
+Notification appear in a non-invasive manner. They can be configured to either dismiss automatically, require the user to dismiss, or not be dismissable at all.
 
-<img src="/img/notifications/notification-success.jpg" alt="Toast Notification for Success" title="Toast Notification for Success" class="img-example" width="350px" height="110px"/>
+There are four types of notifications available to use:
 
-<img src="/img/notifications/notification-info.jpg" alt="Toast Notification for Information" title="Toast Notification for Information" class="img-example" width="350px" height="110px"/>
+<img src="/img/notifications/notification-success.jpg" alt="Toast Notification for Success" title="Toast Notification for Success" class="img-example"/>
 
-<img src="/img/notifications/notification-warning.jpg" alt="Toast Notification for Warning" title="Toast Notification for Warning" class="img-example" width="350px" height="110px"/>
+<img src="/img/notifications/notification-info.jpg" alt="Toast Notification for Information" title="Toast Notification for Information" class="img-example"/>
 
-<img src="/img/notifications/notification-error.jpg" alt="Toast Notification for Error" title="Toast Notification for Error" class="img-example" width="350px" height="110px" />
+<img src="/img/notifications/notification-warning.jpg" alt="Toast Notification for Warning" title="Toast Notification for Warning" class="img-example"/>
+
+<img src="/img/notifications/notification-error.jpg" alt="Toast Notification for Error" title="Toast Notification for Error" class="img-example"/>
+
+Care should be taken when choosing to use a notification as too many notifications can annoy users by being overused.
