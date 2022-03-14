@@ -273,3 +273,5 @@ There are four types of notifications available to use:
 <img src="/img/notifications/notification-error.jpg" alt="Toast Notification for Error" title="Toast Notification for Error" class="img-example"/>
 
 Care should be taken when choosing to use a notification as too many notifications can annoy users by being overused.
+
+For full information regarding panels, refer to our **<a href="https://developers.geocortex.com/docs/web/tutorial-run-workflow-app-config/#prerequisites" target="_blank">Developer Center information</a>**.
