@@ -100,15 +100,15 @@ A properly designed form allows people to quickly enter values in a logical orde
 
 ### Where can I find the Icons?
 
-Our master repository of icons, consists of over 600 pre-created icons ready for use in our icon package. Instructions on how to install packages can be found in our **<a href="https://developers.geocortex.com/docs/web/sdk-reference-third-party-libraries/#installing-packages" target="_blank">Developer Center</a>**. We store all our icons in this online repository, in several formats (png, svg, pdf). The .svg format icons are comprised of compound paths, black #000000), and an artboard of 24px by 24px. They have been stripped of all unnecessary meta info and optimized using the SVGo optimization script included in the repo.
+Our master repository of icons, consists of over 600 pre-created icons ready for use in our icon package. Instructions on how to install packages can be found in **<a href="https://developers.geocortex.com/docs/web/sdk-reference-third-party-libraries/#installing-packages" target="_blank">the Developer Center.</a>** We store all our icons in this online repository, in several formats (png, svg, pdf). The .svg format icons are comprised of compound paths, black #000000), and an artboard of 24px by 24px. They have been stripped of all unnecessary meta info and optimized using the SVGo optimization script included in the repo.
 
 ### How do I use icons in my app?
 
-Instructions for using either built in icons, or your own, can be found in the **<a href="https://developers.geocortex.com/docs/web/sdk-adding-icons/#next-steps" target="_blank">Developer Center</a>**.
+Instructions for using either built in icons, or your own, can be found in **<a href="https://developers.geocortex.com/docs/web/sdk-adding-icons/#next-steps" target="_blank">the Developer Center.</a>**
 
 ### How do I create a custom icon?
 
-When creating our icons, simplicity is key. Since we are working with a canvas of only 24px x 24px, every design provided must be concise and communicate the idea clearly, and easily. Fine details are less important than trying to ensure that shapes stay recognizable. Information regarding this process is available in our **<a href="https://developers.geocortex.com/docs/web/sdk-components-styling" target="_blank">Developer Center information</a>**.
+When creating our icons, simplicity is key. Since we are working with a canvas of only 24px x 24px, every design provided must be concise and communicate the idea clearly, and easily. Fine details are less important than trying to ensure that shapes stay recognizable. Information regarding this process is available in **<a href="https://developers.geocortex.com/docs/web/sdk-components-styling" target="_blank">the Developer Center.</a>**
 
 #### Style
 
@@ -155,7 +155,7 @@ Menus are used to group additional commands for components that are not worth di
 
 ### Pinned Subheader List
 
-<img src="/img/list/pinned-subheader.png" alt="Pinned Subheader List" title="Pinned Subheader List" width="384" height="269" class="img-example" />
+<img src="/img/list/pinned-subheader.png" alt="Pinned Subheader List" title="Pinned Subheader List" width="380" height="258" class="img-example" />
 
 ### States
 
@@ -163,19 +163,19 @@ A few guidelines should be followed to ensure that the list element looks unifor
 
 #### Hover
 
-<img src="/img/list/selected-item.png" alt="Menu hover state" title="Menu hover state" width="384" height="269" class="img-example" />
+<img src="/img/list/selected-item.png" alt="Menu hover state" title="Menu hover state" width="380" height="258" class="img-example" />
 
 When a hover state is triggered, it cannot just rely on a colour change. There also must be a state change that shows the differentiation. For example, in our programs, there is a background colour change, as well as the addition of a side border colour. Hover states always include a styling change, and the background colour will get a gradient.
 
 #### Focus
 
-<img src="/img/list/list-focused.png" alt="Keyboard focused state" title="Keyboard focused state" width="384" height="262" class="img-example" />
+<img src="/img/list/list-focused.png" alt="Keyboard focused state" title="Keyboard focused state" width="380" height="258" class="img-example" />
 
 Focus indicators provide an easy way to identify currently active elements, against the rest of the design elements. Focus states must be unique from the hover state to make them distinct when using a keyboard for navigation. Focus states have a triple border design, so that regardless of the background they are implemented on, they will always be visible and easy to identify.
 
 #### Selected/Active
 
-<img src="/img/list/list-active.png" alt="Example of the selected/active state" title="Selected/active state" width="384" height="262" class="img-example" />
+<img src="/img/list/list-active.png" alt="Example of the selected/active state" title="Selected/active state" width="380" height="256" class="img-example" />
 
 Selected and Active states for list elements should showcase similar behavior to the hover state. They must show that they are currently active, and visually distinct from the rest of the list elements.
 
@@ -209,7 +209,7 @@ Selected and Active states for list elements should showcase similar behavior to
 
 ### Panels
 
-Using Panels in our application affords the user a good deal of information all contained in an easy to view place. Most information can be placed within a panel. Panels are designed with a minimum width of 365px so that they work on smart phone screens as well as larger tablet and desktop displays. The user can resize the panels with the provided drag handles. For full information regarding panels, refer to our **<a href="https://developers.geocortex.com/docs/web/configuration-layout-getting-started/#panels" target="_blank">Developer Center information</a>**.
+Using Panels in our application affords the user a good deal of information all contained in an easy to view place. Most information can be placed within a panel. Panels are designed with a minimum width of 365px so that they work on smart phone screens as well as larger tablet and desktop displays. The user can resize the panels with the provided drag handles. For full information regarding panels, refer to **<a href="https://developers.geocortex.com/docs/web/configuration-layout-getting-started/#panels" target="_blank">the Developer Center.</a>**
 
 ### Panel Navigation
 
@@ -235,15 +235,15 @@ Occasionally, there will be a need to display information, warn the user, or pre
 
 ### Examples
 
-<img src="/img/modals/measurement-units.jpg" alt="Units under the measurement toolbar" title="Units under the measure toolbar" class="img-example"/>
+<img src="/img/modals/measurement-units.jpg" alt="Units under the measurement toolbar" title="Units under the measure toolbar" width="460" height="244" class="img-example"/>
 
-<img src="/img/modals/polygon-styles.jpg" alt="Polygon Styles under the draw menu" title="Polygon Styles under the draw menu" class="img-example" />
+<img src="/img/modals/polygon-styles.jpg" alt="Polygon Styles under the draw menu" title="Polygon Styles under the draw menu" width="616" height="546" class="img-example" />
 
-<img src="/img/modals/share-my-map.jpg" alt="Share my Map" title="Share my Map" class="img-example"/>
-<img src="/img/modals/save-project.jpg" alt="Save Project" title="Save Project" class="img-example" />
-<img src="/img/modals/load-project.jpg" alt="Load Project" title="Load Project" class="img-example"/>
+<img src="/img/modals/share-my-map.jpg" alt="Share my Map" title="Share my Map" width="616" height="546" class="img-example"/>
+<img src="/img/modals/save-project.jpg" alt="Save Project" title="Save Project" width="616" height="242" class="img-example" />
+<img src="/img/modals/load-project.jpg" alt="Load Project" title="Load Project" width="616" height="246" class="img-example"/>
 
-Additional Information regarding modal alerts can be found in the **<a href="https://developers.geocortex.com/docs/web/tutorial-import-map-model/#create-a-custom-component-with-a-model" target="_blank">Developer Center Information</a>**.
+Additional Information regarding modal alerts can be found in **<a href="https://developers.geocortex.com/docs/web/tutorial-import-map-model/#create-a-custom-component-with-a-model" target="_blank">the Developer Center.</a>**
 
 ### Alerts
 
@@ -264,14 +264,14 @@ Notification appear in a non-invasive manner. They can be configured to either d
 
 There are four types of notifications available to use:
 
-<img src="/img/notifications/notification-success.jpg" alt="Toast Notification for Success" title="Toast Notification for Success" class="img-example"/>
+<img src="/img/notifications/notification-success.jpg" alt="Toast Notification for Success" title="Toast Notification for Success" width="621" height="116" class="img-example"/>
 
-<img src="/img/notifications/notification-info.jpg" alt="Toast Notification for Information" title="Toast Notification for Information" class="img-example"/>
+<img src="/img/notifications/notification-info.jpg" alt="Toast Notification for Information" title="Toast Notification for Information" width="621" height="116" class="img-example"/>
 
-<img src="/img/notifications/notification-warning.jpg" alt="Toast Notification for Warning" title="Toast Notification for Warning" class="img-example"/>
+<img src="/img/notifications/notification-warning.jpg" alt="Toast Notification for Warning" title="Toast Notification for Warning" width="621" height="116" class="img-example"/>
 
-<img src="/img/notifications/notification-error.jpg" alt="Toast Notification for Error" title="Toast Notification for Error" class="img-example"/>
+<img src="/img/notifications/notification-error.jpg" alt="Toast Notification for Error" title="Toast Notification for Error" width="621" height="116" class="img-example"/>
 
 Care should be taken when choosing to use a notification as too many notifications can annoy users by being overused.
 
-For full information regarding panels, refer to our **<a href="https://developers.geocortex.com/docs/web/tutorial-run-workflow-app-config/#prerequisites" target="_blank">Developer Center information</a>**.
+For full information regarding panels, refer to **<a href="https://developers.geocortex.com/docs/web/tutorial-run-workflow-app-config/#prerequisites" target="_blank">the Developer Center.</a>**
