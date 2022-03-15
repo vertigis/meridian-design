@@ -155,7 +155,7 @@ Menus are used to group additional commands for components that are not worth di
 
 ### Pinned Subheader List
 
-<img src="/img/list/pinned-subheader.png" alt="Pinned Subheader List" title="Pinned Subheader List" width="346" height="249" class="img-example" />
+<img src="/img/list/pinned-subheader.png" alt="Pinned Subheader List" title="Pinned Subheader List" width="364" height="249" class="img-example" />
 
 ### States
 
@@ -163,7 +163,7 @@ A few guidelines should be followed to ensure that the list element looks unifor
 
 #### Hover
 
-<img src="/img/list/selected-item.png" alt="Menu hover state" title="Menu hover state" width="346" height="249" class="img-example" />
+<img src="/img/list/selected-item.png" alt="Menu hover state" title="Menu hover state" width="364" height="249" class="img-example" />
 
 When a hover state is triggered, it cannot just rely on a colour change. There also must be a state change that shows the differentiation. For example, in our programs, there is a background colour change, as well as the addition of a side border colour. Hover states always include a styling change, and the background colour will get a gradient.
 
