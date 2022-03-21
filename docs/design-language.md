@@ -243,7 +243,7 @@ Occasionally, there will be a need to display information, warn the user, or pre
 <img src="/img/modals/save-project.jpg" alt="Save Project" title="Save Project" width="600" height="226" class="img-example" />
 <img src="/img/modals/load-project.jpg" alt="Load Project" title="Load Project" width="600" height="230" class="img-example"/>
 
-Additional Information regarding modal alerts can be found in **<a href="https://developers.geocortex.com/docs/web/tutorial-import-map-model/#create-a-custom-component-with-a-model" target="_blank">the Developer Center.</a>**
+Additional information regarding modal alerts can be found in **<a href="https://developers.geocortex.com/docs/web/tutorial-import-map-model/#create-a-custom-component-with-a-model" target="_blank">the Developer Center.</a>**
 
 ### Alerts
 
