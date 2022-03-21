@@ -235,13 +235,12 @@ Occasionally, there will be a need to display information, warn the user, or pre
 
 ### Examples
 
-<img src="/img/modals/measurement-units.jpg" alt="Units under the measurement toolbar" title="Units under the measure toolbar" width="444" height="228" class="img-example"/>
+<img src="/img/modals/measurement-units.jpg" alt="Units under the measurement toolbar" title="Units under the measure toolbar" width="1000" height="625" class="img-example"/>
 
-<img src="/img/modals/polygon-styles.jpg" alt="Polygon Styles under the draw menu" title="Polygon Styles under the draw menu" width="600" height="530" class="img-example" />
+<img src="/img/modals/polygon-styles.jpg" alt="Polygon Styles under the draw menu" title="Polygon Styles under the draw menu" width="1000" height="625" class="img-example" />
 
-<img src="/img/modals/share-my-map.jpg" alt="Share my Map" title="Share my Map" width="600" height="526" class="img-example"/>
-<img src="/img/modals/save-project.jpg" alt="Save Project" title="Save Project" width="600" height="226" class="img-example" />
-<img src="/img/modals/load-project.jpg" alt="Load Project" title="Load Project" width="600" height="230" class="img-example"/>
+<img src="/img/modals/share-my-map.jpg" alt="Share my Map" title="Share my Map" width="1000" height="625" class="img-example"/>
+<img src="/img/modals/save-project.jpg" alt="Save Project" title="Save Project" width="1000" height="625" class="img-example" />
 
 Additional information regarding modal alerts can be found in **<a href="https://developers.geocortex.com/docs/web/tutorial-import-map-model/#create-a-custom-component-with-a-model" target="_blank">the Developer Center.</a>**
 
@@ -264,13 +263,13 @@ Notification appear in a non-invasive manner. They can be configured to either d
 
 There are four types of notifications available to use:
 
-<img src="/img/notifications/notification-success.jpg" alt="Toast Notification for Success" title="Toast Notification for Success" width="605" height="100" class="img-example"/>
+<img src="/img/notifications/notification-success.jpg" alt="Toast Notification for Success" title="Toast Notification for Success" width="640" height="316" class="img-example"/>
 
-<img src="/img/notifications/notification-info.jpg" alt="Toast Notification for Information" title="Toast Notification for Information" width="605" height="100" class="img-example"/>
+<img src="/img/notifications/notification-info.jpg" alt="Toast Notification for Information" title="Toast Notification for Information" width="640" height="316" class="img-example"/>
 
-<img src="/img/notifications/notification-warning.jpg" alt="Toast Notification for Warning" title="Toast Notification for Warning" width="605" height="100" class="img-example"/>
+<img src="/img/notifications/notification-warning.jpg" alt="Toast Notification for Warning" title="Toast Notification for Warning" width="640" height="316" class="img-example"/>
 
-<img src="/img/notifications/notification-error.jpg" alt="Toast Notification for Error" title="Toast Notification for Error" width="605" height="100" class="img-example"/>
+<img src="/img/notifications/notification-error.jpg" alt="Toast Notification for Error" title="Toast Notification for Error" width="640" height="316" class="img-example"/>
 
 Care should be taken when choosing to use a notification as too many notifications can annoy users by being overused.
 
