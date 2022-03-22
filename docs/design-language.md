@@ -235,12 +235,12 @@ Occasionally, there will be a need to display information, warn the user, or pre
 
 ### Examples
 
-<img src="/img/modals/measurement-units.jpg" alt="Units under the measurement toolbar" title="Units under the measure toolbar" width="1000" height="625" class="img-example"/>
+<img src="/img/modals/measurement-units.jpg" alt="Units under the measurement toolbar" title="Units under the measure toolbar" width="800" height="456" class="img-example"/>
 
-<img src="/img/modals/polygon-styles.jpg" alt="Polygon Styles under the draw menu" title="Polygon Styles under the draw menu" width="1000" height="625" class="img-example" />
+<img src="/img/modals/polygon-styles.jpg" alt="Polygon Styles under the draw menu" title="Polygon Styles under the draw menu" width="800" height="456" class="img-example" />
 
-<img src="/img/modals/share-my-map.jpg" alt="Share my Map" title="Share my Map" width="1000" height="625" class="img-example"/>
-<img src="/img/modals/save-project.jpg" alt="Save Project" title="Save Project" width="1000" height="625" class="img-example" />
+<img src="/img/modals/share-my-map.jpg" alt="Share my Map" title="Share my Map" width="800" height="456" class="img-example"/>
+<img src="/img/modals/save-project.jpg" alt="Save Project" title="Save Project" width="800" height="456" class="img-example" />
 
 Additional information regarding modal alerts can be found in **<a href="https://developers.geocortex.com/docs/web/tutorial-import-map-model/#create-a-custom-component-with-a-model" target="_blank">the Developer Center.</a>**
 
