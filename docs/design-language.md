@@ -100,15 +100,15 @@ A properly designed form allows people to quickly enter values in a logical orde
 
 ### Where can I find the Icons?
 
-Our master repository of icons, consists of over 600 pre-created icons ready for use in our icon package. Instructions on how to install packages can be found in our **<a href="https://developers.geocortex.com/docs/web/sdk-reference-third-party-libraries/#installing-packages" target="_blank">Developer Center</a>**. We store all our icons in this online repository, in several formats (png, svg, pdf). The .svg format icons are comprised of compound paths, black #000000), and an artboard of 24px by 24px. They have been stripped of all unnecessary meta info and optimized using the SVGo optimization script included in the repo.
+Our master repository of icons, consists of over 600 pre-created icons ready for use in our icon package. Instructions on how to install packages can be found in **<a href="https://developers.geocortex.com/docs/web/sdk-reference-third-party-libraries/#installing-packages" target="_blank">the Developer Center.</a>** We store all our icons in this online repository, in several formats (png, svg, pdf). The .svg format icons are comprised of compound paths, black #000000), and an artboard of 24px by 24px. They have been stripped of all unnecessary meta info and optimized using the SVGo optimization script included in the repo.
 
 ### How do I use icons in my app?
 
-Instructions for using either built in icons, or your own, can be found in the **<a href="https://developers.geocortex.com/docs/web/sdk-adding-icons/#next-steps" target="_blank">Developer Center</a>**.
+Instructions for using either built in icons, or your own, can be found in **<a href="https://developers.geocortex.com/docs/web/sdk-adding-icons/#next-steps" target="_blank">the Developer Center.</a>**
 
 ### How do I create a custom icon?
 
-When creating our icons, simplicity is key. Since we are working with a canvas of only 24px x 24px, every design provided must be concise and communicate the idea clearly, and easily. Fine details are less important than trying to ensure that shapes stay recognizable. Information regarding this process is available in our **<a href="https://developers.geocortex.com/docs/web/sdk-components-styling" target="_blank">Developer Center information</a>**.
+When creating our icons, simplicity is key. Since we are working with a canvas of only 24px x 24px, every design provided must be concise and communicate the idea clearly, and easily. Fine details are less important than trying to ensure that shapes stay recognizable. Information regarding this process is available in **<a href="https://developers.geocortex.com/docs/web/sdk-components-styling" target="_blank">the Developer Center.</a>**
 
 #### Style
 
@@ -149,13 +149,13 @@ The most straight forward of implementations. This simple list view can include 
 ### Nested List
 
 <img src="/img/menus/menu.gif" alt="Animation to show a nested list" title="Menu - Title Only" width="139" height="181" class="img-example" />
-<img src="/img/menus/menu-full.png" alt="Example of a nested menu" title="Menu - Title - Icon - Description" width="500" height="198" class="img-example" />
+<img src="/img/menus/menu-full.png" alt="Example of a nested menu" title="Menu - Title - Icon - Description" width="500" height="189" class="img-example" />
 
 Menus are used to group additional commands for components that are not worth displaying in a more prominent visual manner, or that simply don’t belong anywhere else in the interface. Menu items consist of a single line of text to indicate what function will be triggered when the item is clicked. The hover state for menu items is built in an identical fashion to those used in list items (See above). A colored bar is added to the left side, and the background receives a gray gradient to white.
 
 ### Pinned Subheader List
 
-<img src="/img/list/pinned-subheader.png" alt="Pinned Subheader List" title="Pinned Subheader List" width="384" height="269" class="img-example" />
+<img src="/img/list/pinned-subheader.png" alt="Pinned Subheader List" title="Pinned Subheader List" width="364" height="249" class="img-example" />
 
 ### States
 
@@ -163,19 +163,19 @@ A few guidelines should be followed to ensure that the list element looks unifor
 
 #### Hover
 
-<img src="/img/list/selected-item.png" alt="Menu hover state" title="Menu hover state" width="384" height="269" class="img-example" />
+<img src="/img/list/selected-item.png" alt="Menu hover state" title="Menu hover state" width="364" height="249" class="img-example" />
 
 When a hover state is triggered, it cannot just rely on a colour change. There also must be a state change that shows the differentiation. For example, in our programs, there is a background colour change, as well as the addition of a side border colour. Hover states always include a styling change, and the background colour will get a gradient.
 
 #### Focus
 
-<img src="/img/list/list-focused.png" alt="Keyboard focused state" title="Keyboard focused state" width="384" height="262" class="img-example" />
+<img src="/img/list/list-focused.png" alt="Keyboard focused state" title="Keyboard focused state" width="364" height="242" class="img-example" />
 
 Focus indicators provide an easy way to identify currently active elements, against the rest of the design elements. Focus states must be unique from the hover state to make them distinct when using a keyboard for navigation. Focus states have a triple border design, so that regardless of the background they are implemented on, they will always be visible and easy to identify.
 
 #### Selected/Active
 
-<img src="/img/list/list-active.png" alt="Example of the selected/active state" title="Selected/active state" width="384" height="262" class="img-example" />
+<img src="/img/list/list-active.png" alt="Example of the selected/active state" title="Selected/active state" width="364" height="242" class="img-example" />
 
 Selected and Active states for list elements should showcase similar behavior to the hover state. They must show that they are currently active, and visually distinct from the rest of the list elements.
 
@@ -209,7 +209,7 @@ Selected and Active states for list elements should showcase similar behavior to
 
 ### Panels
 
-Using Panels in our application affords the user a good deal of information all contained in an easy to view place. Most information can be placed within a panel. Panels are designed with a minimum width of 365px so that they work on smart phone screens as well as larger tablet and desktop displays. The user can resize the panels with the provided drag handles. For full information regarding panels, refer to our **<a href="https://developers.geocortex.com/docs/web/configuration-layout-getting-started/#panels" target="_blank">Developer Center information</a>**.
+Using Panels in our application affords the user a good deal of information all contained in an easy to view place. Most information can be placed within a panel. Panels are designed with a minimum width of 365px so that they work on smart phone screens as well as larger tablet and desktop displays. The user can resize the panels with the provided drag handles. For full information regarding panels, refer to **<a href="https://developers.geocortex.com/docs/web/configuration-layout-getting-started/#panels" target="_blank">the Developer Center.</a>**
 
 ### Panel Navigation
 
@@ -225,6 +225,52 @@ Panels come with an assortment of configurable navigation controls:
 
 ### Examples
 
-<img src="/img/panels/panel-welcome.jpg" alt="Example of an app 'Welcome Panel'" title="App 'Welcome Panel'" width="435" height="513" class="img-example" />
-<img src="/img/panels/panel-feature.jpg" alt="Example of the 'Result/Feature Details' panel" title="'Result/Feature Details' panel" width="435" height="513" class="img-example" />
+<img src="/img/panels/panel-welcome.jpg" alt="Welcome Dialog Panel" title="Welcome Dialog Panel" width="415" height="493" class="img-example" /> <img src="/img/panels/panel-feature.jpg" alt="Features Panel" title="Features Panel" width="415" height="493" class="img-example" />
+
+## Dialogs
+
+### Modal Dialogs
+
+Occasionally, there will be a need to display information, warn the user, or present controls in a manner that needs to utilize a more focused interface. Modal dialogs provide a flexible layout strategy to allow the user to put any content they want before the user and draws their focus to it, setting the rest of the app into a non-interactive state until it is dismissed. This allows important information to be displayed, and preserves the background information.
+
+### Examples
+
+<img src="/img/modals/measurement-units.jpg" alt="Units under the measurement toolbar" title="Units under the measure toolbar" width="800" height="456" class="img-example"/>
+
+<img src="/img/modals/polygon-styles.jpg" alt="Polygon Styles under the draw menu" title="Polygon Styles under the draw menu" width="800" height="456" class="img-example" />
+
+<img src="/img/modals/share-my-map.jpg" alt="Share my Map" title="Share my Map" width="800" height="456" class="img-example"/>
+<img src="/img/modals/save-project.jpg" alt="Save Project" title="Save Project" width="800" height="456" class="img-example" />
+
+Additional information regarding modal alerts can be found in **<a href="https://developers.geocortex.com/docs/web/tutorial-import-map-model/#create-a-custom-component-with-a-model" target="_blank">the Developer Center.</a>**
+
+### Alerts
+
+Dialogs are a good method of presenting alerts to the user, since they allow information that is relevant to a state change, or problem, without navigating away, or impacting the information within the app. This can include, but are not limited to:
+
+-   Destructive actions that would otherwise destroy information that has been altered.
+
+Alerts must always preface the problem, and offer the user the ability to dismiss, edit, or disregard the problem in question.
+
+<img src="/img/panels/panel-welcome.jpg" alt="Example of an app 'Welcome Panel'" title="App 'Welcome Panel'" width="415" height="493" class="img-example" />
+<img src="/img/panels/panel-feature.jpg" alt="Example of the 'Result/Feature Details' panel" title="'Result/Feature Details' panel" width="415" height="493" class="img-example" />
+
 ---
+
+### Notifications
+
+Notification appear in a non-invasive manner. They can be configured to either dismiss automatically, require the user to dismiss, or not be dismissable at all.
+
+There are four types of notifications available to use:
+
+<img src="/img/notifications/notification-success.jpg" alt="Toast Notification for Success" title="Toast Notification for Success" width="640" height="316" class="img-example"/>
+
+<img src="/img/notifications/notification-info.jpg" alt="Toast Notification for Information" title="Toast Notification for Information" width="640" height="316" class="img-example"/>
+
+<img src="/img/notifications/notification-warning.jpg" alt="Toast Notification for Warning" title="Toast Notification for Warning" width="640" height="316" class="img-example"/>
+
+<img src="/img/notifications/notification-error.jpg" alt="Toast Notification for Error" title="Toast Notification for Error" width="640" height="316" class="img-example"/>
+
+Care should be taken when choosing to use a notification as too many notifications can annoy users by being overused.
+
+For full information regarding panels, refer to **<a href="https://developers.geocortex.com/docs/web/tutorial-run-workflow-app-config/#prerequisites" target="_blank">the Developer Center.</a>**

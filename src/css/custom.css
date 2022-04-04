@@ -29,6 +29,19 @@
     background-size: cover;
 }
 
+
+/* for image caption */
+img + br + em {
+    font-style: normal;
+    display: inherit;
+    text-align: left;
+    font-size: 100%;
+    margin-top: -5pt;
+}
+img + br + em::before {
+    content: "- ";
+}
+
 .img-example {
     display: block;
     border: 0.5rem solid #eeeeee;
