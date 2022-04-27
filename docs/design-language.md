@@ -5,23 +5,31 @@ title: Design Language
 import Icons from "../src/components/icons";
 import {ListControls} from "../src/components/menus";
 import {IconTabs, IndicatorColorTabs, NormalTabs, ScrollableTabs, VerticalTabs} from "../src/components/tabs";
-import {DefaultButtons, GroupedButtons, IconButtons, OutlinedButtons, TextVariantButtons, ToggleButtons} from "../src/components/buttons";
+import {DefaultButtons, PrimaryButtons, SecondaryButtons, LargeButtons, SmallButtons, GroupedButtons, IconButtons, OutlinedButtons, ToggleButtons} from "../src/components/buttons";
 
 ## Buttons
 
 We have various buttons options of differing importance and loudness.
 
-### Default
+### Default Buttons
 
 <DefaultButtons />
 
-### Outlined Variant
+### Primary Colour Buttons
 
-<OutlinedButtons />
+<PrimaryButtons />
 
-### Text Variant
+### Secondary Colour Buttons
 
-<TextVariantButtons />
+<SecondaryButtons />
+
+### Large Buttons
+
+<LargeButtons />
+
+### Small Buttons
+
+<SmallButtons />
 
 ### Icon Button
 

@@ -38,84 +38,104 @@ export function DefaultButtons() {
         <GcxThemeProvider theme={theme}>
             <div className={classes.buttonContainer}>
                 <Button focusRipple={false}>Default</Button>
-                <Button color="primary">Primary</Button>
-                <Button color="secondary">Secondary</Button>
-                <Button disabled>Default</Button>
-                <Button disabled color="primary">
-                    Primary
-                </Button>
-                <Button disabled color="secondary">
-                    Secondary
-                </Button>
-                <Button color="primary" size="small">
-                    Small
-                </Button>
-                <Button color="primary" size="large">
-                    Large
-                </Button>
-            </div>
-        </GcxThemeProvider>
-    );
-}
-
-export function OutlinedButtons() {
-    const classes = useStyles();
-    return (
-        <GcxThemeProvider theme={theme}>
-            <div className={classes.buttonContainer}>
                 <Button variant="outlined">Default</Button>
-                <Button variant="outlined" color="primary">
-                    Primary
-                </Button>
-                <Button variant="outlined" color="secondary">
-                    Secondary
-                </Button>
+                <Button variant="text">Default</Button>
+                <Button disabled>Default</Button>
                 <Button variant="outlined" disabled>
                     Default
-                </Button>
-                <Button variant="outlined" disabled color="primary">
-                    Primary
-                </Button>
-                <Button variant="outlined" disabled color="secondary">
-                    Secondary
-                </Button>
-                <Button variant="outlined" color="primary" size="small">
-                    Small
-                </Button>
-                <Button variant="outlined" color="primary" size="large">
-                    Large
-                </Button>
-            </div>
-        </GcxThemeProvider>
-    );
-}
-
-export function TextVariantButtons() {
-    const classes = useStyles();
-    return (
-        <GcxThemeProvider theme={theme}>
-            <div className={classes.buttonContainer}>
-                <Button variant="text">Default</Button>
-                <Button variant="text" color="primary">
-                    Primary
-                </Button>
-                <Button variant="text" color="secondary">
-                    Secondary
                 </Button>
                 <Button variant="text" disabled>
                     Default
                 </Button>
+            </div>
+        </GcxThemeProvider>
+    );
+}
+
+export function PrimaryButtons() {
+    const classes = useStyles();
+    return (
+        <GcxThemeProvider theme={theme}>
+            <div className={classes.buttonContainer}>
+                <Button color="primary">Primary</Button>
+                <Button variant="outlined" color="primary">
+                    Primary
+                </Button>
+                <Button variant="text" color="primary">
+                    Primary
+                </Button>
+                <Button disabled color="primary">
+                    Primary
+                </Button>
+                <Button variant="outlined" disabled color="primary">
+                    Primary
+                </Button>
                 <Button variant="text" disabled color="primary">
                     Primary
+                </Button>
+            </div>
+        </GcxThemeProvider>
+    );
+}
+
+export function SecondaryButtons() {
+    const classes = useStyles();
+    return (
+        <GcxThemeProvider theme={theme}>
+            <div className={classes.buttonContainer}>
+                <Button color="secondary">Secondary</Button>
+                <Button variant="outlined" color="secondary">
+                    Secondary
+                </Button>
+                <Button variant="text" color="secondary">
+                    Secondary
+                </Button>
+                <Button disabled color="secondary">
+                    Secondary
+                </Button>
+                <Button variant="outlined" disabled color="secondary">
+                    Secondary
                 </Button>
                 <Button variant="text" disabled color="secondary">
                     Secondary
                 </Button>
-                <Button variant="text" color="primary" size="small">
-                    Small
+            </div>
+        </GcxThemeProvider>
+    );
+}
+
+export function LargeButtons() {
+    const classes = useStyles();
+    return (
+        <GcxThemeProvider theme={theme}>
+            <div className={classes.buttonContainer}>
+                <Button color="primary" size="large">
+                    Large
+                </Button>
+                <Button variant="outlined" color="primary" size="large">
+                    Large
                 </Button>
                 <Button variant="text" color="primary" size="large">
                     Large
+                </Button>
+            </div>
+        </GcxThemeProvider>
+    );
+}
+
+export function SmallButtons() {
+    const classes = useStyles();
+    return (
+        <GcxThemeProvider theme={theme}>
+            <div className={classes.buttonContainer}>
+                <Button color="primary" size="small">
+                    Small
+                </Button>
+                <Button variant="outlined" color="primary" size="small">
+                    Small
+                </Button>
+                <Button variant="text" color="primary" size="small">
+                    Small
                 </Button>
             </div>
         </GcxThemeProvider>
@@ -146,8 +166,8 @@ export function GroupedButtons() {
     return (
         <GcxThemeProvider theme={theme}>
             <div className={classes.buttonContainer}>
-                <Grid container spacing={3}>
-                    <Grid item xs={12} md={6}>
+                <Grid container spacing={1}>
+                    <Grid item xs={12} md={4}>
                         <Grid
                             container
                             spacing={1}
