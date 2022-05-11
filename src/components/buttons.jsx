@@ -32,109 +32,87 @@ const theme = createTheme({
     },
 });
 
-export function DefaultButtons() {
+export function ButtonStyles() {
     const classes = useStyles();
     return (
         <GcxThemeProvider theme={theme}>
             <div className={classes.buttonContainer}>
-                <Button focusRipple={false}>Default</Button>
-                <Button variant="outlined">Default</Button>
-                <Button variant="text">Default</Button>
-                <Button disabled>Default</Button>
+                <Button focusRipple={false}>Default Button</Button>
+                <Button variant="outlined">Outlined Button</Button>
+                <Button variant="text">Text Button</Button>
+            </div>
+        </GcxThemeProvider>
+    );
+}
+export function DisabledStates() {
+    const classes = useStyles();
+    return (
+        <GcxThemeProvider theme={theme}>
+            <div className={classes.buttonContainer}>
+                <Button disabled>Default Button</Button>
                 <Button variant="outlined" disabled>
-                    Default
+                    Outlined Button
                 </Button>
                 <Button variant="text" disabled>
-                    Default
+                    Text Button
                 </Button>
             </div>
         </GcxThemeProvider>
     );
 }
 
-export function PrimaryButtons() {
+export function ButtonColours() {
     const classes = useStyles();
     return (
         <GcxThemeProvider theme={theme}>
             <div className={classes.buttonContainer}>
-                <Button color="primary">Primary</Button>
+                <Button focusRipple={false}>Default Button</Button>
+                <Button color="primary">Primary Accent Button</Button>
+                <Button color="secondary">Secondary Accent Button</Button>
+                <br />
+                <Button variant="outlined">Outlined Button</Button>
                 <Button variant="outlined" color="primary">
-                    Primary
+                    Outlined Primary Accent Button
                 </Button>
-                <Button variant="text" color="primary">
-                    Primary
-                </Button>
-                <Button disabled color="primary">
-                    Primary
-                </Button>
-                <Button variant="outlined" disabled color="primary">
-                    Primary
-                </Button>
-                <Button variant="text" disabled color="primary">
-                    Primary
-                </Button>
-            </div>
-        </GcxThemeProvider>
-    );
-}
-
-export function SecondaryButtons() {
-    const classes = useStyles();
-    return (
-        <GcxThemeProvider theme={theme}>
-            <div className={classes.buttonContainer}>
-                <Button color="secondary">Secondary</Button>
                 <Button variant="outlined" color="secondary">
-                    Secondary
+                    Outlined Secondary Accent Button
+                </Button>
+                <br></br>
+                <Button variant="text">Default Text Button</Button>
+                <Button variant="text" color="primary">
+                    Primary Accent Text Button
                 </Button>
                 <Button variant="text" color="secondary">
-                    Secondary
-                </Button>
-                <Button disabled color="secondary">
-                    Secondary
-                </Button>
-                <Button variant="outlined" disabled color="secondary">
-                    Secondary
-                </Button>
-                <Button variant="text" disabled color="secondary">
-                    Secondary
+                    Secondary Accent Text Button
                 </Button>
             </div>
         </GcxThemeProvider>
     );
 }
 
-export function LargeButtons() {
+export function ButtonSizes() {
     const classes = useStyles();
     return (
         <GcxThemeProvider theme={theme}>
             <div className={classes.buttonContainer}>
-                <Button color="primary" size="large">
+                <Button size="large">Large</Button>
+                <Button focusRipple={false}>Default</Button>
+                <Button size="small">Small</Button>
+                <br></br>
+                <Button variant="outlined" size="large">
                     Large
                 </Button>
-                <Button variant="outlined" color="primary" size="large">
-                    Large
+                <Button variant="outlined">Default</Button>
+                <Button variant="outlined" size="small">
+                    Small
                 </Button>
-                <Button variant="text" color="primary" size="large">
-                    Large
-                </Button>
-            </div>
-        </GcxThemeProvider>
-    );
-}
+                <br></br>
 
-export function SmallButtons() {
-    const classes = useStyles();
-    return (
-        <GcxThemeProvider theme={theme}>
-            <div className={classes.buttonContainer}>
-                <Button color="primary" size="small">
-                    Small
+                <Button variant="text" size="large">
+                    Large
                 </Button>
-                <Button variant="outlined" color="primary" size="small">
-                    Small
-                </Button>
-                <Button variant="text" color="primary" size="small">
+                <Button variant="text">Default</Button>
+                <Button variant="text" size="small">
                     Small
                 </Button>
             </div>
