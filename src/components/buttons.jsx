@@ -37,9 +37,9 @@ export function ButtonStyles() {
     return (
         <GcxThemeProvider theme={theme}>
             <div className={classes.buttonContainer}>
-                <Button focusRipple={false}>Default Button</Button>
-                <Button variant="outlined">Outlined Button</Button>
-                <Button variant="text">Text Button</Button>
+                <Button focusRipple={false}>Default</Button>
+                <Button variant="outlined">Outlined</Button>
+                <Button variant="text">Text</Button>
             </div>
         </GcxThemeProvider>
     );
@@ -49,41 +49,41 @@ export function DisabledStates() {
     return (
         <GcxThemeProvider theme={theme}>
             <div className={classes.buttonContainer}>
-                <Button disabled>Default Button</Button>
+                <Button disabled>Default</Button>
                 <Button variant="outlined" disabled>
-                    Outlined Button
+                    Outlined
                 </Button>
                 <Button variant="text" disabled>
-                    Text Button
+                    Text
                 </Button>
             </div>
         </GcxThemeProvider>
     );
 }
 
-export function ButtonColours() {
+export function ButtonColors() {
     const classes = useStyles();
     return (
         <GcxThemeProvider theme={theme}>
             <div className={classes.buttonContainer}>
-                <Button focusRipple={false}>Default Button</Button>
-                <Button color="primary">Primary Accent Button</Button>
-                <Button color="secondary">Secondary Accent Button</Button>
+                <Button focusRipple={false}>Default</Button>
+                <Button color="primary">Primary Accent</Button>
+                <Button color="secondary">Secondary Accent</Button>
                 <br />
-                <Button variant="outlined">Outlined Button</Button>
+                <Button variant="outlined">Outlined</Button>
                 <Button variant="outlined" color="primary">
-                    Outlined Primary Accent Button
+                    Outlined Primary Accent
                 </Button>
                 <Button variant="outlined" color="secondary">
-                    Outlined Secondary Accent Button
+                    Outlined Secondary Accent
                 </Button>
                 <br></br>
-                <Button variant="text">Default Text Button</Button>
+                <Button variant="text">Default Text</Button>
                 <Button variant="text" color="primary">
-                    Primary Accent Text Button
+                    Primary Accent Text
                 </Button>
                 <Button variant="text" color="secondary">
-                    Secondary Accent Text Button
+                    Secondary Accent Text
                 </Button>
             </div>
         </GcxThemeProvider>

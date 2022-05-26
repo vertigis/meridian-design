@@ -5,7 +5,7 @@ title: Design Language
 import Icons from "../src/components/icons";
 import {ListControls} from "../src/components/menus";
 import {IconTabs, IndicatorColorTabs, NormalTabs, ScrollableTabs, VerticalTabs} from "../src/components/tabs";
-import {ButtonStyles, DisabledStates, ButtonColours, ButtonSizes, GroupedButtons, IconButtons, OutlinedButtons, ToggleButtons} from "../src/components/buttons";
+import {ButtonStyles, DisabledStates, ButtonColors, ButtonSizes, GroupedButtons, IconButtons, OutlinedButtons, ToggleButtons} from "../src/components/buttons";
 
 ## Buttons
 
@@ -13,9 +13,7 @@ We have various buttons options of differing importance and loudness.
 
 ### Button Styles
 
-There are three general styles we will use in our applications. Default, Outlined and Text. Where these are used is completely dependant on their importance, as well as purpose. Large buttons work well when there are specific CTA's (Call to Action) that the user must perform, so you want them to be more visually dominant. Outlined buttons provide more visual weight and loudness, without being overpowering like the default style. Secondary actions, or actions that are of lower importance work well with the outlined button style. Text buttons work well for items that that are much lower on the informational heirarchy, such as legal and copyright links.
-
----
+Large buttons work well when there are specific CTA's (Call to Action) that the user must perform, so you want them to be more visually dominant. Outlined buttons provide more visual weight and loudness, without being overpowering like the default style. Secondary actions, or actions that are of lower importance work well with the outlined button style. Text buttons work well for items that that are much lower on the informational heirarchy, such as legal and copyright links.
 
 <ButtonStyles />
 
@@ -23,29 +21,23 @@ There are three general styles we will use in our applications. Default, Outline
 
 ### Disabled State
 
-When buttons are disabled, they appear in a much lighter grey colouring, and are non-interactive. They show that the button is present, but currently unavailable.
-
----
+When buttons are disabled, they appear in a much lighter grey coloring, and are non-interactive. They show that the button is present, but currently unavailable.
 
 <DisabledStates />
 
 ---
 
-### Button Colours
+### Button Colors
 
-The colour of a button can play a huge role on it's importance. Actions that require a users feedback to complete, IE Saving a change, Accepting changes, etc, are always done in the Primary Accent colour state, while dismissive actions such as cancel, are done in the default colouring. This draws attention to the importance, and allows a user at a glance, to see the difference in actions.
+Actions that require a users feedback to complete, IE Saving a change, Accepting changes, etc, are always done in the Primary Accent colour state, while dismissive actions such as cancel, are done in the default colouring.
 
----
-
-<ButtonColours />
+<ButtonColors />
 
 ---
 
 ### Button Sizes
 
-Sometimes the standard button size doesn't work for the intended application. Various sizes are available to ensure that regardless of what your button is used for, it will fit within the visual heirarchy of importance.
-
----
+Various sizes are available to ensure that regardless of what your button is used for, it will fit within the visual heirarchy of importance.
 
 <ButtonSizes />
 
@@ -53,9 +45,7 @@ Sometimes the standard button size doesn't work for the intended application. Va
 
 ### Icon Button
 
-If space is an issue, or there is no need for a description of the button to be added, there are iconographic buttons available. areas such as the map to keep clutter to a minimum while providing a sense of what the action will be before clicking it.
-
----
+If space is an issue, or there is no need for a description of the button to be added, there are iconographic buttons available.
 
 <IconButtons />
 
