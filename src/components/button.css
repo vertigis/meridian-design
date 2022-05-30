@@ -2,13 +2,12 @@
     --primary: #128741;
     --white: #ffffff;
 }
-.btn-container {
-    margin: 10px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    width: 100%;
-    border: 1px solid black;
+
+.buttons-box {
+    border: 10px solid #eeeeee;
+    box-sizing: border-box;
+    max-width: fit-content;
+    padding: 20px;
 }
 
 .btn {

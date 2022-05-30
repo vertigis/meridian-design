@@ -49,12 +49,12 @@ export function DisabledStates() {
     return (
         <GcxThemeProvider theme={theme}>
             <div className={classes.buttonContainer}>
-                <Button disabled>Default</Button>
+                <Button disabled>Disabled</Button>
                 <Button variant="outlined" disabled>
-                    Outlined
+                    Disabled
                 </Button>
                 <Button variant="text" disabled>
-                    Text
+                    Disabled
                 </Button>
             </div>
         </GcxThemeProvider>
@@ -145,7 +145,7 @@ export function GroupedButtons() {
         <GcxThemeProvider theme={theme}>
             <div className={classes.buttonContainer}>
                 <Grid container spacing={1}>
-                    <Grid item xs={12} md={4}>
+                    <Grid item xs={12} md={6}>
                         <Grid
                             container
                             spacing={1}
@@ -228,14 +228,14 @@ export function GroupedButtons() {
                             </Grid>
                         </Grid>
                     </Grid>
-                    <Grid item xs={12}>
+                    <Grid item md={12}>
                         <ButtonGroup
                             fullWidth
                             aria-label="full width outlined button group"
                         >
                             <Button>Full</Button>
                             <Button>width</Button>
-                            <Button>ButtonGroup</Button>
+                            <Button>Button Group</Button>
                         </ButtonGroup>
                     </Grid>
                 </Grid>

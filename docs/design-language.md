@@ -13,49 +13,36 @@ We have various buttons options of differing importance and loudness.
 
 ### Button Styles
 
-Large buttons work well when there are specific CTA's (Call to Action) that the user must perform, so you want them to be more visually dominant. Outlined buttons provide more visual weight and loudness, without being overpowering like the default style. Secondary actions, or actions that are of lower importance work well with the outlined button style. Text buttons work well for items that that are much lower on the informational heirarchy, such as legal and copyright links.
+Default buttons are used for most primary actions throughout your apps. Outlined buttons should be used for medium importance actions, while text buttons for less prounonced actions.
 
-<ButtonStyles />
-
----
-
-### Disabled State
-
-When buttons are disabled, they appear in a much lighter grey coloring, and are non-interactive. They show that the button is present, but currently unavailable.
+<div class="buttons-box"><ButtonStyles />
 
 <DisabledStates />
-
----
+</div>
 
 ### Button Colors
 
-Actions that require a users feedback to complete, IE Saving a change, Accepting changes, etc, are always done in the Primary Accent colour state, while dismissive actions such as cancel, are done in the default colouring.
+Adding colour to your buttons can help direct the eye to a 'primary action' or a button that requires more attention than other buttons surronding it.
 
-<ButtonColors />
-
----
+<div class="buttons-box"><ButtonColors /></div>
 
 ### Button Sizes
 
-Various sizes are available to ensure that regardless of what your button is used for, it will fit within the visual heirarchy of importance.
+Various sizes are available to ensure that regardless of what your button is used for, it will fit within the visual heirarchy.
 
-<ButtonSizes />
-
----
+<div class="buttons-box"><ButtonSizes /></div>
 
 ### Icon Button
 
 If space is an issue, or there is no need for a description of the button to be added, there are iconographic buttons available.
 
-<IconButtons />
-
----
+<div class="buttons-box"><IconButtons /></div>
 
 ### Grouped Buttons
 
-Grouped buttons are a benefit when space is limited, or when a direct connection is required.
+Grouped can be used to group related buttons.
 
-<GroupedButtons />
+<div class="buttons-box"><GroupedButtons /></div>
 
 ---
 
