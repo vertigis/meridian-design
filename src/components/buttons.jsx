@@ -228,7 +228,7 @@ export function GroupedButtons() {
                             </Grid>
                         </Grid>
                     </Grid>
-                    <Grid item md={12}>
+                    <Grid item md={12} xs={12}>
                         <ButtonGroup
                             fullWidth
                             aria-label="full width outlined button group"
