@@ -143,103 +143,101 @@ export function GroupedButtons() {
     const classes = useStyles();
     return (
         <GcxThemeProvider theme={theme}>
-            <div className={classes.buttonContainer}>
-                <Grid container spacing={1}>
-                    <Grid item xs={12} md={6}>
-                        <Grid
-                            container
-                            spacing={1}
-                            direction="column"
-                            alignItems="center"
-                        >
-                            <Grid item>
-                                <ButtonGroup
-                                    size="small"
-                                    aria-label="small outlined button group"
-                                >
-                                    <Button>One</Button>
-                                    <Button>Two</Button>
-                                    <Button>Three</Button>
-                                </ButtonGroup>
-                            </Grid>
-                            <Grid item>
-                                <ButtonGroup
-                                    color="primary"
-                                    aria-label="outlined primary button group"
-                                >
-                                    <Button>One</Button>
-                                    <Button>Two</Button>
-                                    <Button>Three</Button>
-                                </ButtonGroup>
-                            </Grid>
-                            <Grid item>
-                                <ButtonGroup
-                                    color="secondary"
-                                    size="large"
-                                    aria-label="large outlined secondary button group"
-                                >
-                                    <Button>One</Button>
-                                    <Button>Two</Button>
-                                    <Button>Three</Button>
-                                </ButtonGroup>
-                            </Grid>
+            <Grid container spacing={1}>
+                <Grid item xs={12} md={6}>
+                    <Grid
+                        container
+                        spacing={1}
+                        direction="column"
+                        alignItems="center"
+                    >
+                        <Grid item>
+                            <ButtonGroup
+                                size="small"
+                                aria-label="small outlined button group"
+                            >
+                                <Button>One</Button>
+                                <Button>Two</Button>
+                                <Button>Three</Button>
+                            </ButtonGroup>
                         </Grid>
-                    </Grid>
-                    <Grid item xs={12} md={6}>
-                        <Grid
-                            container
-                            spacing={1}
-                            direction="column"
-                            alignItems="center"
-                        >
-                            <Grid item>
-                                <ButtonGroup
-                                    variant="outlined"
-                                    size="small"
-                                    aria-label="small contained button group"
-                                >
-                                    <Button>One</Button>
-                                    <Button>Two</Button>
-                                    <Button>Three</Button>
-                                </ButtonGroup>
-                            </Grid>
-                            <Grid item>
-                                <ButtonGroup
-                                    variant="outlined"
-                                    color="primary"
-                                    aria-label="full-width contained primary button group"
-                                >
-                                    <Button>One</Button>
-                                    <Button>Two</Button>
-                                    <Button>Three</Button>
-                                </ButtonGroup>
-                            </Grid>
-                            <Grid item>
-                                <ButtonGroup
-                                    variant="outlined"
-                                    color="secondary"
-                                    size="large"
-                                    aria-label="large contained secondary button group"
-                                >
-                                    <Button>One</Button>
-                                    <Button>Two</Button>
-                                    <Button>Three</Button>
-                                </ButtonGroup>
-                            </Grid>
+                        <Grid item>
+                            <ButtonGroup
+                                color="primary"
+                                aria-label="outlined primary button group"
+                            >
+                                <Button>One</Button>
+                                <Button>Two</Button>
+                                <Button>Three</Button>
+                            </ButtonGroup>
                         </Grid>
-                    </Grid>
-                    <Grid item md={12} xs={12}>
-                        <ButtonGroup
-                            fullWidth
-                            aria-label="full width outlined button group"
-                        >
-                            <Button>Full</Button>
-                            <Button>width</Button>
-                            <Button>Button Group</Button>
-                        </ButtonGroup>
+                        <Grid item>
+                            <ButtonGroup
+                                color="secondary"
+                                size="large"
+                                aria-label="large outlined secondary button group"
+                            >
+                                <Button>One</Button>
+                                <Button>Two</Button>
+                                <Button>Three</Button>
+                            </ButtonGroup>
+                        </Grid>
                     </Grid>
                 </Grid>
-            </div>
+                <Grid item xs={12} md={6}>
+                    <Grid
+                        container
+                        spacing={1}
+                        direction="column"
+                        alignItems="center"
+                    >
+                        <Grid item>
+                            <ButtonGroup
+                                variant="outlined"
+                                size="small"
+                                aria-label="small contained button group"
+                            >
+                                <Button>One</Button>
+                                <Button>Two</Button>
+                                <Button>Three</Button>
+                            </ButtonGroup>
+                        </Grid>
+                        <Grid item>
+                            <ButtonGroup
+                                variant="outlined"
+                                color="primary"
+                                aria-label="full-width contained primary button group"
+                            >
+                                <Button>One</Button>
+                                <Button>Two</Button>
+                                <Button>Three</Button>
+                            </ButtonGroup>
+                        </Grid>
+                        <Grid item>
+                            <ButtonGroup
+                                variant="outlined"
+                                color="secondary"
+                                size="large"
+                                aria-label="large contained secondary button group"
+                            >
+                                <Button>One</Button>
+                                <Button>Two</Button>
+                                <Button>Three</Button>
+                            </ButtonGroup>
+                        </Grid>
+                    </Grid>
+                </Grid>
+                <Grid item md={12} xs={12}>
+                    <ButtonGroup
+                        fullWidth
+                        aria-label="full width outlined button group"
+                    >
+                        <Button>Full</Button>
+                        <Button>width</Button>
+                        <Button>Button Group</Button>
+                    </ButtonGroup>
+                </Grid>
+            </Grid>
         </GcxThemeProvider>
     );
 }
