@@ -5,31 +5,44 @@ title: Design Language
 import Icons from "../src/components/icons";
 import {ListControls} from "../src/components/menus";
 import {IconTabs, IndicatorColorTabs, NormalTabs, ScrollableTabs, VerticalTabs} from "../src/components/tabs";
-import {DefaultButtons, GroupedButtons, IconButtons, OutlinedButtons, TextVariantButtons, ToggleButtons} from "../src/components/buttons";
+import {ButtonStyles, DisabledStates, ButtonColors, ButtonSizes, GroupedButtons, IconButtons, OutlinedButtons, ToggleButtons} from "../src/components/buttons";
 
 ## Buttons
 
 We have various buttons options of differing importance and loudness.
 
-### Default
+### Button Styles
 
-<DefaultButtons />
+Default buttons are used for most primary actions throughout your apps. Outlined buttons should be used for medium importance actions, while text buttons for less prounonced actions.
 
-### Outlined Variant
+<div class="buttons-box"><ButtonStyles />
 
-<OutlinedButtons />
+<DisabledStates />
+</div>
 
-### Text Variant
+### Button Colors
 
-<TextVariantButtons />
+Adding colour to your buttons can help direct the eye to a 'primary action' or a button that requires more attention than other buttons surronding it.
+
+<div class="buttons-box"><ButtonColors /></div>
+
+### Button Sizes
+
+Various sizes are available to ensure that regardless of what your button is used for, it will fit within the visual heirarchy.
+
+<div class="buttons-box"><ButtonSizes /></div>
 
 ### Icon Button
 
-<IconButtons />
+If space is an issue, or there is no need for a description of the button to be added, there are iconographic buttons available.
+
+<div class="buttons-box"><IconButtons /></div>
 
 ### Grouped Buttons
 
-<GroupedButtons />
+Grouped can be used to group related buttons.
+
+<div class="buttons-box"><GroupedButtons /></div>
 
 ---
 
