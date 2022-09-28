@@ -1,6 +1,8 @@
 :root {
-    --primary: #128741;
+    --primary: #1a72c4;
     --white: #ffffff;
+    --outlinedBorder: #2c2c2c;
+    --emphasizedBackgroundHover: #e3eff9;
 }
 
 .buttons-box {
@@ -8,6 +10,20 @@
     box-sizing: border-box;
     max-width: fit-content;
     padding: 20px;
+}
+
+.buttons-box caption {
+    display: block;
+    width: 100%;
+    font-size: 0.85rem;
+    color: #888888;
+    font-style: italic;
+    text-align: left;
+    margin-bottom: 0;
+}
+
+.buttons-box button + caption {
+    margin-top: 1.5rem;
 }
 
 .btn {
@@ -44,3 +60,32 @@
 .grid-container {
     display: grid;
 }
+
+/* ------ START: Emphasized Button Styles ------ */
+.button--low.MuiButton-textPrimary {
+    color: var(--primary);
+}
+.button--low.MuiButton-textPrimary:hover {
+    color: var(--white);
+    background-color: var(--primary);
+}
+.button--med.MuiButton-outlinedPrimary {
+    color: var(--primary);
+    border-color: var(--outlinedBorder);
+}
+.button--med.MuiButton-outlinedPrimary:hover {
+    color: var(--white);
+    background-color: var(--primary);
+    border-color: var(--white);
+}
+.button--high.MuiButton-containedPrimary {
+    color: var(--white);
+    background-color: var(--primary);
+    border-color: var(--primary);
+}
+.button--high.MuiButton-containedPrimary:hover {
+    color: var(--primary);
+    background-color: var(--emphasizedBackgroundHover);
+    border-color: var(--primary);
+}
+/* ------ END: Emphasized Button Styles ------ */

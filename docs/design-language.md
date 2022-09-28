@@ -5,44 +5,52 @@ title: Design Language
 import Icons from "../src/components/icons";
 import {ListControls} from "../src/components/menus";
 import {IconTabs, IndicatorColorTabs, NormalTabs, ScrollableTabs, VerticalTabs} from "../src/components/tabs";
-import {ButtonStyles, DisabledStates, ButtonColors, ButtonSizes, GroupedButtons, IconButtons, OutlinedButtons, ToggleButtons} from "../src/components/buttons";
+import {ButtonEmphasis, ButtonPairs, ButtonLabelsDo, ButtonLabelsDont, ButtonStyles, DisabledStates, ButtonColors, ButtonSizes, GroupedButtons, IconButtons, OutlinedButtons, ToggleButtons} from "../src/components/buttons";
 
 ## Buttons
 
-We have various buttons options of differing importance and loudness.
+Applications built on VertiGIS Studio Web technology have many button variants and options available but VS Web does not use all of the available options. To simplify the choices, VS Web uses three basic types of buttons. They are based on the level of emphasis required for the task. There are 'Low', 'Medium', & 'High' emphasis buttons.
 
-### Button Styles
-
-Default buttons are used for most primary actions throughout your apps. Outlined buttons should be used for medium importance actions, while text buttons for less prounonced actions.
-
-<div class="buttons-box"><ButtonStyles />
-
-<DisabledStates />
+<div class="buttons-box"><ButtonEmphasis />
 </div>
 
-### Button Colors
+### Usage
 
-Adding colour to your buttons can help direct the eye to a 'primary action' or a button that requires more attention than other buttons surronding it.
+Typically buttons are used at the end of forms used in pairs, such as “Submit” and “Cancel”. Depending on the purpose of the button you can use combinations of a High Emphasis and Medium Emphasis button, two Medium Emphasis buttons, or a Medium and Low Emphasis buttons.
 
-<div class="buttons-box"><ButtonColors /></div>
+<div class="buttons-box"><ButtonPairs />
+</div>
 
-### Button Sizes
+#### Developer notes:
 
-Various sizes are available to ensure that regardless of what your button is used for, it will fit within the visual heirarchy.
+-   Low Emphasis buttons consist of MUI Text Variant buttons using the 'Primary' colour
+-   Medium Emphasis buttons consist of MUI Outlined Variant buttons using the 'Primary' colour
+-   High Emphasis buttons consist of MUI Contained Variant buttons using the 'Primary' colour
 
-<div class="buttons-box"><ButtonSizes /></div>
+### Order and Alignment
 
-### Icon Button
+The primary action (eg: Save, Apply, etc.) should be the first button in the hierarchy of buttons. In the context of a form, it should be the first thing a keyboard user will tab too after filling in all of the form inputs. The 'Cancel' button is the last button that should be displayed.
 
-If space is an issue, or there is no need for a description of the button to be added, there are iconographic buttons available.
+VS Web generally uses right alignment for most basic button implementations. Workflow forms uses left alignment for buttons by default.
 
-<div class="buttons-box"><IconButtons /></div>
+### Button Labels
 
-### Grouped Buttons
+Always attempt to use concise and descriptive labels with three or fewer words for buttons. Button labels must use 'Title Case' where each main word has the first letter capitalized.
 
-Grouped can be used to group related buttons.
+<div class="button-examples box-cols">
+    <fieldset class="box-item example eg-do">
+        <legend>Do</legend>
+        <ButtonLabelsDo />
+    </fieldset>
+    <fieldset class="box-item example eg-dont">
+        <legend>Don't</legend>
+        <ButtonLabelsDont />
+    </fieldset>
+</div>
 
-<div class="buttons-box"><GroupedButtons /></div>
+### Sizing and Spacing
+
+Buttons will adjust their width to the length of their content. Spacing (padding and margin) should not be manually set as they are pre-set in the Design System so that buttons can participate in the system wide density settings. Please refer to **[the Developer Center](https://developers.vertigisstudio.com/docs/web/configuration-layout-reference#presentation-attributes)** for more information on spacing.
 
 ---
 
