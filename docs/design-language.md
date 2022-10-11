@@ -5,7 +5,7 @@ title: Design Language
 import Icons from "../src/components/icons";
 import {ListControls} from "../src/components/menus";
 import {IconTabs, IndicatorColorTabs, NormalTabs, ScrollableTabs, VerticalTabs} from "../src/components/tabs";
-import {ButtonEmphasis, ButtonPairs, ButtonLabelsDo, ButtonLabelsDont, ButtonStyles, DisabledStates, ButtonColors, ButtonSizes, GroupedButtons, IconButtons, OutlinedButtons, ToggleButtons} from "../src/components/buttons";
+import {ButtonEmphasis, ButtonPairs, ButtonLabelsDo, ButtonLabelsDont, ButtonOptions, ButtonStyles, DisabledStates, ButtonColors, ButtonSizes, GroupedButtons, IconButtons, OutlinedButtons, ToggleButtons} from "../src/components/buttons";
 
 ## Buttons
 
@@ -53,6 +53,12 @@ Always attempt to use concise and descriptive labels with three or fewer words f
 ### Sizing and Spacing
 
 Buttons will adjust their width to the length of their content. Spacing (padding and margin) should not be manually set as they are pre-set in the Design System so that buttons can participate in the system wide density settings. Please refer to **[the Developer Center](https://developers.vertigisstudio.com/docs/web/configuration-layout-reference#presentation-attributes)** for more information on spacing.
+
+### Additional Options
+
+Icons can be added to buttons for added emphasis or to help convey the purpose of the button. For added visual style flexibility, you can choose to use the "round" style to create circle or pill shaped buttons. You can also choose to have a button with only an icon and no text.
+
+<div class="buttons-box"><ButtonOptions /></div>
 
 ---
 

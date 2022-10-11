@@ -89,3 +89,20 @@
     border-color: var(--primary);
 }
 /* ------ END: Emphasized Button Styles ------ */
+.MuiButton-root.gcx-button-style-round {
+    border-radius: 1000px;
+}
+.MuiButton-root.gcx-button-icon-only {
+    padding: 8px;
+    min-width: auto;
+    line-height: 0;
+}
+.MuiButton-root.gcx-button-icon-only .MuiButton-label {
+    font-size: 20px;
+    width: 1em;
+}
+.gcx-button-icon-only .MuiButton-startIcon,
+.gcx-button-icon-only .MuiButton-endIcon {
+    margin-left: -4px;
+    margin-right: -4px;
+}
