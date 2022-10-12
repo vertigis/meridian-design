@@ -11,14 +11,14 @@ import {ButtonEmphasis, ButtonPairs, ButtonLabelsDo, ButtonLabelsDont, ButtonOpt
 
 Applications built on VertiGIS Studio Web technology have many button variants and options available but VS Web does not use all of the available options. To simplify the choices, VS Web uses three basic types of buttons. They are based on the level of emphasis required for the task. There are '_Low_', '_Medium_', & '_High_' emphasis buttons.
 
-As a general guideline there should only be one _High_ emphasis button per view. Usability best practices state that the user should always have the ability to safely exit a task so it is always recommended to have a 'Cancel' button available.
-
 <div class="buttons-box"><ButtonEmphasis />
 </div>
 
 ### Usage
 
-Typically buttons are used at the end of forms used in pairs, such as “Submit” and “Cancel”. Depending on the purpose of the button you can use combinations of a High Emphasis and Medium Emphasis button, two Medium Emphasis buttons, or a Medium and Low Emphasis buttons.
+As a general guideline there should only be one _High_ emphasis button per view. Typically buttons are used at the end of forms used in pairs, such as “Submit” and “Cancel”. Usability best practices state that the user should always have the ability to safely exit a task so it is always recommended to have a 'Cancel' button available.
+
+Depending on the purpose of the button you can use combinations of a High Emphasis and Medium Emphasis button, two Medium Emphasis buttons, or a Medium and Low Emphasis buttons.
 
 <div class="buttons-box"><ButtonPairs />
 </div>
