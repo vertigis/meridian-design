@@ -29,6 +29,8 @@ Depending on the purpose of the button you can use combinations of a High Emphas
 -   Medium Emphasis buttons consist of MUI Outlined Variant buttons using the 'Primary' colour
 -   High Emphasis buttons consist of MUI Contained Variant buttons using the 'Primary' colour
 
+Visit **[the Developer Center](https://developers.vertigisstudio.com/docs/mobile/tutorial-configure-button-click/)** for more details for implementing buttons
+
 ### Order and Alignment
 
 The primary action (eg: Save, Apply, etc.) should be the first button in the hierarchy of buttons. In the context of a form, it should be the first thing a keyboard user will tab too after filling in all of the form inputs. The 'Cancel' button is the last button that should be displayed.
