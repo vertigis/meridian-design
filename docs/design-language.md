@@ -39,7 +39,7 @@ VS Web generally uses right alignment for most basic button implementations. Wor
 
 ### Button Labels
 
-Always attempt to use concise and descriptive labels with three or fewer words for buttons. Button labels must use 'Title Case' where each main word has the first letter capitalized.
+Always attempt to use concise, descriptive, and actionable labels with three or fewer words for buttons. Verbs are ideally suited for buttons to prompt the user to perform the desired action. Button labels must use ['Title Case'](https://en.wikipedia.org/wiki/Title_case) where each main word has the first letter capitalized.
 
 <div class="button-examples box-cols">
     <fieldset class="box-item example eg-do">
