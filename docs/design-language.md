@@ -54,7 +54,9 @@ Always attempt to use concise and descriptive labels with three or fewer words f
 
 ### Sizing and Spacing
 
-Buttons will adjust their width to the length of their content. Spacing (padding and margin) should not be manually set as they are pre-set in the Design System so that buttons can participate in the system wide density settings. Please refer to **[the Developer Center](https://developers.vertigisstudio.com/docs/web/configuration-layout-reference#presentation-attributes)** for more information on spacing.
+Sizing of buttons are set to "small", "medium", or "large" by using the "size" prop on the button. The width of a button will automatically adjust to the length of the content (icon and/or label).
+
+Padding within the button should not be altered or over-ridden in CSS as the padding is pre-set in the Design System so that buttons can participate in the system wide density settings. Margin around buttons should be controlled by the parent component. The parent component is responsible for the spacing around child components (like buttons), positioning, flow, and sometimes the size. Please refer to **[the Developer Center](https://developers.vertigisstudio.com/docs/web/configuration-layout-reference#presentation-attributes)** for more information on presentation attributes.
 
 ### Additional Options
 
