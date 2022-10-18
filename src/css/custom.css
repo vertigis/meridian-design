@@ -29,7 +29,6 @@
     background-size: cover;
 }
 
-
 /* for image caption */
 img + br + em {
     font-style: normal;
@@ -46,4 +45,253 @@ img + br + em::before {
     display: block;
     border: 0.5rem solid #eeeeee;
     margin: 1rem 0;
+}
+
+.branding {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(25%, 1fr));
+    grid-gap: 20px;
+    margin: 0 auto;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: stretch;
+}
+
+.element {
+    display: flex;
+    flex-direction: column;
+    border-radius: 0.5rem;
+    box-shadow: inset 0px 0px 0px 1px #c6c6c6;
+    width: 100%;
+}
+
+.element .title {
+    display: flex;
+    font-weight: bold;
+    font-size: medium;
+    align-items: center;
+    justify-content: center;
+}
+
+.swatches {
+    display: flex;
+    flex-direction: row;
+    border: 1px solid #c6c6c6;
+    box-sizing: border-box;
+    font-size: 14px;
+}
+
+.swatches .colour {
+    display: flex;
+    width: 100%;
+    height: 75px;
+    overflow: hidden;
+    align-items: center;
+    justify-content: center;
+}
+
+.dark-text {
+    color: #ffffff;
+}
+
+.info {
+    line-height: 16px;
+    font-size: 14px;
+    font-weight: 500;
+    letter-spacing: 0.03125rem;
+    padding: 0.5rem;
+    width: 100%;
+}
+
+.palette-grid {
+    margin-bottom: 25px;
+    border: 1px solid #c6c6c6;
+    padding: 10px;
+    background: #ebebeb;
+}
+
+.palette__info {
+    color: #333;
+    position: relative;
+    flex: 0 0 auto;
+    font-size: 14px;
+    padding: 12px;
+}
+.palette__info__hexcode {
+    margin-top: 3px;
+    font-size: 12px;
+    color: gray;
+}
+.palette__colors {
+    flex: 1;
+    width: 100%;
+    position: relative;
+    display: flex;
+    align-items: stretch;
+}
+
+.palette__shades {
+    flex: 0;
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+}
+.palette__shades__item {
+    flex: 1 1 auto;
+    height: 25px;
+    background: var(--bg-color);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    opacity: 0;
+    position: relative;
+    left: 10px;
+    font-size: 80%;
+}
+.palette .palette__shades {
+    flex: 0 50%;
+    transition: 0.2s ease;
+}
+.palette .palette__shades__item {
+    opacity: 1;
+    left: 0;
+}
+
+.palette__info {
+    color: #333;
+    position: relative;
+    flex: 0 0 auto;
+    font-size: 14px;
+    padding: 12px;
+    background: #fff;
+}
+.palette__info__hexcode {
+    margin-top: 3px;
+    font-size: 12px;
+    color: gray;
+}
+
+.font-white {
+    color: #fff;
+}
+
+.element-container {
+    display: grid;
+    grid-template-columns: repeat(2, [col] 50%);
+}
+
+.element-name {
+    column-span: 2;
+    grid-row: 1;
+}
+
+.light,
+.dark {
+    column-span: 1 / 2;
+    grid-row: 2;
+}
+
+.light {
+    color: #000;
+}
+
+.dark {
+    color: #fff;
+}
+
+table {
+    border: 1px solid #ccc;
+    border-collapse: collapse;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    table-layout: fixed;
+    display: inline-table !important;
+}
+
+table caption {
+    font-size: 1.5em;
+    margin: 0.5em 0 0.75em;
+}
+
+table td {
+    font-size: 0.75em;
+}
+
+table tr {
+    background-color: #f8f8f8;
+    border: 1px solid #ddd;
+    padding: 0.35em;
+}
+
+table tr:hover {
+    background-color: #e3eff9;
+}
+
+table th,
+table td {
+    padding: 0.625em;
+    text-align: right;
+}
+
+table th {
+    font-size: 0.85em;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+}
+
+@media screen and (max-width: 600px) {
+    table {
+        border: 0;
+    }
+
+    table caption {
+        font-size: 1.3em;
+    }
+
+    table thead {
+        border: none;
+        clip: rect(0 0 0 0);
+        height: 1px;
+        margin: -1px;
+        overflow: hidden;
+        padding: 0;
+        position: absolute;
+        width: 1px;
+    }
+
+    table tr {
+        border-bottom: 3px solid #ddd;
+        display: block;
+        margin-bottom: 0.625em;
+    }
+
+    table td {
+        border-bottom: 1px solid #ddd;
+        display: block;
+        font-size: 0.8em;
+        text-align: right;
+    }
+
+    table td::before {
+        /*
+    * aria-label has no advantage, it won't be read inside a table
+    content: attr(aria-label);
+    */
+        content: attr(data-label);
+        float: left;
+        font-weight: bold;
+        text-transform: uppercase;
+    }
+
+    table td:last-child {
+        border-bottom: 0;
+    }
+}
+
+.colour-swatch {
+    padding: 6px 14px;
+    border-radius: 4px;
+    margin: 0px 10px;
+    border: 1px solid #2c2c2c;
 }
