@@ -76,3 +76,111 @@ img + br + em::before {
     flex: 1;
     min-width: 20rem;
 }
+
+.typography h1 {
+    font-family: "Segoe UI", "Helvetica Neue", "Droid Sans", Helvetica, Arial,
+        sans-serif;
+    margin: 0px 0px 0.613rem !important;
+    padding: 0;
+    line-height: 1.167;
+    font-size: 1.75rem;
+    font-weight: 300;
+}
+.typography h2 {
+    font-family: "Segoe UI", "Helvetica Neue", "Droid Sans", Helvetica, Arial,
+        sans-serif;
+    margin: 0px 0px 0.613rem !important;
+    padding: 0;
+    font-size: 1.25rem;
+    font-weight: 300;
+    line-height: 1;
+}
+.typography h3 {
+    font-family: "Segoe UI", "Helvetica Neue", "Droid Sans", Helvetica, Arial,
+        sans-serif;
+    margin: 0px 0px 0.613rem !important;
+    padding: 0;
+    line-height: 1.167;
+    font-size: 1.125rem;
+    font-weight: 300;
+}
+.typography h4 {
+    font-family: "Segoe UI", "Helvetica Neue", "Droid Sans", Helvetica, Arial,
+        sans-serif;
+    margin: 0px 0px 0.613rem !important;
+    padding: 0;
+    line-height: 1.235;
+    font-size: 1rem;
+    font-weight: 300;
+}
+.typography h5 {
+    font-family: "Segoe UI", "Helvetica Neue", "Droid Sans", Helvetica, Arial,
+        sans-serif;
+    margin: 0px 0px 0.613rem !important;
+    padding: 0;
+    font-weight: 400;
+    line-height: 1.334;
+    font-size: 0.875rem;
+}
+.typography h6 {
+    font-family: "Segoe UI", "Helvetica Neue", "Droid Sans", Helvetica, Arial,
+        sans-serif;
+    margin: 0px 0px 0.613rem !important;
+    padding: 0;
+    font-weight: 400;
+    line-height: 1.6;
+    font-size: 0.75rem;
+}
+h6.subtitle1 {
+    font-family: "Segoe UI", "Helvetica Neue", "Droid Sans", Helvetica, Arial,
+        sans-serif;
+    margin: 0px 0px 0.613rem !important;
+    padding: 0;
+    font-weight: 400;
+    font-size: 1rem;
+    line-height: 1.75;
+}
+h6.subtitle2 {
+    font-family: "Segoe UI", "Helvetica Neue", "Droid Sans", Helvetica, Arial,
+        sans-serif;
+    margin: 0px 0px 0.613rem !important;
+    padding: 0;
+    font-weight: 500;
+    font-size: 0.875rem;
+    line-height: 1.57;
+}
+p.body1 {
+    font-family: "Segoe UI", "Helvetica Neue", "Droid Sans", Helvetica, Arial,
+        sans-serif;
+    margin: 0px 0px 0.613rem !important;
+    padding: 0;
+    font-weight: 400;
+    line-height: 1.5;
+    font-size: 0.875rem;
+}
+p.body2 {
+    font-family: "Segoe UI", "Helvetica Neue", "Droid Sans", Helvetica, Arial,
+        sans-serif;
+    margin: 0px 0px 0.613rem !important;
+    padding: 0;
+    font-weight: 400;
+    line-height: 1.5;
+    font-size: 0.75rem;
+}
+p.caption {
+    margin: 0px 0px 0.613rem;
+    font-family: "Segoe UI", "Helvetica Neue", "Droid Sans", Helvetica, Arial,
+        sans-serif;
+    font-weight: 400;
+    font-size: 0.75rem;
+    line-height: 1.66;
+}
+p.overline {
+    margin: 0px 0px 0.613rem;
+    font-family: "Segoe UI", "Helvetica Neue", "Droid Sans", Helvetica, Arial,
+        sans-serif;
+    font-weight: 400;
+    font-size: 0.75rem;
+    line-height: 1.66;
+    text-transform: uppercase;
+}

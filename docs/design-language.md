@@ -7,6 +7,38 @@ import {ListControls} from "../src/components/menus";
 import {IconTabs, IndicatorColorTabs, NormalTabs, ScrollableTabs, VerticalTabs} from "../src/components/tabs";
 import {ButtonEmphasis, ButtonPairs, ButtonLabelsDo, ButtonLabelsDont, ButtonOptions, ButtonStyles, DisabledStates, ButtonColors, ButtonSizes, GroupedButtons, IconButtons, OutlinedButtons, ToggleButtons} from "../src/components/buttons";
 
+## Typograhphy
+
+Good typography plays a large role in creating not only an aesthetically pleasing app but a usable one. Therefore it is essential that style guidelines and semantics are followed.
+
+-   Don't skip heading levels. Use the headings hierarchy correctly. For example, do not follow an H1 with an H3.
+-   Overriding font styles (e.g. size and weight) is discouraged. If a custom size is required please consult with the PXD team. In most cases custom font styles are not required.
+
+Our current font stack is <em>"Segoe UI, Helvetica Neue, Droid Sans, Helvetica, Arial, sans-serif"</em>. Do not override these as it will greatly affect app consistency. Monospace fonts are simply browser/OS default.
+
+The Shared Designer Library has the following typographic settings:
+
+<div class="typography buttons-box">
+    <h1>h1.Heading</h1>
+    <h2>h2.Heading</h2>
+    <h3>h3.Heading</h3>
+    <h4>h4.Heading</h4>
+    <h5>h5.Heading</h5>
+    <h6>h6.Heading</h6>
+    <h6 class="subtitle1">subtitle1. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quos blanditiis tenetur</h6>
+    <h6 class="subtitle2">subtitle2. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quos blanditiis tenetur</h6>
+    <p class="body1">body1. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quos blanditiis tenetur unde suscipit, quam beatae rerum inventore consectetur, neque doloribus, cupiditate numquam dignissimos laborum fugiat deleniti? Eum quasi quidem quibusdam.</p>
+    <p class="body2">body2. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quos blanditiis tenetur unde suscipit, quam beatae rerum inventore consectetur, neque doloribus, cupiditate numquam dignissimos laborum fugiat deleniti? Eum quasi quidem quibusdam.</p>
+    <p class="caption">Caption text</p>
+    <p class="overline">Overline text</p>
+</div><br />
+
+-   Headings: Typically used for short text such as titles.
+-   Subtitles: Smaller than headings, used for medium-emphasis. Avoid using subtitles as a replacement for body text. Two sizes available.
+-   Body: Use for long-form text (paragraphs). Two sizes available.
+-   Caption: Used for annotation.
+-   Overline: Used to introduce a heading.
+
 ## Buttons
 
 Applications built on VertiGIS Studio Web technology have many button variants and options available but VS Web does not use all of the available options. To simplify the choices, VS Web uses three basic types of buttons. They are based on the level of emphasis required for the task. There are '_Low_', '_Medium_', & '_High_' emphasis buttons.
