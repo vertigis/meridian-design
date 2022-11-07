@@ -7,38 +7,6 @@ import {ListControls} from "../src/components/menus";
 import {IconTabs, IndicatorColorTabs, NormalTabs, ScrollableTabs, VerticalTabs} from "../src/components/tabs";
 import {ButtonEmphasis, ButtonPairs, ButtonLabelsDo, ButtonLabelsDont, ButtonOptions, ButtonStyles, DisabledStates, ButtonColors, ButtonSizes, GroupedButtons, IconButtons, OutlinedButtons, ToggleButtons} from "../src/components/buttons";
 
-## Typograhphy
-
-Good typography plays a large role in creating not only an aesthetically pleasing app but a usable one. Therefore it is essential that style guidelines and semantics are followed.
-
--   Don't skip heading levels. Use the headings hierarchy correctly. For example, do not follow an H1 with an H3.
--   Overriding font styles (e.g. size and weight) is discouraged. If a custom size is required please consult with the PXD team. In most cases custom font styles are not required.
-
-Our current font stack is <em>"Segoe UI, Helvetica Neue, Droid Sans, Helvetica, Arial, sans-serif"</em>. Do not override these as it will greatly affect app consistency. Monospace fonts are simply browser/OS default.
-
-The Shared Designer Library has the following typographic settings:
-
-<div class="typography buttons-box">
-    <h1>h1.Heading</h1>
-    <h2>h2.Heading</h2>
-    <h3>h3.Heading</h3>
-    <h4>h4.Heading</h4>
-    <h5>h5.Heading</h5>
-    <h6>h6.Heading</h6>
-    <h6 class="subtitle1">subtitle1. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quos blanditiis tenetur</h6>
-    <h6 class="subtitle2">subtitle2. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quos blanditiis tenetur</h6>
-    <p class="body1">body1. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quos blanditiis tenetur unde suscipit, quam beatae rerum inventore consectetur, neque doloribus, cupiditate numquam dignissimos laborum fugiat deleniti? Eum quasi quidem quibusdam.</p>
-    <p class="body2">body2. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quos blanditiis tenetur unde suscipit, quam beatae rerum inventore consectetur, neque doloribus, cupiditate numquam dignissimos laborum fugiat deleniti? Eum quasi quidem quibusdam.</p>
-    <p class="caption">Caption text</p>
-    <p class="overline">Overline text</p>
-</div><br />
-
--   Headings: Typically used for short text such as titles.
--   Subtitles: Smaller than headings, used for medium-emphasis. Avoid using subtitles as a replacement for body text. Two sizes available.
--   Body: Use for long-form text (paragraphs). Two sizes available.
--   Caption: Used for annotation.
--   Overline: Used to introduce a heading.
-
 ## Buttons
 
 Applications built on VertiGIS Studio Web technology have many button variants and options available but VS Web does not use all of the available options. To simplify the choices, VS Web uses three basic types of buttons. They are based on the level of emphasis required for the task. There are '_Low_', '_Medium_', & '_High_' emphasis buttons.
@@ -95,6 +63,56 @@ Padding within the button should not be altered or over-ridden in CSS as the pad
 Icons can be added to buttons for added emphasis or to help convey the purpose of the button. For added visual style flexibility, you can choose to use the "round" style to create circle or pill shaped buttons. You can also choose to have a button with only an icon and no text.
 
 <div class="buttons-box"><ButtonOptions /></div>
+
+---
+
+## Dialogs
+
+### Modal Dialogs
+
+Occasionally, there will be a need to display information, warn the user, or present controls in a manner that needs to utilize a more focused interface. Modal dialogs provide a flexible layout strategy to allow the user to put any content they want before the user and draws their focus to it, setting the rest of the app into a non-interactive state until it is dismissed. This allows important information to be displayed, and preserves the background information.
+
+### Examples
+
+<img src="/img/modals/measurement-units.jpg" alt="Units under the measurement toolbar" title="Units under the measure toolbar" width="800" height="456" class="img-example"/>
+
+<img src="/img/modals/polygon-styles.jpg" alt="Polygon Styles under the draw menu" title="Polygon Styles under the draw menu" width="800" height="456" class="img-example" />
+
+<img src="/img/modals/share-my-map.jpg" alt="Share my Map" title="Share my Map" width="800" height="456" class="img-example"/>
+<img src="/img/modals/save-project.jpg" alt="Save Project" title="Save Project" width="800" height="456" class="img-example" />
+
+Additional information regarding modal alerts can be found in **<a href="https://developers.geocortex.com/docs/web/tutorial-import-map-model/#create-a-custom-component-with-a-model" target="_blank">the Developer Center.</a>**
+
+### Alerts
+
+Dialogs are a good method of presenting alerts to the user, since they allow information that is relevant to a state change, or problem, without navigating away, or impacting the information within the app. This can include, but are not limited to:
+
+-   Destructive actions that would otherwise destroy information that has been altered.
+
+Alerts must always preface the problem, and offer the user the ability to dismiss, edit, or disregard the problem in question.
+
+<img src="/img/panels/panel-welcome.jpg" alt="Example of an app 'Welcome Panel'" title="App 'Welcome Panel'" width="415" height="493" class="img-example" />
+<img src="/img/panels/panel-feature.jpg" alt="Example of the 'Result/Feature Details' panel" title="'Result/Feature Details' panel" width="415" height="493" class="img-example" />
+
+---
+
+### Notifications
+
+Notification appear in a non-invasive manner. They can be configured to either dismiss automatically, require the user to dismiss, or not be dismissable at all.
+
+There are four types of notifications available to use:
+
+<img src="/img/notifications/notification-success.jpg" alt="Toast Notification for Success" title="Toast Notification for Success" width="640" height="316" class="img-example"/>
+
+<img src="/img/notifications/notification-info.jpg" alt="Toast Notification for Information" title="Toast Notification for Information" width="640" height="316" class="img-example"/>
+
+<img src="/img/notifications/notification-warning.jpg" alt="Toast Notification for Warning" title="Toast Notification for Warning" width="640" height="316" class="img-example"/>
+
+<img src="/img/notifications/notification-error.jpg" alt="Toast Notification for Error" title="Toast Notification for Error" width="640" height="316" class="img-example"/>
+
+Care should be taken when choosing to use a notification as too many notifications can annoy users by being overused.
+
+For full information regarding panels, refer to **<a href="https://developers.geocortex.com/docs/web/tutorial-run-workflow-app-config/#prerequisites" target="_blank">the Developer Center.</a>**
 
 ---
 
@@ -246,6 +264,30 @@ Selected and Active states for list elements should showcase similar behavior to
 
 ---
 
+## Panels & Panel Navigation
+
+### Panels
+
+Using Panels in our application affords the user a good deal of information all contained in an easy to view place. Most information can be placed within a panel. Panels are designed with a minimum width of 365px so that they work on smart phone screens as well as larger tablet and desktop displays. The user can resize the panels with the provided drag handles. For full information regarding panels, refer to **<a href="https://developers.geocortex.com/docs/web/configuration-layout-getting-started/#panels" target="_blank">the Developer Center.</a>**
+
+### Panel Navigation
+
+Panels come with an assortment of configurable navigation controls:
+
+![Panel maximize icon](/img/panels/panel-maximize.jpg "Maximize Button") Maximize: This button will extend the content of the panel to fill the entire view width.
+
+![Panel minimize icon](/img/panels/panel-minimize.jpg "Minimize Button") Minimize: The minimize button will collapse the panel down fully. It is expandable again by click the ‘Restore to Original Size’ button that replaces minimize.
+
+![Panel back icon](/img/panels/panel-back.jpg "Back Button") Back Button: Navigates you to the previous panels content.
+
+![Panel close icon](/img/panels/panel-close.jpg "Close Button") Close Button: Closes the panel entirely.
+
+### Examples
+
+<img src="/img/panels/panel-welcome.jpg" alt="Welcome Dialog Panel" title="Welcome Dialog Panel" width="415" height="493" class="img-example" /> <img src="/img/panels/panel-feature.jpg" alt="Features Panel" title="Features Panel" width="415" height="493" class="img-example" />
+
+---
+
 ## Tabs
 
 ### Normal Tabs
@@ -270,72 +312,36 @@ Selected and Active states for list elements should showcase similar behavior to
 
 ---
 
-## Panels & Panel Navigation
+## Typograhphy
 
-### Panels
+Good typography plays a large role in creating not only an aesthetically pleasing app but a usable one. It is essential that style guidelines and semantics are followed.
 
-Using Panels in our application affords the user a good deal of information all contained in an easy to view place. Most information can be placed within a panel. Panels are designed with a minimum width of 365px so that they work on smart phone screens as well as larger tablet and desktop displays. The user can resize the panels with the provided drag handles. For full information regarding panels, refer to **<a href="https://developers.geocortex.com/docs/web/configuration-layout-getting-started/#panels" target="_blank">the Developer Center.</a>**
+-   Don't skip heading levels. Use the headings hierarchy correctly. For example, do not follow an H1 with an H3.
+-   Overriding font styles (e.g. size and weight) is discouraged. If a custom size is required please consult with the PXD team. In most cases custom font styles are not required.
 
-### Panel Navigation
+Our current font stack is <em>"Segoe UI, Helvetica Neue, Droid Sans, Helvetica, Arial, sans-serif"</em>. Do not override these as it will greatly affect app consistency. Monospace fonts are simply browser/OS default.
 
-Panels come with an assortment of configurable navigation controls:
+The Shared Designer Library has the following typographic settings:
 
-![Panel maximize icon](/img/panels/panel-maximize.jpg "Maximize Button") Maximize: This button will extend the content of the panel to fill the entire view width.
+<div class="typography buttons-box">
+    <h1>h1.Heading</h1>
+    <h2>h2.Heading</h2>
+    <h3>h3.Heading</h3>
+    <h4>h4.Heading</h4>
+    <h5>h5.Heading</h5>
+    <h6>h6.Heading</h6>
+    <h6 class="subtitle1">subtitle1. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quos blanditiis tenetur</h6>
+    <h6 class="subtitle2">subtitle2. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quos blanditiis tenetur</h6>
+    <p class="body1">body1. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quos blanditiis tenetur unde suscipit, quam beatae rerum inventore consectetur, neque doloribus, cupiditate numquam dignissimos laborum fugiat deleniti? Eum quasi quidem quibusdam.</p>
+    <p class="body2">body2. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quos blanditiis tenetur unde suscipit, quam beatae rerum inventore consectetur, neque doloribus, cupiditate numquam dignissimos laborum fugiat deleniti? Eum quasi quidem quibusdam.</p>
+    <p class="caption">Caption text</p>
+    <p class="overline">Overline text</p>
+</div><br />
 
-![Panel minimize icon](/img/panels/panel-minimize.jpg "Minimize Button") Minimize: The minimize button will collapse the panel down fully. It is expandable again by click the ‘Restore to Original Size’ button that replaces minimize.
-
-![Panel back icon](/img/panels/panel-back.jpg "Back Button") Back Button: Navigates you to the previous panels content.
-
-![Panel close icon](/img/panels/panel-close.jpg "Close Button") Close Button: Closes the panel entirely.
-
-### Examples
-
-<img src="/img/panels/panel-welcome.jpg" alt="Welcome Dialog Panel" title="Welcome Dialog Panel" width="415" height="493" class="img-example" /> <img src="/img/panels/panel-feature.jpg" alt="Features Panel" title="Features Panel" width="415" height="493" class="img-example" />
-
-## Dialogs
-
-### Modal Dialogs
-
-Occasionally, there will be a need to display information, warn the user, or present controls in a manner that needs to utilize a more focused interface. Modal dialogs provide a flexible layout strategy to allow the user to put any content they want before the user and draws their focus to it, setting the rest of the app into a non-interactive state until it is dismissed. This allows important information to be displayed, and preserves the background information.
-
-### Examples
-
-<img src="/img/modals/measurement-units.jpg" alt="Units under the measurement toolbar" title="Units under the measure toolbar" width="800" height="456" class="img-example"/>
-
-<img src="/img/modals/polygon-styles.jpg" alt="Polygon Styles under the draw menu" title="Polygon Styles under the draw menu" width="800" height="456" class="img-example" />
-
-<img src="/img/modals/share-my-map.jpg" alt="Share my Map" title="Share my Map" width="800" height="456" class="img-example"/>
-<img src="/img/modals/save-project.jpg" alt="Save Project" title="Save Project" width="800" height="456" class="img-example" />
-
-Additional information regarding modal alerts can be found in **<a href="https://developers.geocortex.com/docs/web/tutorial-import-map-model/#create-a-custom-component-with-a-model" target="_blank">the Developer Center.</a>**
-
-### Alerts
-
-Dialogs are a good method of presenting alerts to the user, since they allow information that is relevant to a state change, or problem, without navigating away, or impacting the information within the app. This can include, but are not limited to:
-
--   Destructive actions that would otherwise destroy information that has been altered.
-
-Alerts must always preface the problem, and offer the user the ability to dismiss, edit, or disregard the problem in question.
-
-<img src="/img/panels/panel-welcome.jpg" alt="Example of an app 'Welcome Panel'" title="App 'Welcome Panel'" width="415" height="493" class="img-example" />
-<img src="/img/panels/panel-feature.jpg" alt="Example of the 'Result/Feature Details' panel" title="'Result/Feature Details' panel" width="415" height="493" class="img-example" />
+-   Headings: Typically used for short text such as titles.
+-   Subtitles: Smaller than headings, used for medium-emphasis. Avoid using subtitles as a replacement for body text. Two sizes available.
+-   Body: Use for long-form text (paragraphs). Two sizes available.
+-   Caption: Used for annotation.
+-   Overline: Used to introduce a heading.
 
 ---
-
-### Notifications
-
-Notification appear in a non-invasive manner. They can be configured to either dismiss automatically, require the user to dismiss, or not be dismissable at all.
-
-There are four types of notifications available to use:
-
-<img src="/img/notifications/notification-success.jpg" alt="Toast Notification for Success" title="Toast Notification for Success" width="640" height="316" class="img-example"/>
-
-<img src="/img/notifications/notification-info.jpg" alt="Toast Notification for Information" title="Toast Notification for Information" width="640" height="316" class="img-example"/>
-
-<img src="/img/notifications/notification-warning.jpg" alt="Toast Notification for Warning" title="Toast Notification for Warning" width="640" height="316" class="img-example"/>
-
-<img src="/img/notifications/notification-error.jpg" alt="Toast Notification for Error" title="Toast Notification for Error" width="640" height="316" class="img-example"/>
-
-Care should be taken when choosing to use a notification as too many notifications can annoy users by being overused.
-
-For full information regarding panels, refer to **<a href="https://developers.geocortex.com/docs/web/tutorial-run-workflow-app-config/#prerequisites" target="_blank">the Developer Center.</a>**
