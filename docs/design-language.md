@@ -312,16 +312,11 @@ Panels come with an assortment of configurable navigation controls:
 
 ---
 
-## Typograhphy
+## Typography
 
-Good typography plays a large role in creating not only an aesthetically pleasing app but a usable one. It is essential that style guidelines and semantics are followed.
+Good typography plays a large role in creating not only an aesthetically pleasing app but a usable one. It is essential that style guidelines and semantics are followed as they ensure consistency across our suite of applications.
 
--   Don't skip heading levels. Use the headings hierarchy correctly. For example, do not follow an H1 with an H3.
--   Overriding font styles (e.g. size and weight) is discouraged. If a custom size is required please consult with the PXD team. In most cases custom font styles are not required.
-
-Our current font stack is <em>"Segoe UI, Helvetica Neue, Droid Sans, Helvetica, Arial, sans-serif"</em>. Do not override these as it will greatly affect app consistency. Monospace fonts are simply browser/OS default.
-
-The Shared Designer Library has the following typographic settings:
+The Meridian Design System has the following typographic settings:
 
 <div class="typography buttons-box">
     <h1>h1.Heading</h1>
@@ -338,10 +333,17 @@ The Shared Designer Library has the following typographic settings:
     <p class="overline">Overline text</p>
 </div><br />
 
--   Headings: Typically used for short text such as titles.
--   Subtitles: Smaller than headings, used for medium-emphasis. Avoid using subtitles as a replacement for body text. Two sizes available.
--   Body: Use for long-form text (paragraphs). Two sizes available.
--   Caption: Used for annotation.
--   Overline: Used to introduce a heading.
+Our current font stack is <em>"Segoe UI, Helvetica Neue, Droid Sans, Helvetica, Arial, sans-serif"</em>. Do not override these as it will greatly affect app consistency. Monospace fonts are simply browser/OS default.
+
+-   **Headings:** Typically used for short text such as titles.
+-   **Subtitles:** Smaller than headings, used for medium-emphasis. Avoid using subtitles as a replacement for body text. Two sizes available.
+-   **Body:** Use for long-form text (paragraphs). Two sizes available.
+-   **Caption:** Used for annotation.
+-   **Overline:** Used to introduce a heading.
+
+Things to consider:
+
+-   Don't skip heading levels. Use the headings hierarchy correctly. For example, do not follow an H1 with an H3. Please note that WCAG requirements state only one H1 per page should be used.
+-   Overriding font styles (e.g. size and weight) is discouraged. In most cases custom font styles are not required.
 
 ---
