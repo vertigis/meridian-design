@@ -6,10 +6,10 @@
 .palette-grid {
     display: grid;
     grid-template-columns: repeat(12, 1fr);
-    grid-template-rows: auto 300px auto 240px auto repeat(2, 200px);
-    grid-gap: 20px;
+    grid-template-rows: auto 18.75rem auto 15rem auto repeat(2, 200px);
+    grid-gap: 1.25rem;
     justify-content: center;
-    padding: 20px;
+    padding: 1.25rem;
 }
 
 .palette {

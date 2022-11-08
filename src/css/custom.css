@@ -50,7 +50,7 @@ img + br + em::before {
 .branding {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(25%, 1fr));
-    grid-gap: 20px;
+    grid-gap: 1.25rem;
     margin: 0 auto;
     flex-wrap: wrap;
     justify-content: space-evenly;
@@ -84,7 +84,7 @@ img + br + em::before {
 .swatches .colour {
     display: flex;
     width: 100%;
-    height: 75px;
+    height: 4.688rem;
     overflow: hidden;
     align-items: center;
     justify-content: center;
@@ -104,7 +104,7 @@ img + br + em::before {
 }
 
 .palette-grid {
-    margin-bottom: 25px;
+    margin-bottom: 1.563rem;
     border: 1px solid #c6c6c6;
     padding: 10px;
     background: #ebebeb;
@@ -115,7 +115,7 @@ img + br + em::before {
     position: relative;
     flex: 0 0 auto;
     font-size: 14px;
-    padding: 12px;
+    padding: 0.625rem;
 }
 .palette__info__hexcode {
     margin-top: 3px;
@@ -138,14 +138,14 @@ img + br + em::before {
 }
 .palette__shades__item {
     flex: 1 1 auto;
-    height: 25px;
+    height: 1.563rem;
     background: var(--bg-color);
     display: flex;
     justify-content: center;
     align-items: center;
     opacity: 0;
     position: relative;
-    left: 10px;
+    left: 0.625rem;
     font-size: 80%;
 }
 .palette .palette__shades {
@@ -162,7 +162,7 @@ img + br + em::before {
     position: relative;
     flex: 0 0 auto;
     font-size: 14px;
-    padding: 12px;
+    padding: 0.75rem;
     background: #fff;
 }
 .palette__info__hexcode {
@@ -273,6 +273,10 @@ table th {
         text-align: right;
     }
 
+    table tr:hover {
+        background-color: #f8f8f8;
+    }
+
     table td::before {
         /*
     * aria-label has no advantage, it won't be read inside a table
@@ -293,5 +297,109 @@ table th {
     padding: 6px 14px;
     border-radius: 4px;
     margin: 0px 10px;
-    border: 1px solid #2c2c2c;
+    border: 1px solid #c6c6c6;
+}
+
+.accent-50 {
+    background: #e3eff9;
+}
+
+.accent-100 {
+    background: #b5d3ee;
+}
+
+.accent-200 {
+    background: #89b8e4;
+}
+
+.accent-300 {
+    background: #619fd9;
+}
+
+.accent-400 {
+    background: #3c88cf;
+}
+
+.accent-500 {
+    background: #1a72c4;
+}
+
+.accent-600 {
+    background: #1764ab;
+}
+
+.accent-700 {
+    background: #135593;
+}
+
+.accent-800 {
+    background: #10477a;
+}
+
+.accent-900 {
+    background: #0d3961;
+}
+
+.base-50 {
+    background: #ebebeb;
+}
+
+.base-100 {
+    background: #c6c6c6;
+}
+
+.base-200 {
+    background: #a1a1a1;
+}
+
+.base-300 {
+    background: #7c7c7c;
+}
+
+.base-400 {
+    background: #575757;
+}
+
+.base-500 {
+    background: #323232;
+}
+
+.base-600 {
+    background: #2c2c2c;
+}
+
+.base-700 {
+    background: #252525;
+}
+
+.base-800 {
+    background: #1f1f1f;
+}
+
+.base-900 {
+    background: #191919;
+}
+
+.white {
+    background: #fff;
+}
+
+.black {
+    background: #000;
+}
+
+.alert-amber {
+    background: #bf5300;
+}
+
+.alert-green {
+    background: #008040;
+}
+
+.alert-red {
+    background: #b22222;
+}
+
+.table-spacer {
+    margin: 2em 0 0 0;
 }
