@@ -335,15 +335,31 @@ The Meridian Design System has the following typographic settings:
 
 Our current font stack is <em>"Segoe UI, Helvetica Neue, Droid Sans, Helvetica, Arial, sans-serif"</em>. Do not override these as it will greatly affect app consistency. Monospace fonts are simply browser/OS default.
 
--   **Headings:** Typically used for short text such as titles.
--   **Subtitles:** Smaller than headings, used for medium-emphasis. Avoid using subtitles as a replacement for body text. Two sizes available.
--   **Body:** Use for long-form text (paragraphs). Two sizes available.
--   **Caption:** Used for annotation.
--   **Overline:** Used to introduce a heading.
+### Headings
 
-Things to consider:
+Typically used for short text such as titles.
+<img src="/img/typography/h1.png" alt="H1 as found in VertiGIS Studio Web" title="H1 as found in VertiGIS Studio Web" class="img-example" />
+
+### Subtitles
+
+Smaller than headings, used for medium-emphasis. Avoid using subtitles as a replacement for body text. Two sizes available.
+
+### Body
+
+Use for long-form text (paragraphs). Two sizes available.
+
+### Caption
+
+Used for annotation.
+
+### Overline
+
+Used to introduce a heading.
+
+### Considerations
 
 -   Don't skip heading levels. Use the headings hierarchy correctly. For example, do not follow an H1 with an H3. Please note that WCAG requirements state only one H1 per page should be used.
 -   Overriding font styles (e.g. size and weight) is discouraged. In most cases custom font styles are not required.
+-
 
 ---
