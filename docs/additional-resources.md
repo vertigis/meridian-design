@@ -516,7 +516,7 @@ title: Additional Resources
     </tr>
     <tr>
       <td scope="row" data-label="Propery Name">PrimaryAccentDisabled</td>
-      <td data-label="Light Theme">base-300 <span class="colour-swatch dark-text base-400"></span></td>
+      <td data-label="Light Theme">base-300 <span class="colour-swatch dark-text base-300"></span></td>
       <td data-label="Dark Theme">base-300 <span class="colour-swatch base-300"></span></td>
     </tr>
     <tr>
