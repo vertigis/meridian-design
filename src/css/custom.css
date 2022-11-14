@@ -35,7 +35,7 @@ img + br + em {
     display: inherit;
     text-align: left;
     font-size: 100%;
-    margin-top: -5pt;
+    margin-top: -0.3125em;
 }
 img + br + em::before {
     content: "- ";
@@ -61,7 +61,7 @@ img + br + em::before {
     display: flex;
     flex-direction: column;
     border-radius: 0.5rem;
-    box-shadow: inset 0px 0px 0px 1px #c6c6c6;
+    box-shadow: inset 0em 0em 0em 0.0625em #c6c6c6;
     width: 100%;
 }
 
@@ -76,9 +76,9 @@ img + br + em::before {
 .swatches {
     display: flex;
     flex-direction: row;
-    border: 1px solid #c6c6c6;
+    border: 0.0625em solid #c6c6c6;
     box-sizing: border-box;
-    font-size: 14px;
+    font-size: 0.875em;
 }
 
 .swatches .colour {
@@ -95,8 +95,8 @@ img + br + em::before {
 }
 
 .info {
-    line-height: 16px;
-    font-size: 14px;
+    line-height: 1em;
+    font-size: 0.875em;
     font-weight: 500;
     letter-spacing: 0.03125rem;
     padding: 0.5rem;
@@ -105,8 +105,8 @@ img + br + em::before {
 
 .palette-grid {
     margin-bottom: 1.563rem;
-    border: 1px solid #c6c6c6;
-    padding: 10px;
+    border: 0.0625em solid #c6c6c6;
+    padding: 0.625em;
     background: #ebebeb;
 }
 
@@ -114,12 +114,12 @@ img + br + em::before {
     color: #333;
     position: relative;
     flex: 0 0 auto;
-    font-size: 14px;
+    font-size: 0.875em;
     padding: 0.625rem;
 }
 .palette__info__hexcode {
-    margin-top: 3px;
-    font-size: 12px;
+    margin-top: 0.1875em;
+    font-size: 0.75em;
     color: gray;
 }
 .palette__colors {
@@ -161,13 +161,13 @@ img + br + em::before {
     color: #333;
     position: relative;
     flex: 0 0 auto;
-    font-size: 14px;
+    font-size: 0.875em;
     padding: 0.75rem;
     background: #fff;
 }
 .palette__info__hexcode {
-    margin-top: 3px;
-    font-size: 12px;
+    margin-top: 0.1875em;
+    font-size: 0.75em;
     color: gray;
 }
 
@@ -200,7 +200,7 @@ img + br + em::before {
 }
 
 table {
-    border: 1px solid #ccc;
+    border: 0.0625em solid #ccc;
     border-collapse: collapse;
     margin: 0;
     padding: 0;
@@ -218,9 +218,15 @@ table td {
     font-size: 0.75em;
 }
 
+table thead tr {
+    border-bottom-color: var(--ifm-table-border-color);
+    border-bottom-style: solid;
+    border-bottom-width: 0px !important;
+}
+
 table tr {
     background-color: #f8f8f8;
-    border: 1px solid #ddd;
+    border: 0.0625em solid #ddd;
     padding: 0.35em;
 }
 
@@ -252,25 +258,24 @@ table th {
     table thead {
         border: none;
         clip: rect(0 0 0 0);
-        height: 1px;
-        margin: -1px;
+        height: 0.0625em;
+        margin: -0.0625em;
         overflow: hidden;
         padding: 0;
         position: absolute;
-        width: 1px;
+        width: 0.0625em;
     }
 
     table tr {
-        border-bottom: 3px solid #ddd;
         display: block;
         margin-bottom: 0.625em;
     }
 
     table td {
-        border-bottom: 1px solid #ddd;
         display: block;
         font-size: 0.8em;
         text-align: right;
+        margin-bottom: -0.0625em;
     }
 
     table tr:hover {
@@ -286,18 +291,16 @@ table th {
         float: left;
         font-weight: bold;
         text-transform: uppercase;
-    }
-
-    table td:last-child {
-        border-bottom: 0;
+        overflow: hidden;
+        text-overflow: ellipsis;
     }
 }
 
 .colour-swatch {
-    padding: 6px 14px;
-    border-radius: 4px;
-    margin: 0px 10px;
-    border: 1px solid #c6c6c6;
+    padding: 0.375em 0.875em;
+    border-radius: 0.25em;
+    margin: 0px 0.625em;
+    border: 0.0625em solid #c6c6c6;
 }
 
 .accent-50 {

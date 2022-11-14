@@ -5,59 +5,59 @@ title: Additional Resources
 ## Colours
 
 <table class="table-spacer">
-  <thead>
+ <thead>
     <tr>
-      <th scope="col">VertiGIS Studio Web Blue - Primary Accent Colour</th>
+      <th scope="col">VertiGIS Studio Web Blue</th>
+      <th scope="col">VertiGIS Studio Base</th>
+      <th scope="col">Alert States</th>
     </tr>
   </thead>
   
   <tbody>
-    <tr><td >accent-50 #E3EFF9<span class="colour-swatch accent-50"></span></td></tr>  
-    <tr><td>accent-100 #B5D3EE<span class="colour-swatch accent-100"></span></td></tr>  
-    <tr><td>accent-200 #89B8E4<span class="colour-swatch accent-200"></span></td></tr>
-    <tr><td>accent-300 #619FD9<span class="colour-swatch accent-300"></span></td></tr>
-    <tr><td>accent-400 #3C88CF<span class="colour-swatch accent-400"></span></td></tr>
-    <tr><td>accent-500 #1A72C4<span class="colour-swatch accent-500"></span></td></tr>
-    <tr><td>accent-600 #1764AB<span class="colour-swatch accent-600"></span></td></tr>
-    <tr><td>accent-700 #135593<span class="colour-swatch accent-700"></span></td></tr>
-    <tr><td>accent-800 #10477A<span class="colour-swatch accent-800"></span></td></tr>
-    <tr><td>accent-900 #0D3961<span class="colour-swatch accent-900"></span></td></tr>
-  </tbody>
-</table>
-
-<table class="table-spacer">
-  <thead>
     <tr>
-      <th scope="col">VertiGIS Studio Base - Base Colour</th>
+      <td data-label="Web Blue">accent-50 #E3EFF9<span class="colour-swatch accent-50"></span></td>
+      <td data-label="Base">base-50 #EBEBEB<span class="colour-swatch base-50"></span></td>
+      <td data-label="Alert States">AlertRed #B22222<span class="colour-swatch alert-red"></span></td>
     </tr>
-  </thead>
- 
-  <tbody>
-    <tr><td>base-50 #EBEBEB<span class="colour-swatch base-50"></span></td></tr>  
-    <tr><td>base-100 #C6C6C6<span class="colour-swatch base-100"></span></td></tr>  
-    <tr><td>base-200 #A1A1A1<span class="colour-swatch base-200"></span></td></tr>
-    <tr><td>base-300 #7C7C7C<span class="colour-swatch base-300"></span></td></tr>
-    <tr><td>base-400 #575757<span class="colour-swatch base-400"></span></td></tr>
-    <tr><td>base-500 #323232<span class="colour-swatch base-500"></span></td></tr>
-    <tr><td>base-600 #2C2C2C<span class="colour-swatch base-600"></span></td></tr>
-    <tr><td>base-700 #252525<span class="colour-swatch base-700"></span></td></tr>
-    <tr><td>base-800 #1F1F1F<span class="colour-swatch base-800"></span></td></tr>
-    <tr><td>base-900 #191919<span class="colour-swatch base-900"></span></td></tr>
-  </tbody>
-</table>
-
-<table class="table-spacer">
-  <thead>
     <tr>
-      <th scope="col">Alert States - Default Alert Colours</th>
+      <td data-label="Web Blue">accent-100 #B5D3EE<span class="colour-swatch accent-100"></span></td>
+      <td data-label="Base">base-100 #C6C6C6<span class="colour-swatch base-100"></span></td>
+      <td data-label="Alert States">AlertAmber #BF5300<span class="colour-swatch alert-amber"></span></td>
     </tr>
-  </thead>
- 
-  <tbody>
-    <tr><td>AlertRed #B22222<span class="colour-swatch alert-red"></span></td></tr>  
-    <tr><td>AlertAmber #BF5300<span class="colour-swatch alert-amber"></span></td></tr>  
-    <tr><td>AlertGreen #008040<span class="colour-swatch alert-green"></span></td></tr>
-    <tr><td>AlertStandard (Base 600) #2C2C2C<span class="colour-swatch base-600"></span></td></tr>
+    <tr>
+      <td data-label="Web Blue">accent-200 #89B8E4<span class="colour-swatch accent-200"></span></td>
+      <td data-label="Base">base-200 #A1A1A1<span class="colour-swatch base-200"></span></td>
+      <td data-label="Alert States">AlertGreen #008040<span class="colour-swatch alert-green"></span></td>
+    </tr>
+    <tr>
+      <td data-label="Web Blue">accent-300 #619FD9<span class="colour-swatch accent-300"></span></td>
+      <td data-label="Base">base-200 #A1A1A1<span class="colour-swatch base-200"></span></td>
+      <td data-label="Alert States">AlertStandard (Base 600) #2C2C2C<span class="colour-swatch base-600"></span></td>
+    </tr>
+     <tr>
+      <td data-label="Web Blue">accent-400 #3C88CF<span class="colour-swatch accent-400"></span></td>
+      <td data-label="Base">base-400 #575757<span class="colour-swatch base-400"></span></td>
+    </tr>
+    <tr>
+      <td data-label="Web Blue">accent-500 #1A72C4<span class="colour-swatch accent-500"></span></td>
+      <td data-label="Base">base-500 #323232<span class="colour-swatch base-500"></span></td>
+    </tr>
+    <tr>
+      <td data-label="Web Blue">accent-600 #1764AB<span class="colour-swatch accent-600"></span></td>
+      <td data-label="Base">base-600 #2C2C2C<span class="colour-swatch base-600"></span></td>
+    </tr>
+    <tr>
+      <td data-label="Web Blue">accent-700 #135593<span class="colour-swatch accent-700"></span></td>
+      <td data-label="Base">base-700 #252525<span class="colour-swatch base-700"></span></td>
+    </tr>
+    <tr>
+      <td data-label="Web Blue">accent-800 #10477A<span class="colour-swatch accent-800"></span></td>
+      <td data-label="Base">base-800 #1F1F1F<span class="colour-swatch base-800"></span></td>
+    </tr>
+    <tr>
+      <td data-label="Web Blue">accent-900 #0D3961<span class="colour-swatch accent-900"></span></td>
+      <td data-label="Base">base-900 #191919<span class="colour-swatch base-900"></span></td>
+    </tr>
   </tbody>
 </table>
 
@@ -517,7 +517,7 @@ title: Additional Resources
     <tr>
       <td scope="row" data-label="Propery Name">PrimaryAccentDisabled</td>
       <td data-label="Light Theme">base-400 <span class="colour-swatch dark-text base-400"></span></td>
-      <td data-label="Dark Theme">base-500 <span class="colour-swatch base-500"></span></td>
+      <td data-label="Dark Theme">base-300 <span class="colour-swatch base-300"></span></td>
     </tr>
     <tr>
       <td scope="row" data-label="Propery Name">primaryAccentHover</td>
