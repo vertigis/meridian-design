@@ -14,6 +14,11 @@ import HelpIcon from "@vertigis/react-ui/icons/Help";
 import AlarmIcon from "@vertigis/react-ui/icons/Alarm";
 import EditLogIcon from "@vertigis/react-ui/icons/EditLog";
 import IconButton from "@vertigis/react-ui/IconButton";
+import SaveIcon from "@vertigis/react-ui/icons/Save";
+import PreviousIcon from "@vertigis/react-ui/icons/ChevronLeft";
+import NextIcon from "@vertigis/react-ui/icons/ChevronRight";
+import TrashIcon from "@vertigis/react-ui/icons/Trash";
+import { ReactElement, useContext } from "react";
 
 const useStyles = makeStyles((theme) =>
     createStyles({
@@ -32,212 +37,233 @@ const theme = createTheme({
     },
 });
 
-export function ButtonStyles() {
+export function ButtonEmphasis() {
     const classes = useStyles();
     return (
         <GcxThemeProvider theme={theme}>
             <div className={classes.buttonContainer}>
-                <Button focusRipple={false}>Default</Button>
-                <Button variant="outlined">Outlined</Button>
-                <Button variant="text">Text</Button>
+                <Button
+                    className="button--low"
+                    emphasis="low"
+                    variant="text"
+                    color="primary"
+                >
+                    Low Emphasis
+                </Button>
+                <Button
+                    className="button--med"
+                    emphasis="medium"
+                    variant="outlined"
+                    color="primary"
+                >
+                    Medium Emphasis
+                </Button>
+                <Button
+                    className="button--high"
+                    emphasis="high"
+                    variant="contained"
+                    color="primary"
+                >
+                    High Emphasis
+                </Button>
             </div>
         </GcxThemeProvider>
     );
 }
-export function DisabledStates() {
+export function ButtonPairs() {
     const classes = useStyles();
     return (
         <GcxThemeProvider theme={theme}>
             <div className={classes.buttonContainer}>
-                <Button disabled>Disabled</Button>
-                <Button variant="outlined" disabled>
-                    Disabled
+                <caption>Primary action is emphasized</caption>
+                <Button
+                    className="button--high"
+                    emphasis="high"
+                    variant="contained"
+                    color="primary"
+                >
+                    Save Feature
                 </Button>
-                <Button variant="text" disabled>
-                    Disabled
+                <Button
+                    className="button--med"
+                    emphasis="medium"
+                    variant="outlined"
+                    color="primary"
+                >
+                    Cancel
+                </Button>
+                <caption>Both buttons of equal importance</caption>
+                <Button
+                    className="button--med"
+                    emphasis="medium"
+                    variant="outlined"
+                    color="primary"
+                >
+                    OK
+                </Button>
+                <Button
+                    className="button--med"
+                    emphasis="medium"
+                    variant="outlined"
+                    color="primary"
+                >
+                    Cancel
+                </Button>
+                <caption>Secondary action is less important</caption>
+                <Button
+                    className="button--med"
+                    emphasis="medium"
+                    variant="outlined"
+                    color="primary"
+                >
+                    Save Feature
+                </Button>
+                <Button
+                    className="button--low"
+                    emphasis="medium"
+                    variant="text"
+                    color="primary"
+                >
+                    Cancel
+                </Button>
+            </div>
+        </GcxThemeProvider>
+    );
+}
+
+export function ButtonLabelsDo() {
+    const classes = useStyles();
+    return (
+        <GcxThemeProvider theme={theme}>
+            <div className={classes.buttonContainer}>
+                <Button
+                    className="button--high"
+                    emphasis="high"
+                    variant="contained"
+                    color="primary"
+                >
+                    Save Feature
+                </Button>
+                <Button
+                    className="button--med"
+                    emphasis="medium"
+                    variant="outlined"
+                    color="primary"
+                >
+                    Cancel
+                </Button>
+            </div>
+        </GcxThemeProvider>
+    );
+}
+export function ButtonLabelsDont() {
+    const classes = useStyles();
+    return (
+        <GcxThemeProvider theme={theme}>
+            <div className={classes.buttonContainer}>
+                <Button
+                    className="button--high"
+                    emphasis="high"
+                    variant="contained"
+                    color="primary"
+                >
+                    SAVE FEATURE
+                </Button>
+                <Button
+                    className="button--med"
+                    emphasis="medium"
+                    variant="outlined"
+                    color="primary"
+                >
+                    CANCEL
                 </Button>
             </div>
         </GcxThemeProvider>
     );
 }
 
-export function ButtonColors() {
+export function ButtonOptions() {
     const classes = useStyles();
     return (
         <GcxThemeProvider theme={theme}>
             <div className={classes.buttonContainer}>
-                <Button focusRipple={false}>Default</Button>
-                <Button color="primary">Primary Accent</Button>
-                <Button color="secondary">Secondary Accent</Button>
-                <br />
-                <Button variant="outlined">Outlined</Button>
-                <Button variant="outlined" color="primary">
-                    Outlined Primary Accent
+                <caption>Icons can add additional emphasis</caption>
+                <Button
+                    className="button--high"
+                    emphasis="high"
+                    variant="contained"
+                    color="primary"
+                    startIcon={<SaveIcon fontSize="small" />}
+                >
+                    Save Feature
                 </Button>
-                <Button variant="outlined" color="secondary">
-                    Outlined Secondary Accent
+                <Button
+                    className="button--high gcx-button-icon-only"
+                    emphasis="medium"
+                    variant="contained"
+                    color="primary"
+                    startIcon={<SaveIcon fontSize="small" />}
+                ></Button>
+                <caption>
+                    Icons can be place at the start or the end of a button
+                </caption>
+                <Button
+                    className="button--med"
+                    emphasis="medium"
+                    variant="outlined"
+                    color="primary"
+                    startIcon={<PreviousIcon fontSize="small" />}
+                >
+                    Previous
                 </Button>
-                <br></br>
-                <Button variant="text">Default Text</Button>
-                <Button variant="text" color="primary">
-                    Primary Accent Text
+                <Button
+                    className="button--med"
+                    emphasis="medium"
+                    variant="outlined"
+                    color="primary"
+                    endIcon={<NextIcon fontSize="small" />}
+                >
+                    Next
                 </Button>
-                <Button variant="text" color="secondary">
-                    Secondary Accent Text
+                <caption>
+                    Use the "disabled" property to block the user from clicking
+                </caption>
+
+                <Button
+                    className="button--high"
+                    emphasis="high"
+                    variant="contained"
+                    color="primary"
+                    disabled
+                >
+                    Save Feature
+                </Button>
+                <Button
+                    className="button--med"
+                    emphasis="medium"
+                    variant="outlined"
+                    color="primary"
+                >
+                    Cancel
+                </Button>
+                <caption>Round style buttons</caption>
+                <Button
+                    className="button--med gcx-button-style-round gcx-button-icon-only"
+                    emphasis="medium"
+                    variant="outlined"
+                    color="primary"
+                    startIcon={<TrashIcon fontSize="small" />}
+                ></Button>
+                <Button
+                    className="button--med gcx-button-style-round"
+                    emphasis="medium"
+                    variant="outlined"
+                    color="primary"
+                    startIcon={<TrashIcon fontSize="small" />}
+                >
+                    Delete
                 </Button>
             </div>
-        </GcxThemeProvider>
-    );
-}
-
-export function ButtonSizes() {
-    const classes = useStyles();
-    return (
-        <GcxThemeProvider theme={theme}>
-            <div className={classes.buttonContainer}>
-                <Button size="large">Large</Button>
-                <Button focusRipple={false}>Default</Button>
-                <Button size="small">Small</Button>
-                <br></br>
-                <Button variant="outlined" size="large">
-                    Large
-                </Button>
-                <Button variant="outlined">Default</Button>
-                <Button variant="outlined" size="small">
-                    Small
-                </Button>
-                <br></br>
-
-                <Button variant="text" size="large">
-                    Large
-                </Button>
-                <Button variant="text">Default</Button>
-                <Button variant="text" size="small">
-                    Small
-                </Button>
-            </div>
-        </GcxThemeProvider>
-    );
-}
-
-export function IconButtons() {
-    const classes = useStyles();
-    return (
-        <GcxThemeProvider theme={theme}>
-            <div className={classes.buttonContainer}>
-                <IconButton>
-                    <HelpIcon />
-                </IconButton>
-                <IconButton>
-                    <AlarmIcon />
-                </IconButton>
-                <IconButton>
-                    <EditLogIcon />
-                </IconButton>
-            </div>
-        </GcxThemeProvider>
-    );
-}
-
-export function GroupedButtons() {
-    const classes = useStyles();
-    return (
-        <GcxThemeProvider theme={theme}>
-            <Grid container spacing={1}>
-                <Grid item xs={12} md={6}>
-                    <Grid
-                        container
-                        spacing={1}
-                        direction="column"
-                        alignItems="center"
-                    >
-                        <Grid item>
-                            <ButtonGroup
-                                size="small"
-                                aria-label="small outlined button group"
-                            >
-                                <Button>One</Button>
-                                <Button>Two</Button>
-                                <Button>Three</Button>
-                            </ButtonGroup>
-                        </Grid>
-                        <Grid item>
-                            <ButtonGroup
-                                color="primary"
-                                aria-label="outlined primary button group"
-                            >
-                                <Button>One</Button>
-                                <Button>Two</Button>
-                                <Button>Three</Button>
-                            </ButtonGroup>
-                        </Grid>
-                        <Grid item>
-                            <ButtonGroup
-                                color="secondary"
-                                size="large"
-                                aria-label="large outlined secondary button group"
-                            >
-                                <Button>One</Button>
-                                <Button>Two</Button>
-                                <Button>Three</Button>
-                            </ButtonGroup>
-                        </Grid>
-                    </Grid>
-                </Grid>
-                <Grid item xs={12} md={6}>
-                    <Grid
-                        container
-                        spacing={1}
-                        direction="column"
-                        alignItems="center"
-                    >
-                        <Grid item>
-                            <ButtonGroup
-                                variant="outlined"
-                                size="small"
-                                aria-label="small contained button group"
-                            >
-                                <Button>One</Button>
-                                <Button>Two</Button>
-                                <Button>Three</Button>
-                            </ButtonGroup>
-                        </Grid>
-                        <Grid item>
-                            <ButtonGroup
-                                variant="outlined"
-                                color="primary"
-                                aria-label="full-width contained primary button group"
-                            >
-                                <Button>One</Button>
-                                <Button>Two</Button>
-                                <Button>Three</Button>
-                            </ButtonGroup>
-                        </Grid>
-                        <Grid item>
-                            <ButtonGroup
-                                variant="outlined"
-                                color="secondary"
-                                size="large"
-                                aria-label="large contained secondary button group"
-                            >
-                                <Button>One</Button>
-                                <Button>Two</Button>
-                                <Button>Three</Button>
-                            </ButtonGroup>
-                        </Grid>
-                    </Grid>
-                </Grid>
-                <Grid item md={12} xs={12}>
-                    <ButtonGroup
-                        fullWidth
-                        aria-label="full width outlined button group"
-                    >
-                        <Button>Full</Button>
-                        <Button>width</Button>
-                        <Button>Button Group</Button>
-                    </ButtonGroup>
-                </Grid>
-            </Grid>
         </GcxThemeProvider>
     );
 }
