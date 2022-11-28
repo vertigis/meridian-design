@@ -1,8 +1,3 @@
-.main-content {
-    margin: 4em auto 0;
-    max-width: 800px;
-}
-
 .palette-grid {
     display: grid;
     grid-template-columns: repeat(12, 1fr);

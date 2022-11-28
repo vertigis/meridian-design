@@ -49,7 +49,6 @@ img + br + em::before {
     margin: 1rem 0;
 }
 
-
 .branding {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(25%, 1fr));
@@ -228,7 +227,6 @@ table thead tr {
 }
 
 table tr {
-    background-color: #f8f8f8;
     border: 0.0625em solid #ddd;
     padding: 0.35em;
 }
@@ -272,6 +270,8 @@ table th {
     table tr {
         display: block;
         margin-bottom: 0.625em;
+        border: none;
+        padding: 0;
     }
 
     table td {
@@ -408,7 +408,7 @@ table th {
 
 .table-spacer {
     margin: 2em 0 0 0;
- }
+}
 
 .example {
     border: 5px solid transparent;
