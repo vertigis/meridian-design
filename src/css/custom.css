@@ -201,9 +201,7 @@ img + br + em::before {
     color: #fff;
 }
 
-table {
-    border: 0.0625em solid #ccc;
-    border-collapse: collapse;
+.color-tables {
     margin: 0;
     padding: 0;
     width: 100%;
@@ -211,52 +209,64 @@ table {
     display: inline-table !important;
 }
 
-table caption {
+.color-tables caption {
     font-size: 1.5em;
     margin: 0.5em 0 0.75em;
 }
 
-table td {
+.color-tables td {
     font-size: 0.75em;
 }
 
-table thead tr {
-    border-bottom-color: var(--ifm-table-border-color);
-    border-bottom-style: solid;
+.color-tables thead tr {
     border-bottom-width: 0px !important;
 }
 
-table tr {
-    border: 0.0625em solid #ddd;
+.color-tables tr {
     padding: 0.35em;
 }
 
-table tr:hover {
+.color-tables tr:hover {
     background-color: #e3eff9;
 }
 
-table th,
-table td {
+.color-tables th,
+.color-tables td {
     padding: 0.625em;
     text-align: right;
 }
 
-table th {
+.color-tables th {
     font-size: 0.85em;
     letter-spacing: 0.1em;
     text-transform: uppercase;
 }
 
+.color-sets {
+    width: 33%;
+}
+
+.color-sets th,
+.color-sets td {
+    border-left: none;
+}
+
+#color-accent.color-sets th,
+#color-accent.color-sets td {
+    border-left: var(--ifm-table-border-width) solid
+        var(--ifm-table-border-color);
+}
+
 @media screen and (max-width: 600px) {
-    table {
+    #color-properties.color-tables {
         border: 0;
     }
 
-    table caption {
+    #color-properties.color-tables caption {
         font-size: 1.3em;
     }
 
-    table thead {
+    #color-properties.color-tables thead {
         border: none;
         clip: rect(0 0 0 0);
         height: 0.0625em;
@@ -267,27 +277,27 @@ table th {
         width: 0.0625em;
     }
 
-    table tr {
+    #color-properties.color-tables tr {
         display: block;
         margin-bottom: 0.625em;
         border: none;
         padding: 0;
     }
 
-    table td {
+    #color-properties.color-tables td {
         display: block;
         font-size: 0.8em;
         text-align: right;
         margin-bottom: -0.0625em;
     }
 
-    table tr:hover {
+    #color-properties.color-tables tr:hover {
         background-color: #f8f8f8;
     }
 
-    table td::before {
+    #color-properties.color-tables td::before {
         /*
-    * aria-label has no advantage, it won't be read inside a table
+    * aria-label has no advantage, it won't be read inside a .color-tables
     content: attr(aria-label);
     */
         content: attr(data-label);
@@ -296,6 +306,21 @@ table th {
         text-transform: uppercase;
         overflow: hidden;
         text-overflow: ellipsis;
+    }
+
+    .color-sets {
+        display: block;
+        width: 100%;
+    }
+
+    .color-sets th,
+    .color-sets td {
+        border-left: var(--ifm-table-border-width) solid
+            var(--ifm-table-border-color);
+    }
+
+    .color-sets + .color-sets {
+        margin-top: 0.625em;
     }
 }
 
@@ -404,10 +429,6 @@ table th {
 
 .alert-red {
     background: #b22222;
-}
-
-.table-spacer {
-    margin: 2em 0 0 0;
 }
 
 .example {

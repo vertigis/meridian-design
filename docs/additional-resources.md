@@ -2,61 +2,104 @@
 title: Additional Resources
 ---
 
-## Colours
+## Colors
 
-<table class="table-spacer">
+<table class="color-tables color-sets" id="color-accent">
  <thead>
     <tr>
-      <th scope="col">VertiGIS Studio Web Accent</th>
-      <th scope="col">VertiGIS Studio Base</th>
-      <th scope="col">Alert States</th>
+      <th scope="col">Studio Web Accent</th>
     </tr>
   </thead>
-  
   <tbody>
     <tr>
       <td data-label="Web Accent">accent-50 #E3EFF9<span class="colour-swatch accent-50"></span></td>
-      <td data-label="Base">base-50 #EBEBEB<span class="colour-swatch base-50"></span></td>
-      <td data-label="Alert States">AlertRed #B22222<span class="colour-swatch alert-red"></span></td>
     </tr>
     <tr>
       <td data-label="Web Accent">accent-100 #B5D3EE<span class="colour-swatch accent-100"></span></td>
-      <td data-label="Base">base-100 #C6C6C6<span class="colour-swatch base-100"></span></td>
-      <td data-label="Alert States">AlertAmber #BF5300<span class="colour-swatch alert-amber"></span></td>
     </tr>
     <tr>
       <td data-label="Web Accent">accent-200 #89B8E4<span class="colour-swatch accent-200"></span></td>
-      <td data-label="Base">base-200 #A1A1A1<span class="colour-swatch base-200"></span></td>
-      <td data-label="Alert States">AlertGreen #008040<span class="colour-swatch alert-green"></span></td>
     </tr>
     <tr>
-      <td data-label="Web Accent">accent-300 #619FD9<span class="colour-swatch accent-300"></span></td>
-      <td data-label="Base">base-200 #A1A1A1<span class="colour-swatch base-200"></span></td>
-      <td data-label="Alert States">AlertStandard (Base 600) #2C2C2C<span class="colour-swatch base-600"></span></td>
+       <td data-label="Web Accent">accent-300 #619FD9<span class="colour-swatch accent-300"></span></td>
     </tr>
-     <tr>
+    <tr>
       <td data-label="Web Accent">accent-400 #3C88CF<span class="colour-swatch accent-400"></span></td>
-      <td data-label="Base">base-400 #575757<span class="colour-swatch base-400"></span></td>
     </tr>
     <tr>
       <td data-label="Web Accent">accent-500 #1A72C4<span class="colour-swatch accent-500"></span></td>
-      <td data-label="Base">base-500 #323232<span class="colour-swatch base-500"></span></td>
     </tr>
     <tr>
       <td data-label="Web Accent">accent-600 #1764AB<span class="colour-swatch accent-600"></span></td>
-      <td data-label="Base">base-600 #2C2C2C<span class="colour-swatch base-600"></span></td>
     </tr>
     <tr>
       <td data-label="Web Accent">accent-700 #135593<span class="colour-swatch accent-700"></span></td>
-      <td data-label="Base">base-700 #252525<span class="colour-swatch base-700"></span></td>
     </tr>
     <tr>
       <td data-label="Web Accent">accent-800 #10477A<span class="colour-swatch accent-800"></span></td>
-      <td data-label="Base">base-800 #1F1F1F<span class="colour-swatch base-800"></span></td>
     </tr>
     <tr>
       <td data-label="Web Accent">accent-900 #0D3961<span class="colour-swatch accent-900"></span></td>
+    </tr>
+  </tbody>
+</table>
+<table class="color-tables color-sets" id="color-base">
+ <thead>
+    <tr>
+      <th scope="col">Base Grays</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td data-label="Base">base-50 #EBEBEB<span class="colour-swatch base-50"></span></td>
+    </tr>
+    <tr>
+      <td data-label="Base">base-100 #C6C6C6<span class="colour-swatch base-100"></span></td>
+    </tr>
+    <tr>
+      <td data-label="Base">base-200 #A1A1A1<span class="colour-swatch base-200"></span></td>
+    </tr>
+    <tr>
+      <td data-label="Base">base-200 #A1A1A1<span class="colour-swatch base-200"></span></td>
+    </tr>
+    <tr>
+      <td data-label="Base">base-400 #575757<span class="colour-swatch base-400"></span></td>
+    </tr>
+    <tr>
+      <td data-label="Base">base-500 #323232<span class="colour-swatch base-500"></span></td>
+    </tr>
+    <tr>
+      <td data-label="Base">base-600 #2C2C2C<span class="colour-swatch base-600"></span></td>
+    </tr>
+    <tr>
+      <td data-label="Base">base-700 #252525<span class="colour-swatch base-700"></span></td>
+    </tr>
+    <tr>
+      <td data-label="Base">base-800 #1F1F1F<span class="colour-swatch base-800"></span></td>
+    </tr>
+    <tr>
       <td data-label="Base">base-900 #191919<span class="colour-swatch base-900"></span></td>
+    </tr>
+  </tbody>
+</table>
+<table class="color-tables color-sets" id="color-alert">
+ <thead>
+    <tr>
+      <th scope="col">Alert States</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td data-label="Alert States">AlertRed #B22222<span class="colour-swatch alert-red"></span></td>
+    </tr>
+    <tr>
+      <td data-label="Alert States">AlertAmber #BF5300<span class="colour-swatch alert-amber"></span></td>
+    </tr>
+    <tr>
+      <td data-label="Alert States">AlertGreen #008040<span class="colour-swatch alert-green"></span></td>
+    </tr>
+    <tr>
+      <td data-label="Alert States">AlertStandard (Base 600) #2C2C2C<span class="colour-swatch base-600"></span></td>
     </tr>
   </tbody>
 </table>
@@ -65,7 +108,7 @@ title: Additional Resources
 
 ## Branding Properties
 
-<table>
+<table class="color-tables" id="color-properties">
   <thead>
     <tr>
       <th scope="col">Property Name</th>
@@ -206,18 +249,18 @@ title: Additional Resources
     </tr>
     <tr>
       <td scope="row" data-label="Propery Name">alertGreenBackground</td>
-      <td data-label="Light Theme">alertGreen <span class="colour-swatch dark-text" style={{background: "#008040"}} ></span></td>
-      <td data-label="Dark Theme">alertGreen <span class="colour-swatch dark-text" style={{background: "#008040"}} ></span></td>
+      <td data-label="Light Theme">alertGreen <span class="colour-swatch dark-text alert-green" ></span></td>
+      <td data-label="Dark Theme">alertGreen <span class="colour-swatch dark-text alert-green" ></span></td>
     </tr>
     <tr>
       <td scope="row" data-label="Propery Name">alertGreenBackgroundHover</td>
-      <td data-label="Light Theme">white <span class="colour-swatch" style={{background: "#FFF"}} ></span></td>
-      <td data-label="Dark Theme">white <span class="colour-swatch" style={{background: "#FFF"}} ></span></td>
+      <td data-label="Light Theme">white <span class="colour-swatch white" ></span></td>
+      <td data-label="Dark Theme">white <span class="colour-swatch white" ></span></td>
     </tr>
       <tr>
       <td scope="row" data-label="Propery Name">alertGreenBorder</td>
-      <td data-label="Light Theme">alertGreen <span class="colour-swatch dark-text" style={{background: "#008040"}} ></span></td>
-      <td data-label="Dark Theme">alertGreen <span class="colour-swatch dark-text" style={{background: "#008040"}} ></span></td>
+      <td data-label="Light Theme">alertGreen <span class="colour-swatch dark-text alert-green" ></span></td>
+      <td data-label="Dark Theme">alertGreen <span class="colour-swatch dark-text alert-green" ></span></td>
     </tr>
           <tr>
       <td scope="row" data-label="Propery Name">alertGreenBorderHover</td>
