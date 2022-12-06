@@ -21,6 +21,12 @@ module.exports = {
         footer: {
             style: "dark",
             copyright: `Copyright © ${new Date().getFullYear()} VertiGIS`,
+            links: [
+                {
+                    label: "Additional Resources",
+                    href: "/docs/additional-resources",
+                },
+            ],
         },
     },
     presets: [

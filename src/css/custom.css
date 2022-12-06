@@ -37,7 +37,7 @@ img + br + em {
     display: inherit;
     text-align: left;
     font-size: 100%;
-    margin-top: -5pt;
+    margin-top: -0.3125em;
 }
 img + br + em::before {
     content: "- ";
@@ -47,6 +47,388 @@ img + br + em::before {
     display: block;
     border: 0.5rem solid #eeeeee;
     margin: 1rem 0;
+}
+
+.branding {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(25%, 1fr));
+    grid-gap: 1.25rem;
+    margin: 0 auto;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: stretch;
+}
+
+.element {
+    display: flex;
+    flex-direction: column;
+    border-radius: 0.5rem;
+    box-shadow: inset 0em 0em 0em 0.0625em #c6c6c6;
+    width: 100%;
+}
+
+.element .title {
+    display: flex;
+    font-weight: bold;
+    font-size: medium;
+    align-items: center;
+    justify-content: center;
+}
+
+.swatches {
+    display: flex;
+    flex-direction: row;
+    border: 0.0625em solid #c6c6c6;
+    box-sizing: border-box;
+    font-size: 0.875em;
+}
+
+.swatches .colour {
+    display: flex;
+    width: 100%;
+    height: 4.688rem;
+    overflow: hidden;
+    align-items: center;
+    justify-content: center;
+}
+
+.dark-text {
+    color: #ffffff;
+}
+
+.info {
+    line-height: 1em;
+    font-size: 0.875em;
+    font-weight: 500;
+    letter-spacing: 0.03125rem;
+    padding: 0.5rem;
+    width: 100%;
+}
+
+.palette-grid {
+    margin-bottom: 1.563rem;
+    border: 0.0625em solid #c6c6c6;
+    padding: 0.625em;
+    background: #ebebeb;
+}
+
+.palette__info {
+    color: #333;
+    position: relative;
+    flex: 0 0 auto;
+    font-size: 0.875em;
+    padding: 0.625rem;
+}
+.palette__info__hexcode {
+    margin-top: 0.1875em;
+    font-size: 0.75em;
+    color: gray;
+}
+.palette__colors {
+    flex: 1;
+    width: 100%;
+    position: relative;
+    display: flex;
+    align-items: stretch;
+}
+
+.palette__shades {
+    flex: 0;
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+}
+.palette__shades__item {
+    flex: 1 1 auto;
+    height: 1.563rem;
+    background: var(--bg-color);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    opacity: 0;
+    position: relative;
+    left: 0.625rem;
+    font-size: 80%;
+}
+.palette .palette__shades {
+    flex: 0 50%;
+    transition: 0.2s ease;
+}
+.palette .palette__shades__item {
+    opacity: 1;
+    left: 0;
+}
+
+.palette__info {
+    color: #333;
+    position: relative;
+    flex: 0 0 auto;
+    font-size: 0.875em;
+    padding: 0.75rem;
+    background: #fff;
+}
+.palette__info__hexcode {
+    margin-top: 0.1875em;
+    font-size: 0.75em;
+    color: gray;
+}
+
+.font-white {
+    color: #fff;
+}
+
+.element-container {
+    display: grid;
+    grid-template-columns: repeat(2, [col] 50%);
+}
+
+.element-name {
+    column-span: 2;
+    grid-row: 1;
+}
+
+.light,
+.dark {
+    column-span: 1 / 2;
+    grid-row: 2;
+}
+
+.light {
+    color: #000;
+}
+
+.dark {
+    color: #fff;
+}
+
+.color-tables {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    table-layout: fixed;
+    display: inline-table !important;
+}
+
+.color-tables caption {
+    font-size: 1.5em;
+    margin: 0.5em 0 0.75em;
+}
+
+.color-tables td {
+    font-size: 0.75em;
+}
+
+.color-tables thead tr {
+    border-bottom-width: 0px !important;
+}
+
+.color-tables tr {
+    padding: 0.35em;
+}
+
+.color-tables tr:hover {
+    background-color: #e3eff9;
+}
+
+.color-tables th,
+.color-tables td {
+    padding: 0.625em;
+    text-align: right;
+}
+
+.color-tables th {
+    font-size: 0.85em;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+}
+
+.color-sets {
+    width: 33%;
+}
+
+.color-sets th,
+.color-sets td {
+    border-left: none;
+}
+
+#color-accent.color-sets th,
+#color-accent.color-sets td {
+    border-left: var(--ifm-table-border-width) solid
+        var(--ifm-table-border-color);
+}
+
+@media screen and (max-width: 600px) {
+    #color-properties.color-tables {
+        border: 0;
+    }
+
+    #color-properties.color-tables caption {
+        font-size: 1.3em;
+    }
+
+    #color-properties.color-tables thead {
+        border: none;
+        clip: rect(0 0 0 0);
+        height: 0.0625em;
+        margin: -0.0625em;
+        overflow: hidden;
+        padding: 0;
+        position: absolute;
+        width: 0.0625em;
+    }
+
+    #color-properties.color-tables tr {
+        display: block;
+        margin-bottom: 0.625em;
+        border: none;
+        padding: 0;
+    }
+
+    #color-properties.color-tables td {
+        display: block;
+        font-size: 0.8em;
+        text-align: right;
+        margin-bottom: -0.0625em;
+    }
+
+    #color-properties.color-tables tr:hover {
+        background-color: #f8f8f8;
+    }
+
+    #color-properties.color-tables td::before {
+        /*
+    * aria-label has no advantage, it won't be read inside a .color-tables
+    content: attr(aria-label);
+    */
+        content: attr(data-label);
+        float: left;
+        font-weight: bold;
+        text-transform: uppercase;
+        overflow: hidden;
+        text-overflow: ellipsis;
+    }
+
+    .color-sets {
+        display: block;
+        width: 100%;
+    }
+
+    .color-sets th,
+    .color-sets td {
+        border-left: var(--ifm-table-border-width) solid
+            var(--ifm-table-border-color);
+    }
+
+    .color-sets + .color-sets {
+        margin-top: 0.625em;
+    }
+}
+
+.colour-swatch {
+    padding: 0.375em 1em;
+    /* border-radius: 0.25em; */
+    margin: 0px 0.625em;
+    border: 0.0625em solid #c6c6c6;
+}
+
+.accent-50 {
+    background: #e3eff9;
+}
+
+.accent-100 {
+    background: #b5d3ee;
+}
+
+.accent-200 {
+    background: #89b8e4;
+}
+
+.accent-300 {
+    background: #619fd9;
+}
+
+.accent-400 {
+    background: #3c88cf;
+}
+
+.accent-500 {
+    background: #1a72c4;
+}
+
+.accent-600 {
+    background: #1764ab;
+}
+
+.accent-700 {
+    background: #135593;
+}
+
+.accent-800 {
+    background: #10477a;
+}
+
+.accent-900 {
+    background: #0d3961;
+}
+
+.base-50 {
+    background: #ebebeb;
+}
+
+.base-100 {
+    background: #c6c6c6;
+}
+
+.base-200 {
+    background: #a1a1a1;
+}
+
+.base-300 {
+    background: #7c7c7c;
+}
+
+.base-400 {
+    background: #575757;
+}
+
+.base-500 {
+    background: #323232;
+}
+
+.base-600 {
+    background: #2c2c2c;
+}
+
+.base-700 {
+    background: #252525;
+}
+
+.base-800 {
+    background: #1f1f1f;
+}
+
+.base-900 {
+    background: #191919;
+}
+
+.white {
+    background: #fff;
+}
+
+.black {
+    background: #000;
+}
+
+.alert-amber {
+    background: #bf5300;
+}
+
+.alert-green {
+    background: #008040;
+}
+
+.alert-red {
+    background: #b22222;
 }
 
 .example {
