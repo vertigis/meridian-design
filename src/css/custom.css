@@ -325,8 +325,8 @@ img + br + em::before {
 }
 
 .colour-swatch {
-    padding: 0.375em 0.875em;
-    border-radius: 0.25em;
+    padding: 0.375em 1em;
+    /* border-radius: 0.25em; */
     margin: 0px 0.625em;
     border: 0.0625em solid #c6c6c6;
 }
