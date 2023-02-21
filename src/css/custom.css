@@ -43,11 +43,6 @@ img + br + em::before {
     content: "- ";
 }
 
-[class^="img_node_modules"] {
-    display: block;
-    border: 0.5rem solid #eeeeee;
-    margin: 1rem 0;
-}
 .img-example {
     display: block;
     border: 0.5rem solid #eeeeee;
