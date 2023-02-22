@@ -76,10 +76,10 @@ A properly designed form allows people to quickly enter values in a logical orde
 -   Located on top of or to the left of most fields.
 
     -   Labels on the top is better for internationalization and long strings.
-        <img src="/img/forms/forms-labels.png" alt="Example of form label on top of the input" title="Labels on top of the input" width="355" height="80" class="img-example" />
+        <img src="/img/forms/forms-labels.png" alt="Example of form label on top of the input" title="Labels on top of the input" width="355" height="80" className="img-example" />
 
 -   Usually appear to the right of check boxes and radio buttons.
-    <img src="/img/forms/forms-labels-radio.png" alt="Example of radio button labels to the right of the radio button" title="Radio button labels to the right of the radio button" width="200" height="130" class="img-example" />
+    <img src="/img/forms/forms-labels-radio.png" alt="Example of radio button labels to the right of the radio button" title="Radio button labels to the right of the radio button" width="200" height="130" className="img-example" />
 
 -   Ensure there is not too much space between the label and it's associated field so that it is clear which field goes with the label.
 
@@ -87,12 +87,12 @@ A properly designed form allows people to quickly enter values in a logical orde
 
 -   The length of text fields should suggest the amount of data that should be entered.
 -   Ensure that there is not too much space between fields so that nothing gets accidentally overlooked.
-    <img src="/img/forms/forms-spacing.png" alt="Example of correct and incorrect label and field spacing" title="Keep the proximity of label close to their fields" width="355" height="322" class="img-example" />
+    <img src="/img/forms/forms-spacing.png" alt="Example of correct and incorrect label and field spacing" title="Keep the proximity of label close to their fields" width="355" height="322" className="img-example" />
 
 ### Links/Buttons
 
 -   Primary actions should be clear and obvious.
-    <img src="/img/forms/forms-primary-actions.png" alt="Example of primary action button next to a standard button" title="Primary actions are clear" width="235" height="70" class="img-example" />
+    <img src="/img/forms/forms-primary-actions.png" alt="Example of primary action button next to a standard button" title="Primary actions are clear" width="235" height="70" className="img-example" />
 -   Secondary actions are for more discrete actions.
 -   Multi-step and complex forms should have all other navigation removed.
     -   Back links should be included for easy corrections in multi-step forms.
@@ -101,7 +101,7 @@ A properly designed form allows people to quickly enter values in a logical orde
 ### Error Messages
 
 -   Provide clear and constructive error messages.
-    <img src="/img/forms/forms-error-message.png" alt="Examples of correct and incorrect error messages" title="Eg: 'Please enter a street address' vs 'Required'" width="355" height="242" class="img-example" />
+    <img src="/img/forms/forms-error-message.png" alt="Examples of correct and incorrect error messages" title="Eg: 'Please enter a street address' vs 'Required'" width="355" height="242" className="img-example" />
 
 ### Do's and Don'ts
 
@@ -181,14 +181,14 @@ The most straight forward of implementations. This simple list view can include 
 
 ### Nested List
 
-<img src="/img/menus/menu.gif" alt="Animation to show a nested list" title="Menu - Title Only" width="139" height="181" class="img-example" />
-<img src="/img/menus/menu-full.png" alt="Example of a nested menu" title="Menu - Title - Icon - Description" width="500" height="189" class="img-example" />
+<img src="/img/menus/menu.gif" alt="Animation to show a nested list" title="Menu - Title Only" width="139" height="181" className="img-example" />
+<img src="/img/menus/menu-full.png" alt="Example of a nested menu" title="Menu - Title - Icon - Description" width="500" height="189" className="img-example" />
 
 Menus are used to group additional commands for components that are not worth displaying in a more prominent visual manner, or that simply don’t belong anywhere else in the interface. Menu items consist of a single line of text to indicate what function will be triggered when the item is clicked. The hover state for menu items is built in an identical fashion to those used in list items (See above). A colored bar is added to the left side, and the background receives a gray gradient to white.
 
 ### Pinned Subheader List
 
-<img src="/img/list/pinned-subheader.png" alt="Pinned Subheader List" title="Pinned Subheader List" width="364" height="249" class="img-example" />
+<img src="/img/list/pinned-subheader.png" alt="Pinned Subheader List" title="Pinned Subheader List" width="364" height="249" className="img-example" />
 
 ### States
 
@@ -196,19 +196,19 @@ A few guidelines should be followed to ensure that the list element looks unifor
 
 #### Hover
 
-<img src="/img/list/selected-item.png" alt="Menu hover state" title="Menu hover state" width="364" height="249" class="img-example" />
+<img src="/img/list/selected-item.png" alt="Menu hover state" title="Menu hover state" width="364" height="249" className="img-example" />
 
 When a hover state is triggered, it cannot just rely on a colour change. There also must be a state change that shows the differentiation. For example, in our programs, there is a background colour change, as well as the addition of a side border colour. Hover states always include a styling change, and the background colour will get a gradient.
 
 #### Focus
 
-<img src="/img/list/list-focused.png" alt="Keyboard focused state" title="Keyboard focused state" width="364" height="242" class="img-example" />
+<img src="/img/list/list-focused.png" alt="Keyboard focused state" title="Keyboard focused state" width="364" height="242" className="img-example" />
 
 Focus indicators provide an easy way to identify currently active elements, against the rest of the design elements. Focus states must be unique from the hover state to make them distinct when using a keyboard for navigation. Focus states have a triple border design, so that regardless of the background they are implemented on, they will always be visible and easy to identify.
 
 #### Selected/Active
 
-<img src="/img/list/list-active.png" alt="Example of the selected/active state" title="Selected/active state" width="364" height="242" class="img-example" />
+<img src="/img/list/list-active.png" alt="Example of the selected/active state" title="Selected/active state" width="364" height="242" className="img-example" />
 
 Selected and Active states for list elements should showcase similar behavior to the hover state. They must show that they are currently active, and visually distinct from the rest of the list elements.
 
@@ -258,7 +258,7 @@ Panels come with an assortment of configurable navigation controls:
 
 ### Examples
 
-<img src="/img/panels/panel-welcome.jpg" alt="Welcome Dialog Panel" title="Welcome Dialog Panel" width="415" height="493" class="img-example" /> <img src="/img/panels/panel-feature.jpg" alt="Features Panel" title="Features Panel" width="415" height="493" class="img-example" />
+<img src="/img/panels/panel-welcome.jpg" alt="Welcome Dialog Panel" title="Welcome Dialog Panel" width="415" height="493" className="img-example" /> <img src="/img/panels/panel-feature.jpg" alt="Features Panel" title="Features Panel" width="415" height="493" className="img-example" />
 
 ## Dialogs
 
@@ -268,12 +268,12 @@ Occasionally, there will be a need to display information, warn the user, or pre
 
 ### Examples
 
-<img src="/img/modals/measurement-units.jpg" alt="Units under the measurement toolbar" title="Units under the measure toolbar" width="800" height="456" class="img-example"/>
+<img src="/img/modals/measurement-units.jpg" alt="Units under the measurement toolbar" title="Units under the measure toolbar" width="800" height="456" className="img-example"/>
 
-<img src="/img/modals/polygon-styles.jpg" alt="Polygon Styles under the draw menu" title="Polygon Styles under the draw menu" width="800" height="456" class="img-example" />
+<img src="/img/modals/polygon-styles.jpg" alt="Polygon Styles under the draw menu" title="Polygon Styles under the draw menu" width="800" height="456" className="img-example" />
 
-<img src="/img/modals/share-my-map.jpg" alt="Share my Map" title="Share my Map" width="800" height="456" class="img-example"/>
-<img src="/img/modals/save-project.jpg" alt="Save Project" title="Save Project" width="800" height="456" class="img-example" />
+<img src="/img/modals/share-my-map.jpg" alt="Share my Map" title="Share my Map" width="800" height="456" className="img-example"/>
+<img src="/img/modals/save-project.jpg" alt="Save Project" title="Save Project" width="800" height="456" className="img-example" />
 
 Additional information regarding modal alerts can be found in **<a href="https://developers.geocortex.com/docs/web/tutorial-import-map-model/#create-a-custom-component-with-a-model" target="_blank">the Developer Center.</a>**
 
@@ -285,8 +285,8 @@ Dialogs are a good method of presenting alerts to the user, since they allow inf
 
 Alerts must always preface the problem, and offer the user the ability to dismiss, edit, or disregard the problem in question.
 
-<img src="/img/panels/panel-welcome.jpg" alt="Example of an app 'Welcome Panel'" title="App 'Welcome Panel'" width="415" height="493" class="img-example" />
-<img src="/img/panels/panel-feature.jpg" alt="Example of the 'Result/Feature Details' panel" title="'Result/Feature Details' panel" width="415" height="493" class="img-example" />
+<img src="/img/panels/panel-welcome.jpg" alt="Example of an app 'Welcome Panel'" title="App 'Welcome Panel'" width="415" height="493" className="img-example" />
+<img src="/img/panels/panel-feature.jpg" alt="Example of the 'Result/Feature Details' panel" title="'Result/Feature Details' panel" width="415" height="493" className="img-example" />
 
 ---
 
@@ -296,13 +296,13 @@ Notification appear in a non-invasive manner. They can be configured to either d
 
 There are four types of notifications available to use:
 
-<img src="/img/notifications/notification-success.jpg" alt="Toast Notification for Success" title="Toast Notification for Success" width="640" height="316" class="img-example"/>
+<img src="/img/notifications/notification-success.jpg" alt="Toast Notification for Success" title="Toast Notification for Success" width="640" height="316" className="img-example"/>
 
-<img src="/img/notifications/notification-info.jpg" alt="Toast Notification for Information" title="Toast Notification for Information" width="640" height="316" class="img-example"/>
+<img src="/img/notifications/notification-info.jpg" alt="Toast Notification for Information" title="Toast Notification for Information" width="640" height="316" className="img-example"/>
 
-<img src="/img/notifications/notification-warning.jpg" alt="Toast Notification for Warning" title="Toast Notification for Warning" width="640" height="316" class="img-example"/>
+<img src="/img/notifications/notification-warning.jpg" alt="Toast Notification for Warning" title="Toast Notification for Warning" width="640" height="316" className="img-example"/>
 
-<img src="/img/notifications/notification-error.jpg" alt="Toast Notification for Error" title="Toast Notification for Error" width="640" height="316" class="img-example"/>
+<img src="/img/notifications/notification-error.jpg" alt="Toast Notification for Error" title="Toast Notification for Error" width="640" height="316" className="img-example"/>
 
 Care should be taken when choosing to use a notification as too many notifications can annoy users by being overused.
 
