@@ -314,7 +314,7 @@ Panels come with an assortment of configurable navigation controls:
 
 ## Typography
 
-Good typography plays a large role in creating not only an aesthetically pleasing app but a usable one. It is essential that style guidelines and semantics are followed as they ensure consistency across our suite of applications.
+Good typography plays a large role in creating not only an aesthetically pleasing app but a usable one. It is essential that style guidelines and semantics are followed as they ensure consistency across our suite of applications. For example, by keeping headings and body text at predefined sizes makes it easier for developers to implement. There is no guessing required as to which size an H1 should be. Users working with our applications will instantly know they are using a VertiGIS app simply but the way it looks (and behaves).
 
 The Meridian Design System has the following typographic settings:
 
