@@ -35,7 +35,7 @@ Visit **[the Developer Center](https://developers.vertigisstudio.com/docs/mobile
 
 The primary action (eg: Save, Apply, etc.) must be the first button in the hierarchy of buttons. In the context of a form, it should be the first thing a keyboard user will tab too after filling in all of the form inputs. The secondary action (eg: Cancel or Back) button follows after the primary action in the tab order.
 
-As a general guideline, forms with labels and inputs stacked on top of each other (as in most VertiGIS Studio applications) it's better to align your buttons with the start of the content. That means left-aligned in most languages and right-aligned in RTL languages. This allows the eye to simply follow the natural flow while visually scanning the form so that you can find the submit action.
+As a general guideline, forms with labels and inputs stacked on top of each other (as in most VertiGIS Studio applications) it's better to align your buttons with the start of the content. That means left-aligned in most languages and right-aligned in RTL languages. The close proximity of the buttons to the form inputs and labels allows the eye to simply follow the natural flow down the page to find the submit action. This is especially true when using large screens where your form input and action buttons potentially end up on opposite sides of the screen.
 
 <table class="tbl-example">
     <tr>
