@@ -31,11 +31,34 @@ Depending on the purpose of the button you can use combinations of a High Emphas
 
 Visit **[the Developer Center](https://developers.vertigisstudio.com/docs/mobile/tutorial-configure-button-click/)** for more details for implementing buttons
 
-### Order and Alignment
+### Action Button Order and Alignment
 
-The primary action (eg: Save, Apply, etc.) should be the first button in the hierarchy of buttons. In the context of a form, it should be the first thing a keyboard user will tab too after filling in all of the form inputs. The 'Cancel' button is the last button that should be displayed.
+The primary action (eg: Save, Apply, etc.) must be the first button in the hierarchy of buttons. In the context of a form, it should be the first thing a keyboard user will tab too after filling in all of the form inputs. The secondary action (eg: Cancel or Back) button follows after the primary action in the tab order.
 
-VS Web generally uses right alignment for most basic button implementations. Workflow forms uses left alignment for buttons by default.
+As a general guideline, forms with labels and inputs stacked on top of each other (as in most VertiGIS Studio applications) it's better to align your buttons with the start of the content. That means left-aligned in most languages and right-aligned in RTL languages. The close proximity of the buttons to the form inputs and labels allows the eye to simply follow the natural flow down the page to find the submit action. This is especially true when using large screens where your form input and action buttons potentially end up on opposite sides of the screen.
+
+<table class="tbl-example">
+    <tr>
+        <td id="btn-alignment-1">
+            <img src="/img/forms/button-alignment-general.png" alt="Example of form action buttons aligned to the start of the content" title="Buttons aligned with the labels and the start of the content" width="180" height="270" className="img-example" />
+            <span class="img-caption">
+                Buttons aligned with the labels and the start of the content
+            </span>
+        </td>
+        <td id="btn-alignment-2">
+            <img src="/img/forms/button-alignment-dialog.png" alt="Example of form action buttons aligned to the end of the content in a dialog" title="Buttons aligned to the end of the dialog" width="310" height="200" className="img-example" />
+            <span class="img-caption">
+                Buttons aligned to the end of the dialog
+            </span>
+        </td>
+    </tr>
+</table>
+
+If the form is in a dialog then the common practice is to place your action buttons at the end of your content (right-aligned for most languages and left-aligned in RTL languages). The smaller contained space of a dialog creates a natural ending place for your eye to flow to at the end of the content area.
+
+Small screens and mobile devices can also use center-aligned or full width action buttons to help draw attention to the primary action and to reduce the distance you have to reach with your thumb or finger to tap on a button.
+
+When deciding if your form button alignment should be to the left or right, it's important to consider the specific context and user needs when designing a form. Conducting user testing and gathering feedback can help ensure that the button alignment aligns with user expectations and improves usability. If you're still unsure, then the default fallback position should be to align the buttons with the start of your content (left-aligned).
 
 ### Button Labels
 

@@ -49,6 +49,30 @@ img + br + em::before {
     margin: 1rem 0;
 }
 
+.img-caption {
+    display: block;
+    font-size: 0.8rem;
+    font-style: italic;
+    color: var(--ifm-toc-link-color);
+    line-height: 1.25em;
+}
+
+.tbl-example,
+.tbl-example tr,
+.tbl-example td {
+    border: 0;
+    padding: 0;
+    text-align: center;
+}
+
+.tbl-example td + td {
+    padding-left: 2em;
+}
+
+#btn-alignment-1 {
+    width: 184px;
+}
+
 .branding {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(25%, 1fr));
