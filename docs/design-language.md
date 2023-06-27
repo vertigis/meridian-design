@@ -316,29 +316,36 @@ Panels come with an assortment of configurable navigation controls:
 
 Good typography plays a large role in creating not only an aesthetically pleasing app but a usable one. It is essential that style guidelines and semantics are followed as they ensure consistency across our suite of applications. For example, by keeping headings and body text at predefined sizes makes it easier for developers to implement. There is no guessing required as to which size an H1 should be. Users working with our applications will instantly know they are using a VertiGIS app simply but the way it looks (and behaves).
 
+### Usage
+
+Our current font stack is <em>"Segoe UI, Helvetica Neue, Roboto, Helvetica, Arial, sans-serif"</em>. **<a href="https://learn.microsoft.com/en-us/typography/font-list/segoe-ui" target="_blank">Segoe UI</a>** is installed by default on Windows. MacOS/iOS will take advantage of Helvitca Neue and Roboto is Android's default font.
+
 The Meridian Design System has the following typographic settings:
 
 <div class="typography buttons-box">
-    <h1>h1.Heading</h1>
-    <h2>h2.Heading</h2>
-    <h3>h3.Heading</h3>
-    <h4>h4.Heading</h4>
-    <h5>h5.Heading</h5>
-    <h6>h6.Heading</h6>
-    <h6 class="subtitle1">subtitle1. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quos blanditiis tenetur</h6>
-    <h6 class="subtitle2">subtitle2. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quos blanditiis tenetur</h6>
-    <p class="body1">body1. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quos blanditiis tenetur unde suscipit, quam beatae rerum inventore consectetur, neque doloribus, cupiditate numquam dignissimos laborum fugiat deleniti? Eum quasi quidem quibusdam.</p>
-    <p class="body2">body2. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quos blanditiis tenetur unde suscipit, quam beatae rerum inventore consectetur, neque doloribus, cupiditate numquam dignissimos laborum fugiat deleniti? Eum quasi quidem quibusdam.</p>
-    <p class="caption">Caption text</p>
-    <p class="overline">Overline text</p>
+    <h1>h1.Heading (1.75rem)</h1>
+    <h2>h2.Heading (1.37rem)</h2>
+    <h3>h3.Heading (1.25rem)</h3>
+    <h4>h4.Heading (1.125rem)</h4>
+    <h5>h5.Heading (1rem)</h5>
+    <h6>h6.Heading (0.875rem)</h6>
+    <h6 class="subtitle1">subtitle1 (1.125rem). Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quos blanditiis tenetur</h6>
+    <h6 class="subtitle2">subtitle2 (0.875rem). Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quos blanditiis tenetur</h6>
+    <p class="body1">body1 (0.875rem). Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quos blanditiis tenetur unde suscipit, quam beatae rerum inventore consectetur, neque doloribus, cupiditate numquam dignissimos laborum fugiat deleniti? Eum quasi quidem quibusdam.</p>
+    <p class="body2">body2 (0.75rem). Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quos blanditiis tenetur unde suscipit, quam beatae rerum inventore consectetur, neque doloribus, cupiditate numquam dignissimos laborum fugiat deleniti? Eum quasi quidem quibusdam.</p>
+    <p class="caption">Caption text (0.75rem)</p>
+    <p class="overline">Overline text (0.75rem)</p>
 </div><br />
-
-Our current font stack is <em>"Segoe UI, Helvetica Neue, Droid Sans, Helvetica, Arial, sans-serif"</em>.
 
 ### Headings
 
 Typically used for short text such as titles. Do not increase the weight of headings using CSS or HTML tags.
 <img src="/img/typography/h1.png" alt="H1 as found in VertiGIS Studio Web" title="H1 as found in VertiGIS Studio Web" class="img-example" />
+<br /><br />
+
+#### Panel Headings
+
+Panels should use H1 as the panel title and subsequent headings should be H2 and smaller based on hierarchy.
 
 ### Subtitles
 
