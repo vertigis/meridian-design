@@ -320,7 +320,7 @@ Good typography plays a large role in creating not only an aesthetically pleasin
 
 Our current font stack is <em>"Segoe UI, Helvetica Neue, Roboto, Helvetica, Arial, sans-serif"</em>. **<a href="https://learn.microsoft.com/en-us/typography/font-list/segoe-ui" target="_blank">Segoe UI</a>** is installed by default on Windows. MacOS/iOS will take advantage of Helvitca Neue and Roboto is Android's default font.
 
-The Meridian Design System has the following typographic settings:
+**Font sizes rely on the browser default font-size of 16px. This value should not be changed.**
 
 <div class="typography buttons-box">
     <h1>h1.Heading (1.75rem)</h1>
