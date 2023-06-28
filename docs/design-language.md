@@ -316,20 +316,20 @@ Panels come with an assortment of configurable navigation controls:
 
 Good typography plays a large role in creating not only an aesthetically pleasing app but a usable one. It is essential that style guidelines and semantics are followed as they ensure consistency across our suite of applications. For example, by keeping headings and body text at predefined sizes makes it easier for developers to implement. There is no guessing required as to which size an H1 should be. Users working with our applications will instantly know they are using a VertiGIS app simply but the way it looks (and behaves).
 
-### Usage
-
 Our current font stack is <em>"Segoe UI, Helvetica Neue, Roboto, Helvetica, Arial, sans-serif"</em>. **<a href="https://learn.microsoft.com/en-us/typography/font-list/segoe-ui" target="_blank">Segoe UI</a>** is installed by default on Windows. MacOS/iOS will take advantage of Helvitca Neue and Roboto is Android's default font.
 
 **Font sizes rely on the browser default font-size of 16px. This value should not be changed.**
 
+### Type scale
+
 <div class="typography buttons-box">
-    <h1>h1.Heading (1.75rem)</h1>
-    <h2>h2.Heading (1.37rem)</h2>
-    <h3>h3.Heading (1.25rem)</h3>
-    <h4>h4.Heading (1.125rem)</h4>
-    <h5>h5.Heading (1rem)</h5>
-    <h6>h6.Heading (0.875rem)</h6>
-    <h6 class="subtitle1">subtitle1 (1.125rem). Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quos blanditiis tenetur</h6>
+    <h1>h1. Heading (2rem)</h1>
+    <h2>h2. Heading (1.812rem)</h2>
+    <h3>h3. Heading (1.625rem)</h3>
+    <h4>h4. Heading (1.438rem)</h4>
+    <h5>h5. Heading (1.250rem)</h5>
+    <h6>h6. Heading (1rem)</h6>
+    <h6 class="subtitle1">subtitle1 (1rem, increased line spacing). Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quos blanditiis tenetur</h6>
     <h6 class="subtitle2">subtitle2 (0.875rem). Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quos blanditiis tenetur</h6>
     <p class="body1">body1 (0.875rem). Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quos blanditiis tenetur unde suscipit, quam beatae rerum inventore consectetur, neque doloribus, cupiditate numquam dignissimos laborum fugiat deleniti? Eum quasi quidem quibusdam.</p>
     <p class="body2">body2 (0.75rem). Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quos blanditiis tenetur unde suscipit, quam beatae rerum inventore consectetur, neque doloribus, cupiditate numquam dignissimos laborum fugiat deleniti? Eum quasi quidem quibusdam.</p>
@@ -339,33 +339,41 @@ Our current font stack is <em>"Segoe UI, Helvetica Neue, Roboto, Helvetica, Aria
 
 ### Headings
 
-Typically used for short text such as titles. Do not increase the weight of headings using CSS or HTML tags.
+Headings are used for short text such as titles. They help organize content and imply importance using hierarchy.
 <img src="/img/typography/h1.png" alt="H1 as found in VertiGIS Studio Web" title="H1 as found in VertiGIS Studio Web" class="img-example" />
 <br /><br />
 
-#### Panel Headings
+#### Considerations when using Headings
 
-Panels should use H1 as the panel title and subsequent headings should be H2 and smaller based on hierarchy.
+-   Do not alter the weight of headings using CSS or HTML tags.
+-   Avoid skipping heading levels. More info can be found at the **<a href="https://www.w3.org/WAI/tutorials/page-structure/headings/" target="_blank">W3C</a>**
 
 ### Subtitles
 
-Smaller than headings, used for medium-emphasis. Avoid using subtitles as a replacement for body text. Two sizes available.
+Smaller than headings, used for medium-emphasis. Usually paired with a heading to enhance context. 2 sizes are provided.
+
+#### Considerations when using Subtitles
+
+-   Avoid using subtitles as a replacement for body text.
 
 ### Body
 
-Use for long-form text (paragraphs). Two sizes available. Emphasis can be added using standard HTML tags, for example <strong>strong</strong> and <em>em</em>.
+Use for long-form text (paragraphs). Emphasis can be added using standard HTML tags, for example <strong>strong</strong> and <em>em</em>. 2 sizes are provided.
+
+#### Considerations when using Body
+
+-   Should never be used in place of heading.
 
 ### Caption
 
-Used for annotation.
+Typically used for annotating images.
+
+#### Considerations when using Captions
+
+-   Avoid using captions as a source of small/italicized Body text.
 
 ### Overline
 
-Used to introduce a heading.
-
-### Considerations
-
--   Don't skip heading levels. Use the headings hierarchy correctly. For example, do not follow an H1 with an H3. Please note that WCAG requirements state only one H1 per page should be used.
--   Overriding font styles (e.g. size and weight) is discouraged. This is especially true of headings. In most cases custom font styles are not required.
+Similar to a subtitle Overline is used to introduce a heading and is placed above it. Traditionally a line appears above but in our case we have omitted it.
 
 ---
