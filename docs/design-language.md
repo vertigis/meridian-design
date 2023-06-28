@@ -316,10 +316,6 @@ Panels come with an assortment of configurable navigation controls:
 
 Good typography plays a large role in creating not only an aesthetically pleasing app but a usable one. It is essential that style guidelines and semantics are followed as they ensure consistency across our suite of applications. For example, by keeping headings and body text at predefined sizes makes it easier for developers to implement. There is no guessing required as to which size an H1 should be. Users working with our applications will instantly know they are using a VertiGIS app simply but the way it looks (and behaves).
 
-Our current font stack is <em>"Segoe UI, Helvetica Neue, Roboto, Helvetica, Arial, sans-serif"</em>. **<a href="https://learn.microsoft.com/en-us/typography/font-list/segoe-ui" target="_blank">Segoe UI</a>** is installed by default on Windows. MacOS/iOS will take advantage of Helvitca Neue and Roboto is Android's default font.
-
-**Font sizes rely on the browser default font-size of 16px. This value should not be changed.**
-
 ### Type scale
 
 <div class="typography buttons-box">
@@ -337,9 +333,13 @@ Our current font stack is <em>"Segoe UI, Helvetica Neue, Roboto, Helvetica, Aria
     <p class="overline">Overline text (0.75rem)</p>
 </div><br />
 
+### Font stack
+
+Our current font stack is <em>"Segoe UI, Helvetica Neue, Roboto, Helvetica, Arial, sans-serif"</em>. **<a href="https://learn.microsoft.com/en-us/typography/font-list/segoe-ui" target="_blank">Segoe UI</a>** is installed by default on Windows. MacOS/iOS will take advantage of Helvitca Neue and Roboto is Android's default font. **Font sizes rely on the browser default font-size of 16px. This value should not be changed.**
+
 ### Headings
 
-Headings are used for short text such as titles. They help organize content and imply importance using hierarchy.
+Headings are the largest text on the screen and are used for titles. They help organize content and demonstrate importance using a hierarchy that ranges from 1-6.
 <img src="/img/typography/h1.png" alt="H1 as found in VertiGIS Studio Web" title="H1 as found in VertiGIS Studio Web" class="img-example" />
 <br /><br />
 
