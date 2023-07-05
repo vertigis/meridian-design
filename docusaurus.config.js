@@ -39,7 +39,7 @@ module.exports = {
                         "https://github.com/geocortex/meridian-design/edit/main/",
                 },
                 googleAnalytics: {
-                    trackingID: "UA-103604191-11",
+                    trackingID: "G-8L48ZQE2D8",
                     anonymizeIP: true,
                 },
                 theme: {
