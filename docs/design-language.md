@@ -316,7 +316,7 @@ Panels come with an assortment of configurable navigation controls:
 
 Good typography plays a large role in creating not only an aesthetically pleasing app but a usable one. It is essential that style guidelines and semantics are followed as they ensure consistency across our suite of applications. For example, by keeping headings and body text at predefined sizes makes it easier for developers to implement. There is no guessing required as to which size an H1 should be. Users working with our applications will instantly know they are using a VertiGIS app simply but the way it looks (and behaves).
 
-### Type scale
+### Type Scale
 
 <div class="typography buttons-box">
     <h1>h1. Heading (2rem)</h1>
@@ -329,11 +329,11 @@ Good typography plays a large role in creating not only an aesthetically pleasin
     <h6 class="subtitle2">subtitle2 (0.875rem). Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quos blanditiis tenetur</h6>
     <p class="body1">body1 (0.875rem). Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quos blanditiis tenetur unde suscipit, quam beatae rerum inventore consectetur, neque doloribus, cupiditate numquam dignissimos laborum fugiat deleniti? Eum quasi quidem quibusdam.</p>
     <p class="body2">body2 (0.75rem). Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quos blanditiis tenetur unde suscipit, quam beatae rerum inventore consectetur, neque doloribus, cupiditate numquam dignissimos laborum fugiat deleniti? Eum quasi quidem quibusdam.</p>
-    <p class="caption">Caption text (0.75rem)</p>
+    <p class="caption">Caption text (0.875rem)</p>
     <p class="overline">Overline text (0.75rem)</p>
 </div><br />
 
-### Font stack
+### Font Stack
 
 Our current font stack is <em>"Segoe UI, Helvetica Neue, Roboto, Helvetica, Arial, sans-serif"</em>. **<a href="https://learn.microsoft.com/en-us/typography/font-list/segoe-ui" target="_blank">Segoe UI</a>** is installed by default on Windows. MacOS/iOS will take advantage of Helvitca Neue and Roboto is Android's default font. **Font sizes rely on the browser default font-size of 16px. This value should not be changed.**
 
@@ -348,7 +348,7 @@ Headings are the largest text on the screen and are used for titles. They help o
 -   Do not alter the weight of headings using CSS or HTML tags.
 -   Avoid skipping heading levels. More info can be found at the **<a href="https://www.w3.org/WAI/tutorials/page-structure/headings/" target="_blank">W3C</a>**
 
-### Subtitles
+### Subtitles (1 & 2)
 
 Smaller than headings, used for medium-emphasis. Usually paired with a heading to enhance context. 2 sizes are provided.
 
@@ -356,7 +356,7 @@ Smaller than headings, used for medium-emphasis. Usually paired with a heading t
 
 -   Avoid using subtitles as a replacement for body text.
 
-### Body
+### Body (1 & 2)
 
 Use for long-form text (paragraphs). Emphasis can be added using standard HTML tags, for example <strong>strong</strong> and <em>em</em>. 2 sizes are provided.
 
