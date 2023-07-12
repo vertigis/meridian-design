@@ -14,7 +14,9 @@ const features = [
         description: (
             <>
                 <p className="feature__text">
-                    Build products that enable anyone to be successful using them, no matter what language they speak, device they use, or disabilities they may have.
+                    Build products that enable anyone to be successful using
+                    them, no matter what language they speak, device they use,
+                    or disabilities they may have.
                 </p>
                 <Link to="/docs/design-principles">
                     <Button
@@ -34,7 +36,9 @@ const features = [
         description: (
             <>
                 <p className="feature__text">
-                    Empathize with people to understand their motivations and goals. Use that knowledge to design solutions that enable them to accomplish their tasks.
+                    Empathize with people to understand their motivations and
+                    goals. Use that knowledge to design solutions that enable
+                    them to accomplish their tasks.
                 </p>
                 <Link to="/docs/design-philosophy">
                     <Button
@@ -54,7 +58,9 @@ const features = [
         description: (
             <>
                 <p className="feature__text">
-                    Ensure every product we produce is recognizable to customers as being a VertiGIS product by using familiar patterns, interactions and iconography across products.
+                    Ensure every product we produce is recognizable to customers
+                    as being a VertiGIS product by using familiar patterns,
+                    interactions and iconography across products.
                 </p>
                 <Link to="/docs/design-language">
                     <Button
