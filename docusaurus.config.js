@@ -5,7 +5,7 @@ module.exports = {
     baseUrl: "/",
     noIndex: true,
     favicon: "img/favicon.ico",
-    organizationName: "geocortex",
+    organizationName: "vertigis",
     projectName: "meridian-design",
     themeConfig: {
         colorMode: {
@@ -36,7 +36,7 @@ module.exports = {
                 docs: {
                     sidebarPath: require.resolve("./sidebars.js"),
                     editUrl:
-                        "https://github.com/geocortex/meridian-design/edit/main/",
+                        "https://github.com/vertigis/meridian-design/edit/main/",
                 },
                 googleAnalytics: {
                     trackingID: "G-8L48ZQE2D8",
