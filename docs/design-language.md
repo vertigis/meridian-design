@@ -156,15 +156,15 @@ A properly designed form allows people to quickly enter values in a logical orde
 
 ### Where can I find the Icons?
 
-Our master repository of icons, consists of over 600 pre-created icons ready for use in our icon package. Instructions on how to install packages can be found in **<a href="https://developers.geocortex.com/docs/web/sdk-reference-third-party-libraries/#installing-packages" target="_blank">the Developer Center.</a>** We store all our icons in this online repository, in several formats (png, svg, pdf). The .svg format icons are comprised of compound paths, black #000000), and an artboard of 24px by 24px. They have been stripped of all unnecessary meta info and optimized using the SVGo optimization script included in the repo.
+Our master repository of icons, consists of over 600 pre-created icons ready for use in our icon package. Instructions on how to install packages can be found in **<a href="https://developers.vertigisstudio.com/docs/web/sdk-reference-third-party-libraries/#installing-packages" target="_blank">the Developer Center.</a>** We store all our icons in this online repository, in several formats (png, svg, pdf). The .svg format icons are comprised of compound paths, black #000000), and an artboard of 24px by 24px. They have been stripped of all unnecessary meta info and optimized using the SVGo optimization script included in the repo.
 
 ### How do I use icons in my app?
 
-Instructions for using either built in icons, or your own, can be found in **<a href="https://developers.geocortex.com/docs/web/sdk-adding-icons/#next-steps" target="_blank">the Developer Center.</a>**
+Instructions for using either built in icons, or your own, can be found in **<a href="https://developers.vertigisstudio.com/docs/web/sdk-adding-icons/#next-steps" target="_blank">the Developer Center.</a>**
 
 ### How do I create a custom icon?
 
-When creating our icons, simplicity is key. Since we are working with a canvas of only 24px x 24px, every design provided must be concise and communicate the idea clearly, and easily. Fine details are less important than trying to ensure that shapes stay recognizable. Information regarding this process is available in **<a href="https://developers.geocortex.com/docs/web/sdk-components-styling" target="_blank">the Developer Center.</a>**
+When creating our icons, simplicity is key. Since we are working with a canvas of only 24px x 24px, every design provided must be concise and communicate the idea clearly, and easily. Fine details are less important than trying to ensure that shapes stay recognizable. Information regarding this process is available in **<a href="https://developers.vertigisstudio.com/docs/web/sdk-components-styling" target="_blank">the Developer Center.</a>**
 
 #### Style
 
@@ -265,7 +265,7 @@ Selected and Active states for list elements should showcase similar behavior to
 
 ### Panels
 
-Using Panels in our application affords the user a good deal of information all contained in an easy to view place. Most information can be placed within a panel. Panels are designed with a minimum width of 365px so that they work on smart phone screens as well as larger tablet and desktop displays. The user can resize the panels with the provided drag handles. For full information regarding panels, refer to **<a href="https://developers.geocortex.com/docs/web/configuration-layout-getting-started/#panels" target="_blank">the Developer Center.</a>**
+Using Panels in our application affords the user a good deal of information all contained in an easy to view place. Most information can be placed within a panel. Panels are designed with a minimum width of 365px so that they work on smart phone screens as well as larger tablet and desktop displays. The user can resize the panels with the provided drag handles. For full information regarding panels, refer to **<a href="https://developers.vertigisstudio.com/docs/web/configuration-layout-getting-started/#panels" target="_blank">the Developer Center.</a>**
 
 ### Panel Navigation
 
@@ -298,7 +298,7 @@ Occasionally, there will be a need to display information, warn the user, or pre
 <img src="/img/modals/share-my-map.jpg" alt="Share my Map" title="Share my Map" width="800" height="456" className="img-example"/>
 <img src="/img/modals/save-project.jpg" alt="Save Project" title="Save Project" width="800" height="456" className="img-example" />
 
-Additional information regarding modal alerts can be found in **<a href="https://developers.geocortex.com/docs/web/tutorial-import-map-model/#create-a-custom-component-with-a-model" target="_blank">the Developer Center.</a>**
+Additional information regarding modal alerts can be found in **<a href="https://developers.vertigisstudio.com/docs/web/tutorial-import-map-model/#create-a-custom-component-with-a-model" target="_blank">the Developer Center.</a>**
 
 ### Alerts
 
@@ -329,4 +329,4 @@ There are four types of notifications available to use:
 
 Care should be taken when choosing to use a notification as too many notifications can annoy users by being overused.
 
-For full information regarding panels, refer to **<a href="https://developers.geocortex.com/docs/web/tutorial-run-workflow-app-config/#prerequisites" target="_blank">the Developer Center.</a>**
+For full information regarding panels, refer to **<a href="https://developers.vertigisstudio.com/docs/web/tutorial-run-workflow-app-config/#prerequisites" target="_blank">the Developer Center.</a>**

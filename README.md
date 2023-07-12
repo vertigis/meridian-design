@@ -1,6 +1,6 @@
 # VertiGIS Meridian Design System
 
-![CI/CD](https://github.com/geocortex/meridian-design/workflows/CI/CD/badge.svg)
+![CI/CD](https://github.com/vertigis/meridian-design/workflows/CI/CD/badge.svg)
 
 ## Contributing
 
