@@ -26,7 +26,7 @@ Create a visually appealing and refined experience. By adhering to a polished de
 
 ### Inclusive
 
-Emphasize solutions that are accessible to all users, regardless of their abilities, disabilities, or technological limitations. Inclusive design involves considering a diverse range of users and their needs, including those with visual, auditory, motor, or cognitive impairments. By embracing inclusivity, VertiGIS products can reach a broader audience, promote equal opportunities, and enhance usability for everyone.
+Emphasize solutions that are accessible to all users, regardless of their abilities or technological limitations. Inclusive design involves considering a diverse range of users and their needs, including those with visual, auditory, motor, or cognitive impairments. By embracing inclusivity, VertiGIS products can reach a broader audience, promote equal opportunities, and enhance usability for everyone.
 
 ### Cohesive
 
@@ -42,7 +42,7 @@ It’s important to remember that the _perfect_ solution does not exist. To avoi
 <details>
   <summary>Educate</summary>
   <div>
-	 Design Principles help establish a framework for decision making, providing guidance about the right direction. By understanding the principles designers and developers will have a better understanding about how to solve design problems and create compelling applications.
+	 Design Principles help establish a framework for decision making, providing guidance about the right direction. By understanding the principles, designers and developers will have a better understanding about how to solve design problems and create compelling applications.
   </div>
 </details>
 <details>
