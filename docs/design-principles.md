@@ -2,13 +2,13 @@
 title: Design Principles
 ---
 
-<center><img src="../img/design-principles.png" alt="The Principles"
-	title="The VertiGIS Design Principles" width="500px" margin="auto"/></center>
-
-## Why do we need a common set of Design Principles?
-
 _Design Principles are a set of considerations that form the basis of any good product._
 ~https://principles.design/
+
+<center><img src="/img/EPIC-wordmark.svg" alt="EPIC - Effective, Polished, Inclusive, Cohesive"
+	title="EPIC - Effective, Polished, Inclusive, Cohesive" width="500px" margin="auto"/></center>
+
+## Why do we need a common set of Design Principles?
 
 ### Educate
 
@@ -24,9 +24,9 @@ Design Principles give the team a common, known set of guidelines to work agains
 
 # VertiGIS Products Must Be:
 
--   **[Inclusive:](#inclusive)** Build products that enable anyone to be successful using them, no matter what language they speak, device they use, or disabilities they may have.
+-   **[Effective:](#effective)** Empower people to complete their tasks quickly and efficiently in order to solve their unique business problems.
 
--   **[Useful:](#useful)** Empower people to complete their tasks quickly and efficiently in order to solve their unique business problems.
+-   **[Inclusive:](#inclusive)** Build products that enable anyone to be successful using them, no matter what language they speak, device they use, or disabilities they may have.
 
 -   **[Polished:](#polished)** Provide products that are professional, aesthetically pleasing, and as intuitive as possible.
 
@@ -38,26 +38,11 @@ It’s important to remember that the _perfect_ solution does not exist. To avoi
 
 ## The Principles
 
-## Inclusive
-
-Build products that enable anyone to be successful using them, no matter what language they speak, device they use, or disabilities they may have.
-
-### How do we make inclusive products?
-
-Standards such as Web Content Accessibility Guidelines (WCAG) specify principles regarding keyboard navigation, screen reader support, and color contrast. Adherence to these standards
-would help improve the accessibility and usability of our products. Support for localization such as right-to-left (RTL) layouts or text translation will result in more adaptable products, which opens up the global markets for our products. We need to continue to work on ensuring all our products are responsive and adaptable to any screen size or platform to ensure our products can be used on any computer, browser, or phone. We can leverage measurable and testable metrics to ensure our products are as inclusive as we can make them.
-
-### Start with the hardest problems
-
-A solution that includes good accessibility almost always leads to a solution with good usability. It is much easier to make an accessible solution aesthetically pleasing, rather than trying to make a “pretty” design accessible. When the product is to be used on a variety of screen sizes such as phones or tablets, begin with a solution that works well on the smallest screen first and build up from there. It is more difficult to remove functionality from a large screen feature to accommodate a small screen. Solving customer’s core problems with an accessible application that works on smaller screens will provide an immense amount of value to customer.
-
----
-
-## Useful
+## Effective
 
 Empower people to complete their tasks quickly and efficiently in order to solve their unique business problems.
 
-### How do we design useful products?
+### How do we design effective products?
 
 The most important thing to remember when designing a useful product, is that we are designing for real people. Focus on the tasks that the user needs to complete. Research their
 problems, focus on building a product that solves those problems and empathize with them.
@@ -72,6 +57,21 @@ Testing is the best way to evaluate solutions before putting software in the han
 Making adjustments based on the testing feedback and then performing another round of testing with those changes will rapidly improve the success, engagement, satisfaction and trust that customers have in our applications.
 
 Testing with real users is the ideal way to get results, but even testing internally, with other staff, is far better than doing no testing at all.
+
+---
+
+## Inclusive
+
+Build products that enable anyone to be successful using them, no matter what language they speak, device they use, or disabilities they may have.
+
+### How do we make inclusive products?
+
+Standards such as Web Content Accessibility Guidelines (WCAG) specify principles regarding keyboard navigation, screen reader support, and color contrast. Adherence to these standards
+would help improve the accessibility and usability of our products. Support for localization such as right-to-left (RTL) layouts or text translation will result in more adaptable products, which opens up the global markets for our products. We need to continue to work on ensuring all our products are responsive and adaptable to any screen size or platform to ensure our products can be used on any computer, browser, or phone. We can leverage measurable and testable metrics to ensure our products are as inclusive as we can make them.
+
+### Start with the hardest problems
+
+A solution that includes good accessibility almost always leads to a solution with good usability. It is much easier to make an accessible solution aesthetically pleasing, rather than trying to make a “pretty” design accessible. When the product is to be used on a variety of screen sizes such as phones or tablets, begin with a solution that works well on the smallest screen first and build up from there. It is more difficult to remove functionality from a large screen feature to accommodate a small screen. Solving customer’s core problems with an accessible application that works on smaller screens will provide an immense amount of value to customer.
 
 ---
 
