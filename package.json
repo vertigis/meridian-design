@@ -9,10 +9,10 @@
         "prettier": "prettier --write \"**/*.{css,js,jsx,ts,tsx,md,mdx,json}\""
     },
     "dependencies": {
-        "@docusaurus/core": "2.3.0",
-        "@docusaurus/preset-classic": "2.3.0",
+        "@docusaurus/core": "2.4.1",
+        "@docusaurus/preset-classic": "2.4.1",
         "@vertigis/react-ui": "^8.15.1",
-        "classnames": "^2.3.1",
+        "classnames": "^2.3.2",
         "react": "^17.0.2",
         "react-dom": "^17.0.2"
     },
