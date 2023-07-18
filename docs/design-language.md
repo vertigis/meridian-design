@@ -330,7 +330,6 @@ Good typography plays a large role in creating not only an aesthetically pleasin
     <p class="body1">body1 (0.875rem). Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quos blanditiis tenetur unde suscipit, quam beatae rerum inventore consectetur, neque doloribus, cupiditate numquam dignissimos laborum fugiat deleniti? Eum quasi quidem quibusdam.</p>
     <p class="body2">body2 (0.75rem). Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quos blanditiis tenetur unde suscipit, quam beatae rerum inventore consectetur, neque doloribus, cupiditate numquam dignissimos laborum fugiat deleniti? Eum quasi quidem quibusdam.</p>
     <p class="caption">Caption text (0.875rem)</p>
-    <p class="overline">Overline text (0.75rem)</p>
 </div><br />
 
 ### Font Stack
@@ -371,9 +370,5 @@ Typically used for annotating images.
 #### Considerations when using Captions
 
 -   Avoid using captions as a source of small/italicized Body text.
-
-### Overline
-
-Similar to a subtitle Overline is used to introduce a heading and is placed above it. Traditionally a line appears above but in our case we have omitted it.
 
 ---

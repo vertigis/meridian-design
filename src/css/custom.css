@@ -91,37 +91,37 @@ p {
 .typography h1 {
     font-size: 2rem;
     font-weight: 300;
-    line-height: 1.167;
+    line-height: 1.25;
 }
 .typography h2 {
     font-size: 1.75rem;
     font-weight: 300;
-    line-height: 1.167;
+    line-height: 1.25;
 }
 .typography h3 {
     font-size: 1.625rem;
     font-weight: 400;
-    line-height: 1.167;
+    line-height: 1.25;
 }
 .typography h4 {
     font-size: 1.375rem;
     font-weight: 500;
-    line-height: 1.235;
+    line-height: 1.25;
 }
 .typography h5 {
     font-size: 1.25rem;
     font-weight: 600;
-    line-height: 1.334;
+    line-height: 1.25;
 }
 .typography h6 {
     font-size: 1rem;
     font-weight: 600;
-    line-height: 1.6;
+    line-height: 1.125;
 }
 .typography h6.subtitle1 {
     font-size: 1rem;
     font-weight: 400;
-    line-height: 1.75;
+    line-height: 1.125;
     letter-spacing: 0.00938em;
 }
 .typography h6.subtitle2 {
@@ -138,18 +138,11 @@ p {
 .typography p.body2 {
     font-size: 0.75rem;
     font-weight: 400;
-    line-height: 1.43;
+    line-height: 1.375;
 }
 .typography p.caption {
     font-size: 0.875rem;
     font-weight: 400;
     font-style: italic;
-    line-height: 1.66;
-}
-.typography p.overline {
-    font-size: 0.75rem;
-    font-weight: 400;
-    line-height: 2.66;
-    text-transform: uppercase;
-    letter-spacing: 0.08333em;
+    line-height: 1.625;
 }
