@@ -320,9 +320,9 @@ Good typography plays a large role in creating not only an aesthetically pleasin
 
 <div class="typography buttons-box">
     <h1>h1. Heading (2rem)</h1>
-    <h2>h2. Heading (1.812rem)</h2>
+    <h2>h2. Heading (1.75rem)</h2>
     <h3>h3. Heading (1.625rem)</h3>
-    <h4>h4. Heading (1.438rem)</h4>
+    <h4>h4. Heading (1.375rem)</h4>
     <h5>h5. Heading (1.250rem)</h5>
     <h6>h6. Heading (1rem)</h6>
     <h6 class="subtitle1">subtitle1 (1rem, increased line spacing). Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quos blanditiis tenetur</h6>
