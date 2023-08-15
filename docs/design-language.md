@@ -338,14 +338,15 @@ Our current font stack is <em>"Segoe UI, Helvetica Neue, Roboto, Helvetica, Aria
 
 ### Headings
 
-Headings are the largest text on the screen and are used for titles. They help organize content and demonstrate importance using a hierarchy that ranges from 1-6.
+Headings are the largest text on the screen and are used for titles. They help organize content and demonstrate importance using a hierarchy that ranges from 1-6. This hierarchy can be repeated in different sections of an app (including H1). For example H1's can be repeated on a page if its importance is required in relation to the main content. The previous rule of thumb suggesting only one H1 per page is no longer relevant.
 <img src="/img/typography/h1.png" alt="H1 as found in VertiGIS Studio Web" title="H1 as found in VertiGIS Studio Web" class="img-example" />
 <br /><br />
 
 #### Considerations when using Headings
 
 -   Do not alter the weight of headings using CSS or HTML tags.
--   Avoid skipping heading levels. More info can be found at the **<a href="https://www.w3.org/WAI/tutorials/page-structure/headings/" target="_blank">W3C</a>**
+-   Avoid skipping heading levels. Maintain an appropriate logical hierarchy for each section of an app. More info can be found at the **<a href="https://www.w3.org/WAI/tutorials/page-structure/headings/" target="_blank">W3C</a>**
+-   The first heading in a Panel component should be an H1.
 
 ### Subtitles (1 & 2)
 
