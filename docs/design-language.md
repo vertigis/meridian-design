@@ -346,7 +346,7 @@ Headings are the largest text on the screen and are used for titles. They help o
 
 -   Do not alter the weight of headings using CSS or HTML tags.
 -   Avoid skipping heading levels. Maintain an appropriate logical hierarchy for each section of an app. More info can be found at the **<a href="https://www.w3.org/WAI/tutorials/page-structure/headings/" target="_blank">W3C</a>**
--   The first heading in a Panel component should be an H1.
+-   In most cases, such as in Studio Web, the first heading in a Panel component should be an H1.
 
 ### Subtitles (1 & 2)
 
@@ -362,7 +362,7 @@ Use for long-form text (paragraphs). Emphasis can be added using standard HTML t
 
 #### Considerations when using Body
 
--   Should never be used in place of heading.
+-   Should never be used in place of a heading.
 
 ### Caption
 
