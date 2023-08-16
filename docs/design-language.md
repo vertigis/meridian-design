@@ -223,6 +223,23 @@ A few guidelines should be followed to ensure that the list element looks unifor
 
 When a hover state is triggered, it cannot just rely on a colour change. There also must be a state change that shows the differentiation. For example, in our programs, there is a background colour change, as well as the addition of a side border colour. Hover states always include a styling change, and the background colour will get a gradient.
 
+## Loading
+
+Multiple options are available to denote a loading state, "3 dot loader" and "Skeleton". When to use either will depend on the content being loaded.
+
+### 3 Dot Loader
+
+<img src="/img/loaders/3dot-loader.gif" alt="3 dot loader animation" title="3 dot loader animation" className="img-example" />
+
+The 3 dot animated loader was the original loading animation user throughout our apps. In many cases this has been replaced by Skeleton although there are some instances where it is preferable:
+
+-   When there isn't a layout for Skeleton to emulate.
+-   Large areas.
+
+### Skeleton
+
+adaasd
+
 #### Focus
 
 <img src="/img/list/list-focused.png" alt="Keyboard focused state" title="Keyboard focused state" width="364" height="242" className="img-example" />
