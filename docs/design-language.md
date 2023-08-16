@@ -319,17 +319,17 @@ Good typography plays a large role in creating not only an aesthetically pleasin
 ### Type Scale
 
 <div class="typography buttons-box">
-    <h1>h1. Heading (2rem, weight: 300)</h1>
-    <h2>h2. Heading (1.75rem, weight: 300)</h2>
-    <h3>h3. Heading (1.625rem, weight: 400)</h3>
-    <h4>h4. Heading (1.375rem, weight: 400)</h4>
-    <h5>h5. Heading (1.250rem, weight: 600)</h5>
-    <h6>h6. Heading (1rem, weight: 600)</h6>
-    <h6 class="subtitle1">subtitle1 (1rem, weight: 400, letter-spacing: 0.00938rem). Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quos blanditiis tenetur</h6>
-    <h6 class="subtitle2">subtitle2 (0.875rem, weight: 600, letter-spacing: 0.01071rem). Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quos blanditiis tenetur</h6>
-    <p class="body1">body1 (0.875rem). Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quos blanditiis tenetur unde suscipit, quam beatae rerum inventore consectetur, neque doloribus, cupiditate numquam dignissimos laborum fugiat deleniti? Eum quasi quidem quibusdam.</p>
-    <p class="body2">body2 (0.75rem). Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quos blanditiis tenetur unde suscipit, quam beatae rerum inventore consectetur, neque doloribus, cupiditate numquam dignissimos laborum fugiat deleniti? Eum quasi quidem quibusdam.</p>
-    <p class="caption">Caption text (0.875rem)</p>
+    <h1>h1. Heading (2rem/32px, weight: 300)</h1>
+    <h2>h2. Heading (1.75rem/28px, weight: 300)</h2>
+    <h3>h3. Heading (1.625rem/26px, weight: 400)</h3>
+    <h4>h4. Heading (1.375rem/22px, weight: 400)</h4>
+    <h5>h5. Heading (1.250rem/20px, weight: 600)</h5>
+    <h6>h6. Heading (1rem/16px, weight: 600)</h6>
+    <h6 class="subtitle1">subtitle1 (1rem/16px, weight: 400, letter-spacing: 0.00938rem). Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quos blanditiis tenetur</h6>
+    <h6 class="subtitle2">subtitle2 (0.875rem/14px, weight: 600, letter-spacing: 0.01071rem). Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quos blanditiis tenetur</h6>
+    <p class="body1">body1 (0.875rem/14px). Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quos blanditiis tenetur unde suscipit, quam beatae rerum inventore consectetur, neque doloribus, cupiditate numquam dignissimos laborum fugiat deleniti? Eum quasi quidem quibusdam.</p>
+    <p class="body2">body2 (0.75rem/12px). Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quos blanditiis tenetur unde suscipit, quam beatae rerum inventore consectetur, neque doloribus, cupiditate numquam dignissimos laborum fugiat deleniti? Eum quasi quidem quibusdam.</p>
+    <p class="caption">Caption text (0.875rem/14px)</p>
 </div><br />
 
 ### Font Stack
