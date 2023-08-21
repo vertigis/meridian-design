@@ -225,20 +225,19 @@ When a hover state is triggered, it cannot just rely on a colour change. There a
 
 ## Loading
 
-Multiple options are available to denote a loading state, "3 dot loader" and "Skeleton". When to use either will depend on the content being loaded.
-
-### 3 Dot Loader
-
-<img src="/img/loaders/3dot-loader.gif" alt="3 dot loader animation" title="3 dot loader animation" className="img-example" />
-
-The 3 dot animated loader was the original loading animation user throughout our apps. In many cases this has been replaced by Skeleton although there are some instances where it is preferable:
-
--   When there isn't a layout for Skeleton to emulate.
--   Large areas.
+Two options are available to denote a loading state, the "3 dot loader" and "Skeleton". Skeleton is the preferred method with the 3 dots being phased out where applicable.
 
 ### Skeleton
 
-adaasd
+This loader can be customized to display a placeholder of incoming content. This helps improve perceived responsiveness. When using this method it is best to create a simplified layout, just enough to give the user an idea of whats coming. Animate skeleton using the "wave" style. Read more about skeleton in the **<a href="https://mui.com/material-ui/react-skeleton/" target="_blank">MUI docs</a>.**
+
+<img src="/img/loaders/skeleton-loader.gif" alt="3 dot loader animation" title="3 dot loader animation" className="img-example" />
+
+### 3 Dot Loader
+
+The 3 dot animated loader is the original loading animation throughout VertiGIS Studio apps. This is gradually being replaced by skeleton and should not be used in new projects.
+
+<img src="/img/loaders/3dot-loader.gif" alt="3 dot loader animation" title="3 dot loader animation" className="img-example" />
 
 #### Focus
 
