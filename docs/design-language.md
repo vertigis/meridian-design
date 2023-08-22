@@ -223,22 +223,6 @@ A few guidelines should be followed to ensure that the list element looks unifor
 
 When a hover state is triggered, it cannot just rely on a colour change. There also must be a state change that shows the differentiation. For example, in our programs, there is a background colour change, as well as the addition of a side border colour. Hover states always include a styling change, and the background colour will get a gradient.
 
-## Loading
-
-Two options are available to denote a loading state, the "3 dot loader" and "Skeleton". Skeleton is the preferred method with the 3 dots being phased out where applicable.
-
-### Skeleton
-
-This loader can be customized to display a placeholder of incoming content. This helps improve perceived responsiveness. When using this method it is best to create a simplified layout, just enough to give the user an idea of whats coming. Animate skeleton using the "wave" style. Read more about skeleton in the **<a href="https://mui.com/material-ui/react-skeleton/" target="_blank">MUI docs</a>.**
-
-<img src="/img/loaders/skeleton-loader.gif" alt="3 dot loader animation" title="3 dot loader animation" className="img-example" />
-
-### 3 Dot Loader
-
-The 3 dot animated loader is the original loading animation throughout VertiGIS Studio apps. This is gradually being replaced by skeleton and should not be used in new projects.
-
-<img src="/img/loaders/3dot-loader.gif" alt="3 dot loader animation" title="3 dot loader animation" className="img-example" />
-
 #### Focus
 
 <img src="/img/list/list-focused.png" alt="Keyboard focused state" title="Keyboard focused state" width="364" height="242" className="img-example" />
@@ -252,6 +236,26 @@ Focus indicators provide an easy way to identify currently active elements, agai
 Selected and Active states for list elements should showcase similar behavior to the hover state. They must show that they are currently active, and visually distinct from the rest of the list elements.
 
 ---
+
+## Loading
+
+Two options are available to denote a loading state, the "3 dot loader" and "Skeleton". Skeleton is used for individual components in an app, for example a block of text or a results list. This helps improve perceived responsiveness.
+
+The 3 dot loader is used when loading large areas such as an initial app launch.
+
+### Skeleton
+
+This loader can be customized to display a placeholder of incoming content. When using this method it is best to create a simplified layout, just enough to give the user an idea of whats coming. Animate skeleton using the "wave" style. Read more about skeleton in the **<a href="https://mui.com/material-ui/react-skeleton/" target="_blank">MUI docs</a>.**
+
+<img src="/img/loaders/skeleton-loader.gif" alt="3 dot loader animation" title="Skeleton loader animation" className="img-example" />
+
+<img src="/img/loaders/skeleton-loader-2.gif" alt="3 dot loader animation" title="Skeleton loader animation" className="img-example" />
+
+### 3 Dot Loader
+
+The 3 dot animated loader is the original loading animation throughout VertiGIS Studio apps. In many cases it has been or is being replaced by skeleton. The 3 dot loader is best used for larger areas where skeleton is not suitable, for example large areas or when the output is unknown.
+
+<img src="/img/loaders/3dot-loader.gif" alt="3 dot loader animation" title="3 dot loader animation" className="img-example" />
 
 ## Tabs
 
