@@ -552,3 +552,13 @@ p {
     font-style: italic;
     line-height: 1.625;
 }
+
+.principles-wordmark {
+    position: relative;
+    width: 500px;
+    margin: 5em auto !important;
+}
+
+.principles-wordmark img {
+    width: 100%;
+}
