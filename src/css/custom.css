@@ -482,3 +482,13 @@ img + br + em::before {
     flex: 1;
     min-width: 20rem;
 }
+
+.principles-wordmark {
+    position: relative;
+    width: 500px;
+    margin: 5em auto !important;
+}
+
+.principles-wordmark img {
+    width: 100%;
+}
