@@ -359,13 +359,12 @@ Our current font stack is <em>"Segoe UI, Helvetica Neue, Roboto, Helvetica, Aria
 
 ### Headings
 
-Headings are the largest text on the screen and are used for titles. They help organize content and demonstrate importance using a hierarchy that ranges from 1-6. For more information regarding headings please see **<a href="https://www.w3.org/WAI/tutorials/page-structure/headings/" target="_blank">W3C</a>** and **<a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/Heading_Elements" target="_blank">MDN Web Docs</a>**.
+Headings are the largest text on the screen and are used for titles. They help organize content and demonstrate importance using a hierarchy that ranges from 1-6. For more information regarding headings and the best practices for usage please refer to **<a href="https://www.w3.org/WAI/tutorials/page-structure/headings/" target="_blank">W3C</a>** and **<a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/Heading_Elements" target="_blank">MDN Web Docs</a>**.
 
 #### Considerations when using Headings
 
--   Do not alter the weight of headings using CSS or HTML tags.
--   Avoid skipping heading levels. Maintain an appropriate logical hierarchy for each section of an app.
--   In most cases, such as in Studio Web, the first heading in a Panel component should be an H2 (H1 is reserved for the app title).
+-   Multiple H1 on a page is not considered best practice. Reserve for app title or to describe the content of a page.
+-   Do not alter the size, style, and weight of headings using CSS or HTML tags.
 
 #### Example of Headings, Subtitles, and Body1 in Studio Web
 
