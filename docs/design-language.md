@@ -245,11 +245,11 @@ The 3 dot loader is used when loading large areas such as an initial app launch.
 
 ### Skeleton
 
-This loader can be customized to display a placeholder of incoming content. When using this method it is best to create a simplified layout, just enough to give the user an idea of whats coming. Animate skeleton using the "wave" style. Read more about skeleton in the **<a href="https://mui.com/material-ui/react-skeleton/" target="_blank">MUI docs</a>.**
+This loader can be customized to display a placeholder of incoming content. When using this method it is best to create a simplified layout, just enough to give the user an idea of whats coming. Read more about skeleton in the **<a href="https://mui.com/material-ui/react-skeleton/" target="_blank">MUI docs</a>.**
 
-<img src="/img/loaders/skeleton-loader.gif" alt="3 dot loader animation" title="Skeleton loader animation" className="img-example" />
+<img src="/img/loaders/skeleton-loader.gif" alt="Skeleton example 1" title="Skeleton loader animation" className="img-example" /> <img src="/img/loaders/skeleton-loader-2.gif" alt="Skeleton example 2" title="Skeleton loader animation" className="img-example" />
 
-<img src="/img/loaders/skeleton-loader-2.gif" alt="3 dot loader animation" title="Skeleton loader animation" className="img-example" />
+<img src="/img/loaders/skeleton-analytics.gif" alt="Skeleton in Analytics" title="Skeleton loader animation" className="img-example" />
 
 ### 3 Dot Loader
 
