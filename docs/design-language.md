@@ -245,15 +245,18 @@ The 3 dot loader is used when loading large areas such as an initial app launch.
 
 ### Skeleton
 
-This loader can be customized to display a placeholder of incoming content. When using this method it is best to create a simplified layout, just enough to give the user an idea of whats coming. Read more about skeleton in the **<a href="https://mui.com/material-ui/react-skeleton/" target="_blank">MUI docs</a>.**
+This loader can be customized to display a placeholder of incoming content. When using this method it is best to create a simplified layout, just enough to give the user an idea of whats coming. Read more about skeleton in the **<a href="https://mui.com/material-ui/react-skeleton/" target="_blank">MUI docs</a>.** Consider using Skeleton to:
+
+-   Display small portions of incoming content that can be represented with basic geometric shapes.
 
 <img src="/img/loaders/skeleton-loader.gif" alt="Skeleton example 1" title="Skeleton loader animation" className="img-example" /> <img src="/img/loaders/skeleton-loader-2.gif" alt="Skeleton example 2" title="Skeleton loader animation" className="img-example" />
 
-<img src="/img/loaders/skeleton-analytics.gif" alt="Skeleton in Analytics" title="Skeleton loader animation" className="img-example" />
-
 ### 3 Dot Loader
 
-The 3 dot animated loader is the original loading animation throughout VertiGIS Studio apps. In many cases it has been or is being replaced by skeleton. The 3 dot loader is best used for larger areas where skeleton is not suitable, for example large areas or when the output is unknown.
+The 3 dot animated loader is the original loading animation throughout VertiGIS Studio apps. In some cases it is being replaced by Skeleton. Consider using the 3 dot loader for:
+
+-   Large blocks or regions of a layout that are loading.
+-   If the incoming content is of unknown size, shape, or layout.
 
 <img src="/img/loaders/3dot-loader.gif" alt="3 dot loader animation" title="3 dot loader animation" className="img-example" />
 
