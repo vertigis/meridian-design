@@ -237,15 +237,18 @@ Selected and Active states for list elements should showcase similar behavior to
 
 ---
 
-## Loading
+## Loading and Progress Indicators
 
-Two options are available to denote a loading state, the "3 dot loader" and "Skeleton". Skeleton is used for individual components in an app, for example a block of text or a results list. This helps improve perceived responsiveness.
+Multiple options are available to denote a loading state, the "3 dot loader", "skeleton", "circular", and "progress bar". These are indeterminate (unspecified wait time) indicators with determinate (known wait time) options for "circular" and "progress bar".
 
-The 3 dot loader is used when loading large areas such as an initial app launch.
+-   The 3 dot loader, indeterminate only, is used when loading large areas such as an initial app launch.
+-   Circular indeterminate, used when loading large areas or areas with unknown content.
+-   Circular determinate, used when loading areas where progress can be measured and it provides value to the user.
+-   Linear indeterminate,
 
-### Skeleton
+### Skeleton (indeterminate)
 
-This loader can be customized to display a placeholder of incoming content. When using this method it is best to create a simplified layout, just enough to give the user an idea of whats coming. Read more about skeleton in the **<a href="https://mui.com/material-ui/react-skeleton/" target="_blank">MUI docs</a>.**
+This loader can be customized to display a placeholder of incoming content for example, a block of text or a results list. When using this method it is advisable to create a simplified layout, just enough to give the user an idea of whats coming. Skeleton helps improve perceived responsiveness. Read more about skeleton in the **<a href="https://mui.com/material-ui/react-skeleton/" target="_blank">MUI docs</a>.**
 
 Consider using Skeleton to:
 
@@ -253,9 +256,9 @@ Consider using Skeleton to:
 
 <img src="/img/loaders/skeleton-loader.gif" alt="Skeleton example 1" title="Skeleton loader animation" className="img-example" /> <img src="/img/loaders/skeleton-loader-2.gif" alt="Skeleton example 2" title="Skeleton loader animation" className="img-example" />
 
-### 3 Dot Loader
+### 3 Dot Loader (indeterminate)
 
-The 3 dot animated loader is the original loading animation throughout VertiGIS Studio apps. In some cases it is being replaced by Skeleton.
+Use this when loading large areas such as during the first load of an app.
 
 Consider using the 3 dot loader for:
 
