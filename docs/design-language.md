@@ -364,3 +364,68 @@ Care should be taken when choosing to use a notification as too many notificatio
 For full information regarding panels, refer to **<a href="https://developers.vertigisstudio.com/docs/web/tutorial-run-workflow-app-config/#prerequisites" target="_blank">the Developer Center.</a>**
 
 ---
+
+## Typography
+
+Good typography plays a large role in creating not only an aesthetically pleasing app but a usable one. It is essential that style guidelines and semantics are followed as they ensure consistency across our suite of applications. For example, by keeping headings and body text at predefined sizes makes it easier for developers to implement. There is no guessing required as to which size an H1 should be. Users working with our applications will instantly know they are using a VertiGIS app simply but the way it looks (and behaves).
+
+### Type Scale
+
+<div class="typography buttons-box">
+    <h1>h1. Heading (2rem/32px, weight: 300)</h1>
+    <h2>h2. Heading (1.75rem/28px, weight: 300)</h2>
+    <h3>h3. Heading (1.625rem/26px, weight: 400)</h3>
+    <h4>h4. Heading (1.375rem/22px, weight: 400)</h4>
+    <h5>h5. Heading (1.250rem/20px, weight: 600)</h5>
+    <h6>h6. Heading (1rem/16px, weight: 600)</h6>
+    <h6 class="subtitle1">subtitle1 (1rem/16px, weight: 400, letter-spacing: 0.00938rem). Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quos blanditiis tenetur</h6>
+    <h6 class="subtitle2">subtitle2 (0.875rem/14px, weight: 600, letter-spacing: 0.01071rem). Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quos blanditiis tenetur</h6>
+    <p class="body1">body1 (0.875rem/14px). Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quos blanditiis tenetur unde suscipit, quam beatae rerum inventore consectetur, neque doloribus, cupiditate numquam dignissimos laborum fugiat deleniti? Eum quasi quidem quibusdam.</p>
+    <p class="body2">body2 (0.75rem/12px). Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quos blanditiis tenetur unde suscipit, quam beatae rerum inventore consectetur, neque doloribus, cupiditate numquam dignissimos laborum fugiat deleniti? Eum quasi quidem quibusdam.</p>
+    <p class="caption">Caption text (0.875rem/14px)</p>
+</div><br />
+
+### Font Stack
+
+Our current font stack is <em>"Segoe UI, Helvetica Neue, Roboto, Helvetica, Arial, sans-serif"</em>. **<a href="https://learn.microsoft.com/en-us/typography/font-list/segoe-ui" target="_blank">Segoe UI</a>** is installed by default on Windows. MacOS/iOS will take advantage of Helvitca Neue and Roboto is Android's default font. **Font sizes rely on the browser default font-size of 16px. This value should not be changed.**
+
+### Headings
+
+Headings are the largest text on the screen and are used for titles. They help organize content and demonstrate importance using a hierarchy that ranges from 1-6. For more information regarding headings and the best practices for usage please refer to **<a href="https://www.w3.org/WAI/tutorials/page-structure/headings/" target="_blank">W3C</a>** and **<a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/Heading_Elements" target="_blank">MDN Web Docs</a>**.
+
+#### Considerations when using Headings
+
+-   Multiple H1 on a page is not considered best practice. Reserve for app title or to describe the content of a page.
+-   Do not alter the size, style, and weight of headings using CSS or HTML tags.
+-   Always choose a heading based on the hierarchy of the content and not on the heading's size.
+
+#### Example of Headings, Subtitles, and Body1 in Studio Web
+
+<img src="/img/typography/h1.png" alt="H1 as found in VertiGIS Studio Web" title="H1 as found in VertiGIS Studio Web" className="img-example" />
+<br /><br />
+
+### Subtitles (1 & 2)
+
+Smaller than headings, used for medium-emphasis. Usually paired with a heading to enhance context. 2 sizes are provided.
+
+#### Considerations when using Subtitles
+
+-   Avoid using subtitles as a replacement for body text.
+
+### Body (1 & 2)
+
+Use for long-form text (paragraphs). Emphasis can be added using standard HTML tags, for example <strong>strong</strong> and <em>em</em>. 2 sizes are provided.
+
+#### Considerations when using Body
+
+-   Should never be used in place of a heading.
+
+### Caption
+
+Typically used for annotating images.
+
+#### Considerations when using Captions
+
+-   Avoid using captions as a source of small/italicized Body text.
+
+---
