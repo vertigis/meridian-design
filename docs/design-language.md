@@ -365,6 +365,7 @@ Headings are the largest text on the screen and are used for titles. They help o
 
 -   Multiple H1 on a page is not considered best practice. Reserve for app title or to describe the content of a page.
 -   Do not alter the size, style, and weight of headings using CSS or HTML tags.
+-   Always choose a heading based on the hierarchy of the content and not on the heading's size.
 
 #### Example of Headings, Subtitles, and Body1 in Studio Web
 
