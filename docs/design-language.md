@@ -344,7 +344,7 @@ Headings are the largest text on the screen and are used for titles. They help o
 
 -   Do not alter the weight of headings using CSS or HTML tags.
 -   Avoid skipping heading levels. Maintain an appropriate logical hierarchy for each section of an app.
--   In most cases, such as in Studio Web, the first heading in a Panel component should be an H2 (H1 is reserved for the app title).
+-   Always choose a heading based on the hierarchy of the content and not on the heading's size.
 
 #### Example of Headings, Subtitles, and Body1 in Studio Web
 
