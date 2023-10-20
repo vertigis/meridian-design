@@ -7,6 +7,7 @@ module.exports = {
     favicon: "img/favicon.ico",
     organizationName: "vertigis",
     projectName: "meridian-design",
+    plugins: ["./src/meridian-plugin"],
     themeConfig: {
         colorMode: {
             disableSwitch: true,

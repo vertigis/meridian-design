@@ -1,34 +1,22 @@
-import React from "react";
+import * as React from "react";
 import {
-    createStyles,
     createTheme,
     GcxThemeProvider,
-    makeStyles,
+    styled,
 } from "@vertigis/react-ui/styles";
 import teal from "@vertigis/react-ui/colors/teal";
 import blue from "@vertigis/react-ui/colors/blue";
 import Button from "@vertigis/react-ui/Button";
-import ButtonGroup from "@vertigis/react-ui/ButtonGroup";
-import Grid from "@vertigis/react-ui/Grid";
-import HelpIcon from "@vertigis/react-ui/icons/Help";
-import AlarmIcon from "@vertigis/react-ui/icons/Alarm";
-import EditLogIcon from "@vertigis/react-ui/icons/EditLog";
-import IconButton from "@vertigis/react-ui/IconButton";
 import SaveIcon from "@vertigis/react-ui/icons/Save";
 import PreviousIcon from "@vertigis/react-ui/icons/ChevronLeft";
 import NextIcon from "@vertigis/react-ui/icons/ChevronRight";
 import TrashIcon from "@vertigis/react-ui/icons/Trash";
-import { ReactElement, useContext } from "react";
 
-const useStyles = makeStyles((theme) =>
-    createStyles({
-        buttonContainer: {
-            "& > *": {
-                margin: theme.spacing(1),
-            },
-        },
-    })
-);
+const ButtonContainer = styled("div")(({ theme: { spacing } }) => ({
+    "> *": {
+        margin: `${spacing(1)} !important`,
+    }
+}));
 
 const theme = createTheme({
     palette: {
@@ -38,10 +26,9 @@ const theme = createTheme({
 });
 
 export function ButtonEmphasis() {
-    const classes = useStyles();
     return (
         <GcxThemeProvider theme={theme}>
-            <div className={classes.buttonContainer}>
+            <ButtonContainer>
                 <Button
                     className="button--low"
                     emphasis="low"
@@ -66,15 +53,14 @@ export function ButtonEmphasis() {
                 >
                     High Emphasis
                 </Button>
-            </div>
+            </ButtonContainer>
         </GcxThemeProvider>
     );
 }
 export function ButtonPairs() {
-    const classes = useStyles();
     return (
         <GcxThemeProvider theme={theme}>
-            <div className={classes.buttonContainer}>
+            <ButtonContainer>
                 <caption>Primary action is emphasized</caption>
                 <Button
                     className="button--high"
@@ -126,16 +112,15 @@ export function ButtonPairs() {
                 >
                     Cancel
                 </Button>
-            </div>
+            </ButtonContainer>
         </GcxThemeProvider>
     );
 }
 
 export function ButtonLabelsDo() {
-    const classes = useStyles();
     return (
         <GcxThemeProvider theme={theme}>
-            <div className={classes.buttonContainer}>
+            <ButtonContainer>
                 <Button
                     className="button--high"
                     emphasis="high"
@@ -152,15 +137,14 @@ export function ButtonLabelsDo() {
                 >
                     Cancel
                 </Button>
-            </div>
+            </ButtonContainer>
         </GcxThemeProvider>
     );
 }
 export function ButtonLabelsDont() {
-    const classes = useStyles();
     return (
         <GcxThemeProvider theme={theme}>
-            <div className={classes.buttonContainer}>
+            <ButtonContainer>
                 <Button
                     className="button--high"
                     emphasis="high"
@@ -177,16 +161,15 @@ export function ButtonLabelsDont() {
                 >
                     CANCEL
                 </Button>
-            </div>
+            </ButtonContainer>
         </GcxThemeProvider>
     );
 }
 
 export function ButtonOptions() {
-    const classes = useStyles();
     return (
         <GcxThemeProvider theme={theme}>
-            <div className={classes.buttonContainer}>
+            <ButtonContainer>
                 <caption>Icons can add additional emphasis</caption>
                 <Button
                     className="button--high"
@@ -263,7 +246,7 @@ export function ButtonOptions() {
                 >
                     Delete
                 </Button>
-            </div>
+            </ButtonContainer>
         </GcxThemeProvider>
     );
 }

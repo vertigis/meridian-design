@@ -1,7 +1,7 @@
-import React from "react";
+import * as React from "react";
 import "./button.css";
 
-const STYLES = ["btn--primary--soild"];
+const STYLES = ["btn--primary--solid"];
 
 const SIZES = ["btn--medium", "btn--large"];
 
