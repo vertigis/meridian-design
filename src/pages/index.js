@@ -1,5 +1,5 @@
-import React from "react";
-import classnames from "classnames";
+import * as React from "react";
+import clsx from "clsx";
 import Layout from "@theme/Layout";
 import Link from "@docusaurus/Link";
 import useDocusaurusContext from "@docusaurus/useDocusaurusContext";
@@ -79,7 +79,7 @@ const features = [
 function Feature({ imageUrl, title, description, button }) {
     const imgUrl = useBaseUrl(imageUrl);
     return (
-        <div className={classnames("col col--4", styles.feature)}>
+        <div className={clsx("col col--4", styles.feature)}>
             {imgUrl && (
                 <div className="text--center">
                     <img
@@ -105,7 +105,7 @@ function Home() {
             description="VertGIS Meridian Design System"
         >
             <header
-                className={classnames("hero hero--primary", styles.heroBanner)}
+                className={clsx("hero hero--primary", styles.heroBanner)}
                 style={{
                     backgroundImage: `url("${useBaseUrl("img/banner.jpg")}")`,
                 }}
@@ -115,7 +115,7 @@ function Home() {
                     <p className="hero__subtitle">{siteConfig.tagline}</p>
                     <div className={styles.buttons}>
                         <Link
-                            className={classnames(
+                            className={clsx(
                                 "button button button--secondary button--lg"
                                 // styles.getStarted
                             )}

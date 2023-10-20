@@ -1,21 +1,15 @@
-import React from "react";
-import MenuList from "@vertigis/react-ui/MenuList";
+import * as React from "react";
+import Box from "@vertigis/react-ui/Box";
 import IconButton from "@vertigis/react-ui/IconButton";
 import Checkbox from "@vertigis/react-ui/Checkbox";
 import List from "@vertigis/react-ui/List";
 import ListItem from "@vertigis/react-ui/ListItem";
-import CommentIcon from "@material-ui/icons/Comment";
-import MenuItem from "@vertigis/react-ui/MenuItem";
-import teal from "@vertigis/react-ui/colors/teal";
-import blue from "@vertigis/react-ui/colors/blue";
+import CommentIcon from "@mui/icons-material/Comment";
+import teal from "@vertigis/react-ui/colors/teal.js";
+import blue from "@vertigis/react-ui/colors/blue.js";
 import ListItemText from "@vertigis/react-ui/ListItemText";
 import ListItemSecondaryAction from "@vertigis/react-ui/ListItemSecondaryAction";
-import {
-    createStyles,
-    createTheme,
-    GcxThemeProvider,
-    makeStyles,
-} from "@vertigis/react-ui/styles";
+import { createTheme, GcxThemeProvider } from "@vertigis/react-ui/styles";
 
 const theme = createTheme({
     palette: {
@@ -23,12 +17,6 @@ const theme = createTheme({
         secondary: teal,
     },
 });
-
-const useStyles = makeStyles((theme) => ({
-    demoContainer: {
-        maxWidth: "400px",
-    },
-}));
 
 export function ListControls() {
     const [primaryCheckboxChecked, setPrimaryCheckboxChecked] = React.useState([
@@ -46,10 +34,9 @@ export function ListControls() {
 
         setPrimaryCheckboxChecked(newChecked);
     };
-    const classes = useStyles();
     return (
         <GcxThemeProvider theme={theme}>
-            <div className={classes.demoContainer}>
+            <Box sx={{ maxWidth: "400px" }}>
                 <List>
                     {[0, 1, 2, 3].map((value) => (
                         <ListItem
@@ -75,7 +62,7 @@ export function ListControls() {
                         </ListItem>
                     ))}
                 </List>
-            </div>
+            </Box>
         </GcxThemeProvider>
     );
 }

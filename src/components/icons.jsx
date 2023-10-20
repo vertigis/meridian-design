@@ -1,6 +1,6 @@
 import * as icons from "@vertigis/react-ui/icons";
 import Typography from "@vertigis/react-ui/Typography";
-import React from "react";
+import * as React from "react";
 import "./icons.css";
 
 const icons_page = () => {
