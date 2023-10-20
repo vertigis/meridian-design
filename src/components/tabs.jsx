@@ -1,20 +1,15 @@
-import React from "react";
-import PhoneIcon from "@material-ui/icons/Phone";
-import FavoriteIcon from "@material-ui/icons/Favorite";
-import PersonPinIcon from "@material-ui/icons/PersonPin";
+import * as React from "react";
+import PhoneIcon from "@mui/icons-material/Phone";
+import FavoriteIcon from "@mui/icons-material/Favorite";
+import PersonPinIcon from "@mui/icons-material/PersonPin";
 import {
-    createStyles,
     createTheme,
     GcxThemeProvider,
-    makeStyles,
 } from "@vertigis/react-ui/styles";
 import teal from "@vertigis/react-ui/colors/teal";
 import blue from "@vertigis/react-ui/colors/blue";
 import Tab from "@vertigis/react-ui/Tab";
 import Tabs from "@vertigis/react-ui/Tabs";
-import Typography from "@vertigis/react-ui/Typography";
-import MenuItem from "@vertigis/react-ui/MenuItem";
-import ActionMenuIcon from "@vertigis/react-ui/icons/ActionMenu";
 
 const theme = createTheme({
     palette: {
