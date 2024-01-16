@@ -9,19 +9,23 @@
         "prettier": "prettier --write \"**/*.{css,js,jsx,ts,tsx,md,mdx,json}\""
     },
     "dependencies": {
-        "@docusaurus/core": "2.4.3",
-        "@docusaurus/preset-classic": "2.4.3",
+        "@docusaurus/core": "3.0.0",
+        "@docusaurus/preset-classic": "3.0.0",
         "@vertigis/react-ui": "^11.33.0",
+        "@mdx-js/react": "^3.0.0",
+        "prism-react-renderer": "^2.1.0",
         "clsx": "^2.0.0",
-        "react": "^17.0.2",
-        "react-dom": "^17.0.2"
+        "react": "^18.2.0",
+        "react-dom": "^18.2.0"
     },
     "devDependencies": {
         "lint-staged": "^15.0.2",
         "prettier": "^3.0.3",
         "remark-cli": "^12.0.0",
         "remark-validate-links": "^13.0.0",
-        "simple-git-hooks": "^2.9.0"
+        "simple-git-hooks": "^2.9.0",
+        "@docusaurus/module-type-aliases": "3.0.0",
+        "@docusaurus/types": "3.0.0"
     },
     "browserslist": {
         "production": [
