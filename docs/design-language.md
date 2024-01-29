@@ -266,6 +266,7 @@ Consider using the 3 dot loader for:
 -   If the incoming content is of unknown size, shape, or layout.
 
 <img src="/img/loaders/3dot-loader.gif" alt="3 dot loader animation" title="3 dot loader animation" className="img-example" />
+<img src="/img/loaders/web-designer-loading.gif" alt="Skeleton example 3" title="3 dot loader animation" className="img-example" />
 
 ---
 
