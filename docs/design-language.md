@@ -254,7 +254,7 @@ Consider using Skeleton to:
 
 -   Display small portions of incoming content that can be represented with basic geometric shapes.
 
-<img src="/img/loaders/skeleton-loader.gif" alt="Skeleton example 1" title="Skeleton loader animation" className="img-example" /> <img src="/img/loaders/skeleton-loader-2.gif" alt="Skeleton example 2" title="Skeleton loader animation" className="img-example" />
+<img src="/img/loaders/skeleton-loader.gif" alt="Skeleton example" title="Skeleton loader animation" className="img-example" /> <img src="/img/loaders/skeleton-loader-2.gif" alt="Skeleton example 2" title="Skeleton loader animation" className="img-example" /> <img src="/img/loaders/analytics-loading.gif" alt="Skeleton in Analytics" title="Skeleton loader in Analytics" className="img-example" />
 
 ### 3 Dot Loader (indeterminate)
 
@@ -266,7 +266,7 @@ Consider using the 3 dot loader for:
 -   If the incoming content is of unknown size, shape, or layout.
 
 <img src="/img/loaders/3dot-loader.gif" alt="3 dot loader animation" title="3 dot loader animation" className="img-example" />
-<img src="/img/loaders/web-designer-loading.gif" alt="Skeleton example 3" title="3 dot loader animation" className="img-example" />
+<img src="/img/loaders/web-designer-loading.gif" alt="3 dot loader in Web Designer" title="3 dot loader in Web Designer" className="img-example" />
 
 ---
 
