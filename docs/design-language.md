@@ -268,6 +268,10 @@ Consider using the 3 dot loader for:
 <img src="/img/loaders/3dot-loader.gif" alt="3 dot loader animation" title="3 dot loader animation" className="img-example" />
 <img src="/img/loaders/web-designer-loading.gif" alt="3 dot loader in Web Designer" title="3 dot loader in Web Designer" className="img-example" />
 
+### Loading bar (indeterminate)
+
+Typically used during the first load of an app. Placed at the top of the page as an overlay to not affect component positioning. Color is determined using the app's primary color.
+
 ---
 
 ## Tabs
