@@ -272,6 +272,8 @@ Consider using the 3 dot loader for:
 
 Typically used during the first load of an app. Placed at the top of the page as an overlay to not affect component positioning. Color is determined using the app's primary color.
 
+<img src="/img/loaders/web-loading.gif" alt="Loading bar example" title="Loading bar animation" className="img-example" />
+
 ---
 
 ## Tabs
