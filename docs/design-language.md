@@ -237,6 +237,45 @@ Selected and Active states for list elements should showcase similar behavior to
 
 ---
 
+## Loading and Progress Indicators
+
+Multiple options are available to denote a loading state, the "3 dot loader", "skeleton", "circular", and "progress bar". These are indeterminate (unspecified wait time) indicators with determinate (known wait time) options for "circular" and "progress bar".
+
+-   The 3 dot loader, indeterminate only, is used when loading large areas such as an initial app launch.
+-   Circular indeterminate, used when loading large areas or areas with unknown content.
+-   Circular determinate, used when loading areas where progress can be measured and it provides value to the user.
+-   Linear indeterminate,
+
+### Skeleton (indeterminate)
+
+This loader can be customized to display a placeholder of incoming content for example, a block of text or a results list. When using this method it is advisable to create a simplified layout, just enough to give the user an idea of whats coming. Skeleton helps improve perceived responsiveness. Read more about skeleton in the **<a href="https://mui.com/material-ui/react-skeleton/" target="_blank">MUI docs</a>.**
+
+Consider using Skeleton to:
+
+-   Display small portions of incoming content that can be represented with basic geometric shapes.
+
+<img src="/img/loaders/skeleton-loader.gif" alt="Skeleton example" title="Skeleton loader animation" className="img-example" /> <img src="/img/loaders/skeleton-loader-2.gif" alt="Skeleton example 2" title="Skeleton loader animation" className="img-example" /> <img src="/img/loaders/analytics-loading.gif" alt="Skeleton in Analytics" title="Skeleton loader in Analytics" className="img-example" />
+
+### 3 Dot Loader (indeterminate)
+
+Use this when loading large areas such as during the first load of an app.
+
+Consider using the 3 dot loader for:
+
+-   Large blocks or regions of a layout that are loading.
+-   If the incoming content is of unknown size, shape, or layout.
+
+<img src="/img/loaders/3dot-loader.gif" alt="3 dot loader animation" title="3 dot loader animation" className="img-example" />
+<img src="/img/loaders/web-designer-loading.gif" alt="3 dot loader in Web Designer" title="3 dot loader in Web Designer" className="img-example" />
+
+### Loading bar (indeterminate)
+
+Typically used during the first load of an app. Placed at the top of the page as an overlay to not affect component positioning. Color is determined using the app's primary color.
+
+<img src="/img/loaders/web-loading.gif" alt="Loading bar example" title="Loading bar animation" className="img-example" />
+
+---
+
 ## Tabs
 
 ### Normal Tabs
