@@ -91,7 +91,7 @@ Icons can be added to buttons for added emphasis or to help convey the purpose o
 
 ## Spacing
 
-Appropriate spacing between components enhances readability, accessibility, and reduces cognitive load. Using the Density control users can choose to reduce spacing around components such as buttons and paragraphs. Methods to modify density include padding, dimensions, and alignment.
+Appropriate spacing between components enhances readability, accessibility, and reduces cognitive load. By using density toggle users can choose to reduce spacing around components such as buttons and paragraphs. Methods to modify density include padding, dimensions, and alignment.
 
 Spacing in the Meridian Design System aligns to a grid with a scaling factor of 8px. For smaller items a scaling factor of 4px can be used. Specific details can be found in the MUI docs.
 
