@@ -225,12 +225,17 @@ img + br + em::before {
     color: #fff;
 }
 
+.flex-container {
+    display: flex;
+    flex-flow: row wrap;
+}
+
 .color-tables {
     margin: 0;
     padding: 0;
     width: 100%;
     table-layout: fixed;
-    display: inline-table !important;
+    flex: 0 0 content;
 }
 
 .color-tables caption {
@@ -344,7 +349,7 @@ img + br + em::before {
     }
 
     .color-sets + .color-sets {
-        margin-top: 0.625em;
+        margin-bottom: 0.625em;
     }
 }
 
