@@ -227,15 +227,17 @@ img + br + em::before {
 
 .flex-container {
     display: flex;
+    align-items: flex-start;
     flex-flow: row wrap;
 }
 
 .color-tables {
-    margin: 0;
+    margin: 0 0 0.625em 0;
     padding: 0;
+    /* table-layout: fixed; */
+    flex: 1 0 content;
     width: 100%;
-    table-layout: fixed;
-    flex: 0 0 content;
+    display: table;
 }
 
 .color-tables caption {
@@ -248,7 +250,7 @@ img + br + em::before {
 }
 
 .color-tables thead tr {
-    border-bottom-width: 0px !important;
+    border-bottom-width: 0px;
 }
 
 .color-tables tr {
@@ -271,10 +273,6 @@ img + br + em::before {
     text-transform: uppercase;
 }
 
-.color-sets {
-    width: 33%;
-}
-
 .color-sets th,
 .color-sets td {
     border-left: none;
@@ -286,7 +284,7 @@ img + br + em::before {
         var(--ifm-table-border-color);
 }
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 668px) {
     #color-properties.color-tables {
         border: 0;
     }
@@ -338,7 +336,6 @@ img + br + em::before {
     }
 
     .color-sets {
-        display: block;
         width: 100%;
     }
 
