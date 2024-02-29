@@ -45,7 +45,7 @@ title: Additional Resources
     </tbody>
   </table>
   <table class="color-tables color-sets" id="color-base">
-  <thead>
+    <thead>
       <tr>
         <th scope="col">Base Grays</th>
       </tr>
@@ -84,7 +84,7 @@ title: Additional Resources
     </tbody>
   </table>
   <table class="color-tables color-sets" id="color-alert">
-  <thead>
+    <thead>
       <tr>
         <th scope="col">Alert States</th>
       </tr>
