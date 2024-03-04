@@ -347,9 +347,6 @@ Dialogs are a good method of presenting alerts to the user, since they allow inf
 
 Alerts must always preface the problem, and offer the user the ability to dismiss, edit, or disregard the problem in question.
 
-<img src="/img/panels/panel-welcome.jpg" alt="Example of an app 'Welcome Panel'" title="App 'Welcome Panel'" width="415" height="493" className="img-example" />
-<img src="/img/panels/panel-feature.jpg" alt="Example of the 'Result/Feature Details' panel" title="'Result/Feature Details' panel" width="415" height="493" className="img-example" />
-
 ---
 
 ### Notifications
