@@ -1,6 +1,6 @@
 # Contributing Guidelines
 
-You might want to make yourself familiar with [Docusaurus v2](https://v2.docusaurus.io/) to make significant changes to the website. If you only want to make content changes you will find the page source within the `docs` folder.
+You might want to make yourself familiar with [Docusaurus v3.1](https://docusaurus.io/docs) to make significant changes to the website. If you only want to make content changes you will find the page source within the `docs` folder.
 
 ## Cloning the repository
 
@@ -63,4 +63,4 @@ See [Key Concepts](key-concepts.mdx) for more information.
 
 ### Adding images
 
-The following guidelines apply to adding screenshots of the products, usually for example or demo purposes. All other images will be treated on a case by case basis, but should still be processed through [Tiny PNG](https://tinypng.com/).
+The following guidelines apply to adding screenshots of the products, usually for example or demo purposes. Place images in a subfolder named after the section they will appear in. e.g. img > forms > forms-labels.png. All other images will be treated on a case by case basis, but should still be processed through [Tiny PNG](https://tinypng.com/).
