@@ -377,10 +377,10 @@ Good typography plays a large role in creating not only an aesthetically pleasin
 
 <div class="typography buttons-box">
     <h1>h1. Heading (2rem/32px, weight: 300)</h1>
-    <h2>h2. Heading (1.75rem/28px, weight: 300)</h2>
-    <h3>h3. Heading (1.625rem/26px, weight: 400)</h3>
-    <h4>h4. Heading (1.375rem/22px, weight: 400)</h4>
-    <h5>h5. Heading (1.250rem/20px, weight: 600)</h5>
+    <h2>h2. Heading (1.625rem/26px, weight: 300)</h2>
+    <h3>h3. Heading (1.375rem/22px, weight: 200)</h3>
+    <h4>h4. Heading (1.25rem/20px, weight: 400)</h4>
+    <h5>h5. Heading (1.125rem/18px, weight: 300)</h5>
     <h6>h6. Heading (1rem/16px, weight: 600)</h6>
     <h6 class="subtitle1">subtitle1 (1rem/16px, weight: 400, letter-spacing: 0.00938rem). Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quos blanditiis tenetur</h6>
     <h6 class="subtitle2">subtitle2 (0.875rem/14px, weight: 600, letter-spacing: 0.01071rem). Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quos blanditiis tenetur</h6>

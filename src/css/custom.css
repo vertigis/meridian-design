@@ -502,23 +502,23 @@ p {
     line-height: 1.25;
 }
 .typography h2 {
-    font-size: 1.75rem;
+    font-size: 1.625rem;
     font-weight: 300;
     line-height: 1.25;
 }
 .typography h3 {
-    font-size: 1.625rem;
-    font-weight: 400;
+    font-size: 1.375rem;
+    font-weight: 200;
     line-height: 1.25;
 }
 .typography h4 {
-    font-size: 1.375rem;
-    font-weight: 500;
+    font-size: 1.25rem;
+    font-weight: 400;
     line-height: 1.25;
 }
 .typography h5 {
-    font-size: 1.25rem;
-    font-weight: 600;
+    font-size: 1.125rem;
+    font-weight: 300;
     line-height: 1.25;
 }
 .typography h6 {
