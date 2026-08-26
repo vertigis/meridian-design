@@ -13,11 +13,12 @@ jobs:
     build:
         runs-on: ubuntu-latest
         steps:
-            - uses: actions/checkout@v3
-            - name: Use Node.js 18
-              uses: actions/setup-node@v3
+            - uses: actions/checkout@v4
+            - name: Use Node.js 22
+              uses: actions/setup-node@v4
               with:
-                  node-version: 18.x
+                  node-version: 22.x
+                  cache: npm
             - run: npm install
             - run: npm run build
             - run: npm run lint
@@ -27,13 +28,14 @@ jobs:
         needs: [build]
         if: github.ref == 'refs/heads/main'
         steps:
-            - uses: actions/checkout@v3
+            - uses: actions/checkout@v4
               with:
                   persist-credentials: false
-            - name: Use Node.js 18
-              uses: actions/setup-node@v3
+            - name: Use Node.js 22
+              uses: actions/setup-node@v4
               with:
-                  node-version: 18.x
+                  node-version: 22.x
+                  cache: npm
             - run: npm install
             - run: npm run build
             - name: Deploy 🚀
