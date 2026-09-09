@@ -7,6 +7,40 @@ import {ListControls} from "../src/components/menus";
 import {IconTabs, IndicatorColorTabs, NormalTabs, ScrollableTabs, VerticalTabs} from "../src/components/tabs";
 import {ButtonEmphasis, ButtonPairs, ButtonLabelsDo, ButtonLabelsDont, ButtonOptions, ButtonStyles, DisabledStates, ButtonColors, ButtonSizes, GroupedButtons, IconButtons, OutlinedButtons, ToggleButtons} from "../src/components/buttons";
 
+## Spacing
+
+Consistent spacing is what makes an interface feel deliberate rather than assembled. Our products follow MUI's spacing system, which is based on a single base unit of **8px**. Every margin, padding, and gap should be expressed as a multiple of that unit rather than as an arbitrary pixel value.
+
+Working from a fixed scale keeps rhythm consistent across components built by different people at different times, and it means spacing responds correctly to the system wide density settings instead of being locked to one visual weight.
+
+### The Scale
+
+Spacing is applied in multiples of the 8px base unit, which produces a predictable set of steps:
+
+-   **4px** (half step) - reserved for tight relationships, such as the gap between an icon and its label, or between a field and its helper text.
+-   **8px** - the default. Use it for spacing between closely related elements within a group.
+-   **16px** - separates distinct elements within the same group, such as consecutive fields in a form.
+-   **24px** - separates groups of related content from one another.
+-   **32px and above** - separates major regions of a layout, or provides breathing room around the outer edge of a container.
+
+Avoid half steps below 4px. If a design appears to need 2px or 3px of separation, the elements are almost always better handled by adjusting alignment or line height instead.
+
+### Applying Spacing
+
+-   Use the theme's spacing scale rather than hard-coded pixel values. Hard-coded values do not scale with density settings and tend to drift out of alignment as a design evolves.
+-   Space is the primary way we communicate relationship. Elements that belong together should sit closer to one another than they do to unrelated content, and reducing the space between a label and its field is usually more effective than adding a border or background to group them.
+-   Prefer fewer distinct steps. A layout that uses 8px, 16px, and 24px reads as more considered than one that uses six subtly different values.
+-   A component should not set its own outer margin. The parent is responsible for the space around its children, along with their positioning and flow. See [Sizing and Spacing](#sizing-and-spacing) under Buttons for how this applies to interactive elements.
+-   Do not override the internal padding of design system components. That padding is pre-set so components can participate in density settings consistently.
+
+### Considerations
+
+-   Vertical rhythm matters more than horizontal precision. Uneven vertical spacing in a stacked layout, such as a form or a panel, is far more noticeable than a slightly narrow gutter.
+-   Whitespace is not wasted space. Resist the urge to fill it, particularly in dense views where the temptation to compress is strongest.
+-   Be careful when spacing is the only thing separating actions. Confirmation and cancellation controls that sit too close together invite mistakes, especially on touch devices.
+
+---
+
 ## Buttons
 
 Applications built on VertiGIS Studio Web technology have many button variants and options available but VS Web does not use all of the available options. To simplify the choices, VS Web uses three basic types of buttons. They are based on the level of emphasis required for the task. There are '_Low_', '_Medium_', & '_High_' emphasis buttons.
