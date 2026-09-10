@@ -7,6 +7,101 @@ import {ListControls} from "../src/components/menus";
 import {IconTabs, IndicatorColorTabs, NormalTabs, ScrollableTabs, VerticalTabs} from "../src/components/tabs";
 import {ButtonEmphasis, ButtonPairs, ButtonLabelsDo, ButtonLabelsDont, ButtonOptions, ButtonStyles, DisabledStates, ButtonColors, ButtonSizes, GroupedButtons, IconButtons, OutlinedButtons, ToggleButtons} from "../src/components/buttons";
 
+## Accessibility
+
+VertiGIS products are required to meet **<a href="https://www.w3.org/TR/WCAG22/" target="_blank">WCAG 2.2 Level AA</a>**. This is a requirement, not an enhancement. A feature that cannot be operated by keyboard, cannot be read by a screen reader, or does not meet the contrast minimums is not finished, regardless of how it looks.
+
+Accessibility is far cheaper to design in than to retrofit. Most of the work happens before implementation: in the tab order implied by a layout, in the colours chosen for a state, and in whether an interaction has a non-visual equivalent. Building from the design system components rather than raw HTML gets you much of this for free, but it does not absolve you of checking the result.
+
+### Keyboard Navigation
+
+Every part of an application must be reachable and operable with the keyboard alone. If a user can do it with a mouse, they must be able to do it without one.
+
+-   All interactive elements (buttons, links, fields, tabs, menu items, grid rows, panel controls) must be focusable and operable with the keyboard. Use real interactive elements rather than click handlers on a `div`, which are invisible to keyboard and assistive technology alike.
+-   **Avoid keyboard traps.** A user who tabs into a region must be able to tab out of it. Modals, embedded maps, date pickers, and third-party widgets are the usual offenders. A modal is the one place where focus is deliberately held, and it must still release focus on `Esc` and return it to the control that opened it.
+-   Focus must always be visible. Never remove a focus indicator without replacing it with something at least as clear; see [Focus](#focus) under Lists and Menus for the treatment we use.
+-   The focused element must not be hidden by other content. Sticky headers, docked footers, floating toolbars, and toasts routinely cover the control a user has just tabbed to. Scroll the focused element into a clear area rather than letting a fixed layer sit on top of it.
+-   Move focus deliberately when the view changes. Opening a panel or dialog should send focus into it; closing one should return focus to where the user left off.
+-   Support the conventional keys for the pattern: `Esc` to dismiss, `Enter` and `Space` to activate, arrow keys to move within a composite such as a list, tab set, or menu.
+
+### Pointer Targets and Dragging
+
+Not everyone using a pointer is using it precisely. Touch, a trackpad, a head pointer, or a tremor all make small and drag-only targets hard to hit.
+
+-   Interactive targets should be at least **24 by 24 CSS pixels**, or be separated by enough space that a 24px circle centred on each does not overlap its neighbours. Inline links within a sentence are exempt, as are controls whose size is set by the browser.
+-   **Anything you can do by dragging must also be doable with a single tap or click.** Reordering columns in a [data grid](#data-grids), rearranging list items, and adjusting a slider all need a non-drag path: a menu command, a pair of move buttons, or arrow key support on the focused element.
+-   Do not rely on path-based gestures such as swiping or drawing a shape. If a gesture is offered, provide a simple alternative alongside it.
+-   Keep destructive controls away from the targets a user reaches for often. Small targets and close neighbours turn a mis-tap into an accident.
+
+### Colour Contrast
+
+Contrast minimums are the most commonly missed requirement, and the easiest to verify.
+
+-   Body text and images of text must meet a contrast ratio of at least **4.5:1** against their background.
+-   Large text (24px and above, or 18.66px and above when bold) may drop to **3:1**.
+-   Interface components and meaningful graphics must meet **3:1**. This covers field borders, focus indicators, icons that carry meaning, and the parts of a chart or map symbol a user has to distinguish.
+-   Check every state, not just the resting one. Hover, focus, selected, and error states all have to hold the ratio, and low-emphasis states are where contrast quietly fails.
+-   **Never use colour as the only way to convey information.** Pair it with a label, an icon, a pattern, or a change in shape. Status indicators and validation messages are the common failures here.
+-   Placeholder text, helper text, and disabled controls still need to be legible. Disabled controls are exempt from the contrast minimum under WCAG, but treating that exemption as permission to make them unreadable is a poor outcome for everyone.
+
+Use the theme palette rather than one-off colour values (see [Colors](additional-resources.md#colors)), and verify unfamiliar pairings with a contrast checker before committing to them.
+
+### Screen Readers
+
+A screen reader user must be able to reach every area of the application and understand it in a logical order.
+
+-   Content must be exposed in a sensible reading order. The order in the DOM is the order it will be announced, so it should match the order the interface is meant to be read in; CSS that visually reorders content does not reorder it for assistive technology.
+-   Structure the page with real landmarks and a correct heading hierarchy. Headings are how screen reader users skim; do not pick a heading level for its size. See [Headings](#headings) under Typography.
+-   Every control needs an accessible name that describes what it does. Icon-only buttons need an explicit label, since the icon alone announces nothing.
+-   Images need `alt` text that conveys their meaning. Decorative images should have an empty `alt` so they are skipped rather than announced.
+-   Fields must be programmatically associated with their labels, and error messages associated with the field they describe, so both are announced when the field receives focus.
+-   Announce changes that happen away from the user's focus. Toasts, validation summaries, and results that update in place need a live region, or the user will not know anything happened.
+-   Prefer native semantics over ARIA. Reach for ARIA only when no native element expresses the pattern; incorrect ARIA is worse than none.
+
+### Considerations
+
+-   Test with the keyboard first. Unplug the mouse and try to complete a task end to end; it is the fastest way to find trapped focus, unreachable controls, and invisible focus states.
+-   Automated tooling catches perhaps a third of accessibility problems. It is good at contrast and missing labels, and blind to reading order, focus management, and whether a label is actually meaningful.
+-   Test with a real screen reader on the platform your users are on. Behaviour differs enough between them that passing in one proves little about the others.
+-   WCAG 2.2 is backwards compatible with 2.1: everything that met 2.1 AA still counts, and the new criteria are additions rather than replacements. The one removal is the old parsing requirement, which is no longer part of the standard.
+-   Accessible design is usually better design. Clear focus states, generous targets, meaningful labels, and predictable order help everyone, not only users relying on assistive technology.
+
+---
+
+## Visual Loudness
+
+Every element on a screen has a volume. A filled button in the primary colour is loud. A text link in body copy is quiet. Loudness is not about size alone; it is the combined effect of colour, contrast, weight, size, and the space an element is given.
+
+The useful part of the metaphor is that loudness is relative. Nothing is loud on its own, only louder than what surrounds it. A single filled button on a quiet panel is impossible to miss. Put six of them side by side and the user has to read all six to find the one they want, because the design has stopped ranking them. This is what [Design Philosophy](design-philosophy.md) means by keeping loudness at an appropriate level: the goal is not a quiet interface, it is an interface where the important thing is the loudest thing.
+
+### What Makes an Element Loud
+
+These are the levers available in this design system, roughly in order of how much attention they buy:
+
+-   **Colour.** The primary and secondary theme colours are the loudest tool available, which is why they are reserved for the action that matters and for status that needs to be noticed. Greys carry structure. See [Colors](additional-resources.md#colors).
+-   **Fill and contrast.** A solid fill is louder than an outline, which is louder than text alone. This is exactly the progression the [button emphasis levels](#buttons) encode, from High to Medium to Low.
+-   **Size and weight.** Larger and heavier type pulls the eye first. The [type scale](#typography) is the sanctioned way to change this. Picking a heading level for its size rather than its meaning trades away structure for emphasis, and costs you accessibility as well.
+-   **Space.** Space makes an element louder without adding anything to the screen. An element given room reads as more important than one packed in among its neighbours. See [Spacing](#spacing).
+-   **Motion and iconography.** Both are loud out of proportion to their size. An animated indicator or a coloured icon will be noticed before a paragraph of text.
+
+### Setting the Level
+
+-   **Decide what is loudest before you design the rest.** Each view should have one clear answer to "what is the user here to do", and the design should say so without the user having to hunt.
+-   **Turn things down rather than up.** When something does not stand out, the instinct is to make it bigger, bolder, or brighter. It is almost always better to quieten what surrounds it. Escalating emphasis is how interfaces end up shouting.
+-   **Match loudness to consequence and frequency.** A rarely used destructive action does not deserve a high emphasis button just because it is important to get right. Frequency earns prominence; severity earns confirmation. The two are not the same.
+-   **Reserve the loudest treatments for genuine interruptions.** [Alerts](#alerts) and [notifications](#notifications) work because they are rare. Used for routine feedback, they train users to dismiss them without reading.
+-   **Keep dense views quiet.** In a [data grid](#data-grids) or a stacked panel, the sheer number of elements raises the baseline. Repeating an emphasis treatment on every row is the fastest way to make a view unreadable.
+-   **Stay consistent across views.** If a High emphasis button means "this completes the task" in one place, it cannot mean "this is a shortcut we would like you to try" in another. Loudness only communicates if it means the same thing everywhere.
+
+### Considerations
+
+-   Squint at the design, or blur it. Whatever survives is what the user sees first. If that is not what you intended, the hierarchy needs work rather than more decoration.
+-   View it in greyscale. A hierarchy that collapses without colour is relying on colour alone, which fails for users who cannot distinguish it. See [Colour Contrast](#colour-contrast).
+-   Count the elements competing for attention. More than a few in one view usually means the design has an editing problem rather than a styling problem.
+-   Loudness accumulates over time. Each feature added on its own seems reasonable, and the view still gets noisier with every one. Revisit the hierarchy of an established view when you add to it, rather than only the piece you are adding.
+
+---
+
 ## Spacing
 
 Consistent spacing is what makes an interface feel deliberate rather than assembled. Our products follow MUI's spacing system, which is based on a single base unit of **8px**. Every margin, padding, and gap should be expressed as a multiple of that unit rather than as an arbitrary pixel value.
@@ -178,7 +273,7 @@ A properly designed form allows people to quickly enter values in a logical orde
 -   Be flexible when interpreting the values that users enter.
     -   Eg: when entering a phone number, accept both no-spaces and dashes.
 -   Help users check the information they've entered before submitting.
-    -   [WCAG 3.3.4](https://www.w3.org/TR/WCAG21/#error-prevention-legal-financial-data) requires error prevention for legal and financial data so that it is reversible, checked for errors, and confirmed.
+    -   [WCAG 3.3.4](https://www.w3.org/TR/WCAG22/#error-prevention-legal-financial-data) requires error prevention for legal and financial data so that it is reversible, checked for errors, and confirmed.
 -   If possible, provide confirmation or error information where the user's attention is currently via immediate inline feedback.
 -   If possible, try to avoid multiple columns for form layouts. This increases the likelihood that something in the right column will be missed.
     -   Usability testing <sup>[\[1\]](https://baymard.com/blog/avoid-multi-column-forms) [\[2\]](https://cxl.com/research-study/form-field-usability/)</sup> has shown that multi-column forms do not perform as well as single column layouts.
@@ -268,6 +363,37 @@ Focus indicators provide an easy way to identify currently active elements, agai
 <img src="/img/list/list-active.png" alt="Example of the selected/active state" title="Selected/active state" width="364" height="242" className="img-example" />
 
 Selected and Active states for list elements should showcase similar behavior to the hover state. They must show that they are currently active, and visually distinct from the rest of the list elements.
+
+---
+
+## Data Grids
+
+Use a data grid to display tabular content. For example when you have many records that share the same set of attributes, where the user needs to compare values down a column, sort, filter, or act on individual rows. If the records are short and read one at a time, a [list](#lists-and-menus) might be a better choice.
+
+Our grid is a styled version of the **<a href="https://mui.com/x/react-data-grid/" target="_blank">MUI X Data Grid</a>**. The underlying behaviour (sorting, filtering, column reordering, virtualization) comes from MUI X; what we have changed is the visual treatment, so that a grid sits comfortably inside a panel alongside the rest of the design language.
+
+<img src="/img/data-grid/datagrid.png" alt="A data grid showing longitude, latitude, building elevation, ground elevation, and height columns" title="Data grid" width="800" height="341" className="img-example" />
+
+### Anatomy
+
+-   **Header row.** Each column header holds the column name, a drag handle for reordering, and a control to remove the column from the view. The header stays fixed while the rows beneath it scroll.
+-   **Leading action columns.** Row-level controls are pinned to the left of the data, ahead of the first value column. In the example above these are a favourite toggle and an overflow menu. Keep this region narrow; it is a gutter, not a column of content.
+-   **Data cells.** One value per cell, left aligned by default, with the same padding on every row so the grid reads as an even field of text rather than a set of boxes.
+
+### Usage
+
+-   Lead with the columns that identify the record. The user should be able to tell one row from another without scrolling sideways.
+-   Show only the columns that earn their place. A grid that has to be scrolled horizontally on first load is usually carrying columns that belong behind a column picker.
+-   Keep related numeric columns adjacent and formatted the same way (the same number of decimal places, the same units) so that values line up visually and can be compared at a glance. Where a unit applies to the whole column, put it in the header rather than repeating it in every cell.
+-   Set a sensible default sort. An unsorted grid asks the user to do work that the view could have done for them.
+-   Do not override the grid's row height or cell padding. Those values participate in the density settings, and hand-tuning them in one view makes that view look out of step with every other grid in the product.
+
+### Considerations
+
+-   Grids get long. Pair one with pagination or virtualized scrolling rather than rendering thousands of rows at once, and keep the header visible so column context is never lost.
+-   An empty grid still needs to explain itself. Say whether there is no data yet or the current filter excluded everything, and give the user a way back.
+-   Row actions should be discoverable without being noisy. An overflow menu in the leading gutter is preferable to a row of icon buttons repeated on every line.
+-   Grids are dense by nature, so they lean hard on alignment and spacing to stay legible. Resist adding borders, background fills, or colour to separate content that spacing already separates.
 
 ---
 

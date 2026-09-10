@@ -8,7 +8,7 @@ At its core, product design is all about getting tasks done. We are here to desi
 
 ## Clean, simple and easily identifiable
 
-When keeping the primary tasks in mind, we will be able to simplify the experience. Removing any unnecessary options will reduce the cognitive load placed on users. With a clean visual style, we are able to keep the level of visual "loudness" to an appropriate level which minimizes any potential distractions and provide clarity to what's most important. Following existing design patterns or re-using existing modules from elsewhere in the application will save time by avoiding duplication of work and it provides recognizable interactions that users might already be familiar with.
+When keeping the primary tasks in mind, we will be able to simplify the experience. Removing any unnecessary options will reduce the cognitive load placed on users. With a clean visual style, we are able to keep the level of visual [loudness](design-language.md#visual-loudness) to an appropriate level which minimizes any potential distractions and provide clarity to what's most important. Following existing design patterns or re-using existing modules from elsewhere in the application will save time by avoiding duplication of work and it provides recognizable interactions that users might already be familiar with.
 
 ## We are a team
 
