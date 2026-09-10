@@ -284,6 +284,10 @@ img + br + em::before {
         var(--ifm-table-border-color);
 }
 
+.button-examples {
+    margin-bottom: 1.5em;
+}
+
 @media screen and (max-width: 668px) {
     #color-properties.color-tables {
         border: 0;
