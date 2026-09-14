@@ -3,6 +3,7 @@ title: Design Language
 ---
 
 import Icons from "../src/components/icons";
+import {ColourPalette} from "../src/components/palette";
 import {ListControls} from "../src/components/menus";
 import {IconTabs, IndicatorColorTabs, NormalTabs, ScrollableTabs, VerticalTabs} from "../src/components/tabs";
 import {ButtonEmphasis, ButtonPairs, ButtonLabelsDo, ButtonLabelsDont, ButtonOptions, ButtonStyles, DisabledStates, ButtonColors, ButtonSizes, GroupedButtons, IconButtons, OutlinedButtons, ToggleButtons} from "../src/components/buttons";
@@ -595,6 +596,22 @@ Typically used for annotating images.
 ---
 
 ## Colors
+
+### Studio Colour Palette
+
+The full palette available to Studio products. Each family runs from 50,
+the lightest, through 900, the darkest, followed by the A shades, which
+are more saturated accents intended for emphasis rather than for large
+areas.
+
+Pick colours from this palette rather than sampling a value out of a
+mockup. Note that a swatch being in the palette does not make any pairing
+of two swatches accessible, so check the combination you are using against
+[Colour Contrast](#colour-contrast).
+
+<ColourPalette />
+
+### Studio Web Colour Sets
 
 <div class="flex-container">
   <table class="color-tables color-sets" id="color-accent">

@@ -1,0 +1,42 @@
+/* Scoped to the colour-palette prefix so these rules stay clear of the
+   unrelated .palette* rules in custom.css. */
+
+.colour-palette {
+    display: flex;
+    gap: 0.75rem;
+    overflow-x: auto;
+    padding-bottom: 0.5rem;
+    margin-bottom: 1.5rem;
+}
+
+.colour-palette__family {
+    flex: 0 0 11rem;
+    min-width: 11rem;
+}
+
+.colour-palette__name {
+    font-size: 0.8125rem;
+    font-weight: 600;
+    padding: 0 0.25rem 0.375rem;
+}
+
+/* The lightest shades in each ramp are nearly white, so without an outline the
+   top of a column bleeds into the page. Bordering the ramp rather than each
+   swatch keeps the internal divisions from doubling up. #c6c6c6 matches the
+   .colour-swatch boxes further down the Colors section. */
+.colour-palette__ramp {
+    margin-bottom: 0.75rem;
+    border: 0.0625em solid #c6c6c6;
+}
+
+.colour-palette__swatch {
+    padding: 0.5rem 0.625rem;
+    font-size: 0.75rem;
+    line-height: 1.4;
+    color: #000;
+    white-space: nowrap;
+}
+
+.colour-palette__swatch.is-dark {
+    color: #fff;
+}
